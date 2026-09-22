@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "bootstrap-four-layer-guide",
+      "changed_at": "2026-09-22T01:44:37Z",
+      "summary": "Initial source-linked four-layer guide, visual boundary map and draft-only layer selector.",
+      "path": "/p/"
+    },
+    {
+      "change_id": "research-library-expansion",
+      "changed_at": "2026-09-22T15:23:33Z",
+      "summary": "Expanded the first guide into a research library with a comparison and separate dated dossiers for all four projects.",
+      "path": "/p/research/"
+    }
+  ]
+}

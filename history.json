@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:manual:ae2fd1bbf2bdf0b8b9d0635df3d0a7b1",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-22T01:32:10.027Z",
+      "completed_at": "2026-09-22T01:44:37Z",
+      "title": "Verified four-layer starter shortlist",
+      "summary": "Initial comparison of Mautic, Activepieces CE, Marketing Agent OS and Loopmark Agent.",
+      "report_path": "/p/oss-marketing-agents/reports/four-layer-shortlist",
+      "entrypoint": "reports/four-layer-shortlist/index.html"
+    }
+  ]
+}

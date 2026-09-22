@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "Choose the lowest layer that can safely execute the marketing job: Mautic for self-hosted marketing operations, Activepieces CE for reviewed cross-system flows, Marketing Agent OS for harness-based planning, and Loopmark only for a constrained local draft pilot.",
+  "catalogue_card": {
+    "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
+    "text": "A four-layer starter shortlist with conditional choices, explicit boundaries and a draft-only first-test rule."
+  },
+  "summary": [
+    "Mautic and Activepieces CE are conditional choices for teams able to operate their respective platform or workflow layers.",
+    "Marketing Agent OS is a portable harness library, not a marketing application.",
+    "Loopmark remains exploratory because reviewed evidence leaves operational and governance gaps.",
+    "The public research library now compiles the comparison into individual dated dossiers without adding untested claims."
+  ],
+  "uncertainty": [
+    "No hands-on installation or connector test was performed.",
+    "License labels are component-scoped, not legal advice.",
+    "Individual connectors, permissions, costs and data paths require separate verification."
+  ],
+  "checked_at": "2026-09-22T01:44:37Z",
+  "meaningfully_updated_at": "2026-09-22T15:23:33Z",
+  "freshness_note": "Primary sources were checked for this bootstrap report on 22 September 2026; release and integration details can change."
+}

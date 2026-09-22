@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "osi",
+      "source_type": "primary project or standards source",
+      "source_url": "https://opensource.org/osd",
+      "claim": "OSI defines open source through distribution terms, not source visibility alone.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-license",
+      "source_type": "primary project or standards source",
+      "source_url": "https://github.com/mautic/mautic/blob/7.x/LICENSE.txt",
+      "claim": "Mautic names GPL version 3 or later.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-install",
+      "source_type": "primary project or standards source",
+      "source_url": "https://docs.mautic.org/en/7.0/getting_started/how_to_install_mautic.html",
+      "claim": "Mautic installation requires a database and configures administration and email transport.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-license",
+      "source_type": "primary project or standards source",
+      "source_url": "https://github.com/activepieces/activepieces/blob/main/LICENSE",
+      "claim": "Activepieces license material distinguishes CE code from named EE paths.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-install",
+      "source_type": "primary project or standards source",
+      "source_url": "https://github.com/activepieces/activepieces/blob/main/docs/install/options/docker-compose.mdx",
+      "claim": "Activepieces Compose deployment documents app, worker, Postgres, Redis and encryption-key backup concerns.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-os",
+      "source_type": "primary project or standards source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS",
+      "claim": "Marketing Agent OS describes portable skills and retained upstream licenses as project claims.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-issues",
+      "source_type": "primary project or standards source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/issues",
+      "claim": "Loopmark issues identify managed retry, approval/RBAC and analytics gaps.",
+      "accessed_at": "2026-09-22T01:44:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_oss_marketing_agents",
+  "slug": "oss-marketing-agents",
+  "title": "Open-Source Marketing Agents & Harnesses",
+  "locale": "en",
+  "description": "Open-source marketing tools, agents and harnesses, with practical comparisons.",
+  "evidence_scope": "Original repositories, documentation and dated project sources.",
+  "icon": "Research",
+  "methodology_summary": "Research original sources and maintain a useful, current catalogue.",
+  "tags": [
+    "Marketing",
+    "Open source",
+    "AI agents"
+  ],
+  "canonical_url": "https://shaduf.ai/p/oss-marketing-agents/",
+  "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
+  "cadence": "Daily at 10:00 UTC",
+  "release_state": "live",
+  "latest_research_at": "2026-09-22T01:44:37Z",
+  "public_repo": "https://github.com/shaduf-labs/oss-marketing-agents",
+  "related_pools": []
+}
