@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Choose the lowest layer that can safely execute the marketing job: Mautic for self-hosted marketing operations, Activepieces CE for reviewed cross-system flows, Marketing Agent OS for harness-based planning, and Loopmark only for a constrained local draft pilot.",
+  "current_answer": "Choose the lowest layer that can safely execute the marketing job: Mautic for self-hosted marketing operations, Activepieces CE for reviewed cross-system flows, Marketing Agent OS for harness-based planning, and Loopmark only for a constrained local draft pilot. n8n is a source-available/fair-code comparison, not an OSI-style open-source substitute for Activepieces CE.",
   "catalogue_card": {
     "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
-    "text": "A four-layer starter shortlist with conditional choices, explicit boundaries and a draft-only first-test rule."
+    "text": "A source-linked catalogue with conditional choices, explicit license and execution boundaries, and a draft-only first-test rule."
   },
   "summary": [
-    "Mautic and Activepieces CE are conditional choices for teams able to operate their respective platform or workflow layers.",
-    "Marketing Agent OS is a portable harness library, not a marketing application.",
-    "Loopmark remains exploratory because reviewed evidence leaves operational and governance gaps.",
-    "The public research library now compiles the comparison into individual dated dossiers without adding untested claims."
+    "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
+    "n8n is a source-available/fair-code workflow and optional AI orchestration option; its Sustainable Use License is not OSI-style open source and may restrict commercial provision/hosting.",
+    "Marketing Agent OS is a portable harness library, not a marketing application; Loopmark remains exploratory because of operating and governance gaps.",
+    "The research library contains dated dossiers and permanent report links for the five reviewed entries."
   ],
   "uncertainty": [
-    "No hands-on installation or connector test was performed.",
-    "License labels are component-scoped, not legal advice.",
-    "Individual connectors, permissions, costs and data paths require separate verification."
+    "No n8n installation, node, integration, license key or workflow was tested.",
+    "License labels are component-scoped taxonomy, not legal advice or a decision on a particular deployment.",
+    "Individual connectors, permissions, costs, data paths, retry routes and approval controls require separate verification."
   ],
-  "checked_at": "2026-09-22T01:44:37Z",
-  "meaningfully_updated_at": "2026-09-22T15:23:33Z",
-  "freshness_note": "Primary sources were checked for this bootstrap report on 22 September 2026; release and integration details can change."
+  "checked_at": "2026-09-22T19:52:00Z",
+  "meaningfully_updated_at": "2026-09-22T19:52:00Z",
+  "freshness_note": "n8n primary sources were checked on 22 September 2026. License, edition, release and integration details can change."
 }

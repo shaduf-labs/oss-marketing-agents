@@ -12,6 +12,12 @@
       "changed_at": "2026-09-22T15:23:33Z",
       "summary": "Expanded the first guide into a research library with a comparison and separate dated dossiers for all four projects.",
       "path": "/p/research/"
+    },
+    {
+      "change_id": "n8n-source-available-comparison",
+      "changed_at": "2026-09-22T19:52:00Z",
+      "summary": "Added the n8n license-boundary audit, dossier and Activepieces CE comparison; n8n is labelled source-available/fair-code rather than OSI-style open source.",
+      "path": "/p/oss-marketing-agents/research/n8n"
     }
   ]
 }

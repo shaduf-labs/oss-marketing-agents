@@ -63,6 +63,42 @@
       "accessed_at": "2026-09-22T01:44:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "n8n-license",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+      "claim": "n8n LICENSE.md names the Sustainable Use License v1.0 for covered code and identifies exclusions.",
+      "accessed_at": "2026-09-22T19:52:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "n8n-license-faq",
+      "source_type": "primary project source",
+      "source_url": "https://docs.n8n.io/privacy-and-security/sustainable-use-license/",
+      "claim": "n8n describes its model as fair-code/source-available and states that it does not call itself open source because the license limits use.",
+      "accessed_at": "2026-09-22T19:52:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "n8n-community-edition",
+      "source_type": "primary project source",
+      "source_url": "https://docs.n8n.io/deploy/host-n8n/community-edition-features/",
+      "claim": "n8n documents Community edition feature boundaries separately from the code-license classification.",
+      "accessed_at": "2026-09-22T19:52:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "n8n-agent-builder",
+      "source_type": "primary project source",
+      "source_url": "https://docs.n8n.io/build/build-and-manage-agents/",
+      "claim": "n8n documents Agent Builder and labels agent/self-hosted knowledge-base capabilities Preview with self-hosted queue-mode limitations.",
+      "accessed_at": "2026-09-22T19:52:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

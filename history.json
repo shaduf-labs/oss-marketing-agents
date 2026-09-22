@@ -11,6 +11,17 @@
       "summary": "Initial comparison of Mautic, Activepieces CE, Marketing Agent OS and Loopmark Agent.",
       "report_path": "/p/oss-marketing-agents/reports/four-layer-shortlist",
       "entrypoint": "reports/four-layer-shortlist/index.html"
+    },
+    {
+      "run_id": "run:5cec2779-ad26-48e3-a46d-b67a360daf0c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-22T10:00:00Z",
+      "completed_at": "2026-09-22T19:52:00Z",
+      "title": "n8n source-available license-boundary audit",
+      "summary": "Added n8n as a source-available/fair-code workflow comparison beside Activepieces CE, with a dossier and draft-only test plan.",
+      "report_path": "/p/oss-marketing-agents/reports/n8n-license-boundary-audit",
+      "entrypoint": "reports/n8n-license-boundary-audit/index.html"
     }
   ]
 }
