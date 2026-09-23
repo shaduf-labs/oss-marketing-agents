@@ -18,6 +18,12 @@
       "changed_at": "2026-09-22T19:52:00Z",
       "summary": "Added the n8n license-boundary audit, dossier and Activepieces CE comparison; n8n is labelled source-available/fair-code rather than OSI-style open source.",
       "path": "/p/oss-marketing-agents/research/n8n"
+    },
+    {
+      "change_id": "loopmark-exploratory-local-drafting-cli-decision",
+      "changed_at": "2026-09-23T10:00:00.000Z",
+      "summary": "Added the Loopmark replacement decision, narrowed its public label to exploratory local drafting CLI, recorded evidence gaps and a draft-only test, and added a dated library entry with List, Table, and Calendar views.",
+      "path": "/p/oss-marketing-agents/reports/loopmark-replacement-decision"
     }
   ]
 }

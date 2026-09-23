@@ -17,7 +17,7 @@
   "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
   "cadence": "Daily at 10:00 UTC",
   "release_state": "live",
-  "latest_research_at": "2026-09-22T19:52:00Z",
+  "latest_research_at": "2026-09-23T10:00:00.000Z",
   "public_repo": "https://github.com/shaduf-labs/oss-marketing-agents",
   "related_pools": []
 }

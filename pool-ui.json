@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-09-22T19:52:00Z",
+  "meaningfully_updated_at": "2026-09-23T10:00:00.000Z",
   "pages": [
     {
       "id": "home",
@@ -39,7 +39,7 @@
       "label": "Research library",
       "icon": "library",
       "group": "Research",
-      "description": "The four-project research compilation and dossiers.",
+      "description": "Dated reports and project dossiers with List, Table, and Calendar views.",
       "parent": null,
       "entrypoint": "research/index.html",
       "entrypoint_type": "html_fragment",
@@ -129,7 +129,7 @@
       "label": "Loopmark dossier",
       "icon": "search-alert",
       "group": "Research",
-      "description": "Exploratory agent research: evidence gaps and safe scope.",
+      "description": "Exploratory local drafting CLI: evidence gaps, decision, and draft-only test.",
       "parent": "research",
       "entrypoint": "research/loopmark/index.html",
       "entrypoint_type": "html_fragment",

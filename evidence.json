@@ -56,15 +56,6 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "loopmark-issues",
-      "source_type": "primary project or standards source",
-      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/issues",
-      "claim": "Loopmark issues identify managed retry, approval/RBAC and analytics gaps.",
-      "accessed_at": "2026-09-22T01:44:37Z",
-      "relation": "limits",
-      "publication_basis": "linked-summary"
-    },
-    {
       "evidence_id": "n8n-license",
       "source_type": "primary project source",
       "source_url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
@@ -97,6 +88,78 @@
       "source_url": "https://docs.n8n.io/build/build-and-manage-agents/",
       "claim": "n8n documents Agent Builder and labels agent/self-hosted knowledge-base capabilities Preview with self-hosted queue-mode limitations.",
       "accessed_at": "2026-09-22T19:52:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-repository",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent",
+      "claim": "Loopmark README describes a local Python/LangGraph CLI, local JSON data, OpenAI dependency, optional credentials, posting paths, and a local scheduler.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-license",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/blob/main/LICENSE",
+      "claim": "The checked Loopmark repository LICENSE is MIT.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-scheduler",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/blob/main/scheduler.py",
+      "claim": "Loopmark scheduler source documents a local scheduler path and console error/status behavior, not managed retries or alerting.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-history",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/commits/main",
+      "claim": "Loopmark main history showed August 2026 packaging-related work; this did not independently verify a published package artifact tied to source.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "loopmark-issues",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/loopmark-opensource/loopmark-agent/issues",
+      "claim": "Loopmark issues identify managed retry/alert and org/RBAC/post-approval work as planned items.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketingos-repository",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/suhasbhairav/ai-agents-for-marketing",
+      "claim": "MarketingOS AI README presents a broader HubSpot-focused workspace and describes incomplete live persistence and production sync boundaries.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketingos-package",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/suhasbhairav/ai-agents-for-marketing/blob/main/package.json",
+      "claim": "MarketingOS AI package manifest identifies a private 0.1.0 Next.js application and its declared dependencies.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketingos-history",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/suhasbhairav/ai-agents-for-marketing/commits/main",
+      "claim": "MarketingOS AI main history showed four visible July 2026 commits; this is a limited maintenance signal, not a reliability assessment.",
+      "accessed_at": "2026-09-23T10:00:00.000Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     }

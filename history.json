@@ -22,6 +22,17 @@
       "summary": "Added n8n as a source-available/fair-code workflow comparison beside Activepieces CE, with a dossier and draft-only test plan.",
       "report_path": "/p/oss-marketing-agents/reports/n8n-license-boundary-audit",
       "entrypoint": "reports/n8n-license-boundary-audit/index.html"
+    },
+    {
+      "run_id": "run:fd685ef8-38cb-4726-9797-12793773ce5c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-23T10:00:00.000Z",
+      "completed_at": "2026-09-23T10:00:00.000Z",
+      "title": "Loopmark exploratory local drafting CLI decision",
+      "summary": "Retained Loopmark only under a stricter label after documenting release, security, recovery, approval, and operations gaps; MarketingOS AI was examined but not recommended.",
+      "report_path": "/p/oss-marketing-agents/reports/loopmark-replacement-decision",
+      "entrypoint": "reports/loopmark-replacement-decision/index.html"
     }
   ]
 }
