@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Choose the lowest layer that can safely execute the marketing job: Mautic for self-hosted marketing operations, Activepieces CE for reviewed cross-system flows, Marketing Agent OS for harness-based planning, and Loopmark only as an exploratory local drafting CLI. Loopmark is not a team-approval system, managed scheduler, CRM, or production/unattended publishing service. n8n remains a source-available/fair-code comparison, not an OSI-style open-source substitute for Activepieces CE.",
+  "current_answer": "Choose the lowest layer that can safely execute the marketing job: Mautic for self-hosted marketing operations, Activepieces CE for reviewed cross-system flows, Marketing Agent OS for harness-based planning inside an approved host, and Loopmark only as an exploratory local drafting CLI. n8n remains a source-available/fair-code comparison, not an OSI-style open-source substitute for Activepieces CE. The Marketing Agent OS audit found that its library does not establish host permissions, credential controls, approvals, logs, scheduling, or connector behavior.",
   "catalogue_card": {
     "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
     "text": "A source-linked catalogue with conditional choices, explicit license and execution boundaries, and a draft-only first-test rule."
@@ -9,17 +9,20 @@
   "summary": [
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
     "n8n is a source-available/fair-code workflow and optional AI orchestration option; its Sustainable Use License is not OSI-style open source and may restrict commercial provision/hosting.",
-    "Marketing Agent OS is a portable harness library, not a marketing application; Loopmark is retained only under the direct label ‘exploratory local drafting CLI’.",
-    "MarketingOS AI was examined as a comparison but is not recommended or catalogued; its documented approval claims do not resolve its incomplete persistence and operating evidence gaps.",
-    "The research library contains dated dossiers and permanent report links for all completed research runs."
+    "Marketing Agent OS is a portable harness library, not a marketing application. Its 25 September audit found a component-level provenance boundary and host-owned execution controls.",
+    "Loopmark is retained only under the direct label ‘exploratory local drafting CLI’. MarketingOS AI was examined but is not recommended or catalogued.",
+    "The research library contains dated dossiers and permanent report links for all completed research runs.",
+    "The 24 September operations guide distinguishes a local Mautic form/contact artifact from a local Activepieces CE run artifact and requires human review and teardown for either."
   ],
   "uncertainty": [
+    "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
     "No Loopmark or MarketingOS AI hands-on install or test occurred.",
     "Loopmark’s package/release provenance and operating/security documentation remain unresolved in the checked primary material; missing documentation is not proof a capability is absent.",
     "License labels are component-scoped taxonomy, not legal advice or a decision on a particular deployment.",
-    "Individual connectors, permissions, costs, data paths, retry routes, and approval controls require separate verification."
+    "Individual connectors, permissions, costs, data paths, retry routes, and approval controls require separate verification.",
+    "Marketing Agent OS provenance was not verified file-by-file against its four upstream pins; installer collision/rollback behavior, helper effects, connector scopes, release artifacts, CI outputs, and host discovery remain unverified."
   ],
-  "checked_at": "2026-09-23T10:00:00.000Z",
-  "meaningfully_updated_at": "2026-09-23T10:00:00.000Z",
-  "freshness_note": "Loopmark and MarketingOS AI primary sources were checked on 23 September 2026. Package, release, security, and operating details can change."
+  "checked_at": "2026-09-25T10:00:00.000Z",
+  "meaningfully_updated_at": "2026-09-25T10:00:00.000Z",
+  "freshness_note": "Marketing Agent OS primary repository material was checked on 25 September 2026 at the stated main commit. Releases, documentation, source layout, and operating details can change."
 }

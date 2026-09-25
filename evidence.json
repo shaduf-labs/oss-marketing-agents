@@ -162,6 +162,96 @@
       "accessed_at": "2026-09-23T10:00:00.000Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-forms-controls-20260924",
+      "source_type": "primary project source",
+      "source_url": "https://docs.mautic.org/en/7.0/components/forms.html",
+      "claim": "Mautic documents form actions that can send email, post elsewhere, or push contacts to integrations; the pilot leaves actions blank.",
+      "accessed_at": "2026-09-24T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-cron-controls-20260924",
+      "source_type": "primary project source",
+      "source_url": "https://docs.mautic.org/en/7.0/configuration/cron_jobs.html",
+      "claim": "Mautic documents cron processing for queued marketing operations, which the proposed pilot keeps disabled.",
+      "accessed_at": "2026-09-24T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-durable-execution-20260924",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/architecture/durable-execution",
+      "claim": "Activepieces documents per-step run information, statuses, errors, checkpoints and retry/resume behavior; this supports a local review artifact, not alerting or approval guarantees.",
+      "accessed_at": "2026-09-24T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-rbac-limit-20260924",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/admin-guide/guides/permissions",
+      "claim": "The public Activepieces roles/permissions page labels RBAC as a paid feature, so granular CE pilot safeguards were not established from the checked material.",
+      "accessed_at": "2026-09-24T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-release-20260924",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/activepieces/activepieces/releases",
+      "claim": "The Activepieces releases page showed 0.91.2 as Latest, published 23 September 2026; this is a dated release signal, not a reliability claim.",
+      "accessed_at": "2026-09-24T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-license-provenance-20260925",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/blob/main/SOURCE_MANIFEST.md",
+      "claim": "Marketing Agent OS source manifest names four pinned upstream snapshots; this audit did not independently compare every retained file or notice with each upstream commit.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-architecture-20260925",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/blob/main/docs/ARCHITECTURE.md",
+      "claim": "Architecture describes selected-skill projection, excluded upstream snapshots, a lock record, hash material, and staged atomic replacement.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-security-boundary-20260925",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/blob/main/SECURITY.md",
+      "claim": "Security policy says optional helpers may run with local permissions, connectors may need credentials and inherit host/provider security, and authorization is required before external or persistent actions.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-compatibility-count-20260925",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/blob/main/docs/COMPATIBILITY.md",
+      "claim": "Compatibility documentation states target harness destinations and a 235-skill claim; this conflicts with the README 236-skill claim and does not prove target-harness runtime behavior.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-history-20260925",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/commits/main",
+      "claim": "Main history showed eight visible commits with the checked tip dated 4 September 2026; this is a point-in-time activity signal, not a quality or security result.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

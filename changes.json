@@ -24,6 +24,18 @@
       "changed_at": "2026-09-23T10:00:00.000Z",
       "summary": "Added the Loopmark replacement decision, narrowed its public label to exploratory local drafting CLI, recorded evidence gaps and a draft-only test, and added a dated library entry with List, Table, and Calendar views.",
       "path": "/p/oss-marketing-agents/reports/loopmark-replacement-decision"
+    },
+    {
+      "change_id": "controlled-pilots-mautic-activepieces",
+      "changed_at": "2026-09-24T10:00:00.000Z",
+      "summary": "Added a controlled-pilot operations guide for Mautic and Activepieces CE, a static operating-boundary comparison, and one dated Research library record in List, Table, and Calendar views.",
+      "path": "/p/oss-marketing-agents/reports/controlled-pilots-mautic-activepieces"
+    },
+    {
+      "change_id": "marketing-agent-os-provenance-host-harness-audit",
+      "changed_at": "2026-09-25T10:00:00.000Z",
+      "summary": "Added a permanent Marketing Agent OS audit covering upstream provenance limits, installer boundaries, host-owned controls, and a fictional-data local evaluation boundary; added it once to Research library List, Table, and Calendar views and updated the dossier.",
+      "path": "/p/oss-marketing-agents/reports/marketing-agent-os-provenance-host-harness-audit"
     }
   ]
 }

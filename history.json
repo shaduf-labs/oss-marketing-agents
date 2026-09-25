@@ -33,6 +33,28 @@
       "summary": "Retained Loopmark only under a stricter label after documenting release, security, recovery, approval, and operations gaps; MarketingOS AI was examined but not recommended.",
       "report_path": "/p/oss-marketing-agents/reports/loopmark-replacement-decision",
       "entrypoint": "reports/loopmark-replacement-decision/index.html"
+    },
+    {
+      "run_id": "run:5a5b5a6b-4b98-4dcd-ad7f-2d3f4f82ea24",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-24T10:00:00.000Z",
+      "completed_at": "2026-09-24T10:00:00.000Z",
+      "title": "Controlled pilot operations guide: Mautic and Activepieces CE",
+      "summary": "Added isolated, fictional-data pilot plans that produce one local review artifact and stop before any external action.",
+      "report_path": "/p/oss-marketing-agents/reports/controlled-pilots-mautic-activepieces",
+      "entrypoint": "reports/controlled-pilots-mautic-activepieces/index.html"
+    },
+    {
+      "run_id": "run:903fc705-032d-49ea-8316-1f203758a712",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T10:00:00.000Z",
+      "completed_at": "2026-09-25T10:00:00.000Z",
+      "title": "Marketing Agent OS provenance and host-harness boundary audit",
+      "summary": "Added a permanent repository audit that separates documented library material from unverified installer, provenance, connector, and host-harness behavior.",
+      "report_path": "/p/oss-marketing-agents/reports/marketing-agent-os-provenance-host-harness-audit",
+      "entrypoint": "reports/marketing-agent-os-provenance-host-harness-audit/index.html"
     }
   ]
 }
