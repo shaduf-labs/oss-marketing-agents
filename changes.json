@@ -36,6 +36,12 @@
       "changed_at": "2026-09-25T10:00:00.000Z",
       "summary": "Added a permanent Marketing Agent OS audit covering upstream provenance limits, installer boundaries, host-owned controls, and a fictional-data local evaluation boundary; added it once to Research library List, Table, and Calendar views and updated the dossier.",
       "path": "/p/oss-marketing-agents/reports/marketing-agent-os-provenance-host-harness-audit"
+    },
+    {
+      "change_id": "mautic-campaign-operation-boundary-audit",
+      "changed_at": "2026-09-26T10:00:00.000Z",
+      "summary": "Added the Mautic Community 7.2.1 campaign-operation boundary audit, updated the Mautic dossier, and added one dated Research library record in List, Table, and Calendar views.",
+      "path": "/p/oss-marketing-agents/reports/mautic-campaign-operation-boundary-audit"
     }
   ]
 }

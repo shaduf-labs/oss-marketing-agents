@@ -48,5 +48,5 @@
 [data-agent-document] .ossm-decision dt { margin-top:.45rem; color:#456056; font-size:.74rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
 [data-agent-document] .ossm-decision dt:first-child { margin-top:0; }
 [data-agent-document] .ossm-decision dd { margin:.12rem 0 .65rem; line-height:1.5; }
-[data-agent-document] .ossm-library-tool iframe { min-height:430px; }
-@media (max-width:640px) { [data-agent-document] .ossm-decision { grid-template-columns:1fr; } [data-agent-document] .ossm-library-tool iframe { min-height:560px; } }
+[data-agent-document] .ossm-library-tool iframe { min-height:510px; }
+@media (max-width:640px) { [data-agent-document] .ossm-decision { grid-template-columns:1fr; } [data-agent-document] .ossm-library-tool iframe { min-height:620px; } }

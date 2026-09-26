@@ -55,6 +55,17 @@
       "summary": "Added a permanent repository audit that separates documented library material from unverified installer, provenance, connector, and host-harness behavior.",
       "report_path": "/p/oss-marketing-agents/reports/marketing-agent-os-provenance-host-harness-audit",
       "entrypoint": "reports/marketing-agent-os-provenance-host-harness-audit/index.html"
+    },
+    {
+      "run_id": "run:5ffd9762-08aa-4e35-ba84-7983feb86a91",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-26T10:00:00.000Z",
+      "completed_at": "2026-09-26T10:00:00.000Z",
+      "title": "Mautic campaign-operation boundary audit",
+      "summary": "Added a 7.2.1 document audit that separates documented campaign features from operator-owned transport, scheduling, governance, monitoring, and recovery; no live test was performed.",
+      "report_path": "/p/oss-marketing-agents/reports/mautic-campaign-operation-boundary-audit",
+      "entrypoint": "reports/mautic-campaign-operation-boundary-audit/index.html"
     }
   ]
 }
