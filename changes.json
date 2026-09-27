@@ -42,6 +42,12 @@
       "changed_at": "2026-09-26T10:00:00.000Z",
       "summary": "Added the Mautic Community 7.2.1 campaign-operation boundary audit, updated the Mautic dossier, and added one dated Research library record in List, Table, and Calendar views.",
       "path": "/p/oss-marketing-agents/reports/mautic-campaign-operation-boundary-audit"
+    },
+    {
+      "change_id": "activepieces-ce-execution-credentials-recovery-audit",
+      "changed_at": "2026-09-27T10:00:00.000Z",
+      "summary": "Added a 0.92.0-anchored Activepieces CE document audit, updated its dossier and earlier pilot retention note, and added one dated Research library record in List, Table, and Calendar views.",
+      "path": "/p/oss-marketing-agents/reports/activepieces-ce-execution-credentials-recovery-audit"
     }
   ]
 }

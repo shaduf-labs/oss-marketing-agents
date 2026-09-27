@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Choose the lowest layer that can safely execute the marketing job. The 26 September Mautic 7.2.1 document audit finds a self-hosted marketing-operations application, not a safe-to-run campaign machine: transport, scheduler or worker, credentials, governance, monitoring, and recovery remain operator-owned. Activepieces CE, Marketing Agent OS, Loopmark, and n8n retain their earlier boundaries.",
+  "current_answer": "Choose the lowest layer that can safely execute the marketing job. Activepieces CE is a conditional self-hosted executor for a reviewed internal draft, not a consent system or CE-enforced approval gate. Its documented retry, secret and recovery paths leave external side effects, keys, data stores, monitoring and deletion to the operator. The 27 September 0.92.0-anchored audit was documentation/source review only, not a flow or recovery test.",
   "catalogue_card": {
     "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
     "text": "A source-linked catalogue with conditional choices, explicit license and execution boundaries, and a draft-only first-test rule."
@@ -13,7 +13,8 @@
     "Loopmark is retained only under the direct label ‘exploratory local drafting CLI’. MarketingOS AI was examined but is not recommended or catalogued.",
     "The research library contains dated dossiers and permanent report links for all completed research runs.",
     "The 24 September operations guide distinguishes a local Mautic form/contact artifact from a local Activepieces CE run artifact and requires human review and teardown for either.",
-    "The 26 September Mautic 7.2.1 audit documents campaign, preference, queue, cron, role, and report surfaces while separating them from operator-owned consent, delivery, approval, monitoring, and recovery work."
+    "The 26 September Mautic 7.2.1 audit documents campaign, preference, queue, cron, role, and report surfaces while separating them from operator-owned consent, delivery, approval, monitoring, and recovery work.",
+    "The 27 September Activepieces CE audit documents the manual/local draft path, paid governance boundary, in-flight retry risk, encryption-key and multi-store recovery duties, and conflicting retention/log-cap documentation."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -22,9 +23,10 @@
     "License labels are component-scoped taxonomy, not legal advice or a decision on a particular deployment.",
     "Individual connectors, permissions, costs, data paths, retry routes, and approval controls require separate verification.",
     "Marketing Agent OS provenance was not verified file-by-file against its four upstream pins; installer collision/rollback behavior, helper effects, connector scopes, release artifacts, CI outputs, and host discovery remain unverified.",
-    "The Mautic audit was documentation and repository reading only. It did not install or operate Mautic, test delivery or suppression, or establish runtime compatibility, approval controls, secret management, connector behavior, performance, backup/restore, or production readiness."
+    "The Mautic audit was documentation and repository reading only. It did not install or operate Mautic, test delivery or suppression, or establish runtime compatibility, approval controls, secret management, connector behavior, performance, backup/restore, or production readiness.",
+    "Activepieces 0.92.0 tagged license files and exact CE UI were not verified; current unversioned Limits and Truncated Logs pages conflict, and no deployed retention, flow, retry, backup, restore, alert or deletion behavior was tested."
   ],
-  "checked_at": "2026-09-26T10:00:00.000Z",
-  "meaningfully_updated_at": "2026-09-26T10:00:00.000Z",
-  "freshness_note": "Mautic 7.2.1 repository and documentation material was checked on 26 September 2026. Release status, documentation, source, dependencies, and operating details can change."
+  "checked_at": "2026-09-27T10:00:00.000Z",
+  "meaningfully_updated_at": "2026-09-27T10:00:00.000Z",
+  "freshness_note": "Activepieces CE 0.92.0 release was the anchor; current unversioned documentation and main-branch license files were checked on 27 September 2026. Tag-specific behavior, deployed defaults, and future source changes require separate verification."
 }

@@ -279,6 +279,96 @@
       "accessed_at": "2026-09-26T10:00:00.000Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-092-release-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/activepieces/activepieces/releases/tag/0.92.0",
+      "claim": "0.92.0 was released 24 September 2026; release notes mention job.failed logging and fixes but do not prove deployed reliability.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-ee-license-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/activepieces/activepieces/blob/main/packages/ee/LICENSE",
+      "claim": "EE production use requires a commercial agreement; the checked license is on main, not the release tag.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-manual-trigger-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/pieces/manual-trigger",
+      "claim": "The Manual Trigger piece page marks it MIT and every plan; the proposed 0.92.0 manual local flow was not executed.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-approvals-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/flows/flow-approvals",
+      "claim": "Flow Approvals are Enterprise/Cloud with Environments and do not establish CE-enforced two-person review.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-durable-retry-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/architecture/durable-execution",
+      "claim": "An interrupted in-flight step can run again before checkpoint, so external side effects are not exactly once.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-key-recovery-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/options/docker-compose",
+      "claim": "The Compose guide requires preserving AP_ENCRYPTION_KEY with PostgreSQL backup for Connection recovery.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-multistore-recovery-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/guarantees/disaster-recovery",
+      "claim": "Current recovery docs name PostgreSQL and S3 systems of record and describe an acknowledged async webhook loss window if Redis data is lost.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-retention-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/reference/limits",
+      "claim": "Current unversioned Limits page states a 30-day self-host execution-data retention default and 50 MB run-log cap; deployed behavior is unverified.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-log-conflict-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/troubleshooting/truncated-logs",
+      "claim": "Truncated Logs page still states 25 MB and differs from current Limits documentation.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "activepieces-execution-network-20260927",
+      "source_type": "primary project source",
+      "source_url": "https://www.activepieces.com/docs/install/reference/environment-variables",
+      "claim": "Current environment reference lists UNSANDBOXED execution and UNRESTRICTED network defaults; deployed isolation was not tested.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

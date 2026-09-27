@@ -66,6 +66,17 @@
       "summary": "Added a 7.2.1 document audit that separates documented campaign features from operator-owned transport, scheduling, governance, monitoring, and recovery; no live test was performed.",
       "report_path": "/p/oss-marketing-agents/reports/mautic-campaign-operation-boundary-audit",
       "entrypoint": "reports/mautic-campaign-operation-boundary-audit/index.html"
+    },
+    {
+      "run_id": "run:2455d1d0-0ab2-4cfb-b77a-52265164dd67",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-27T10:00:00.000Z",
+      "completed_at": "2026-09-27T10:00:00.000Z",
+      "title": "Activepieces CE execution, credentials and recovery audit",
+      "summary": "Added a source-only audit of CE edition, manual draft flow, in-flight retry, keys, retention conflict, paid governance, and multi-store recovery; no live test was performed.",
+      "report_path": "/p/oss-marketing-agents/reports/activepieces-ce-execution-credentials-recovery-audit",
+      "entrypoint": "reports/activepieces-ce-execution-credentials-recovery-audit/index.html"
     }
   ]
 }
