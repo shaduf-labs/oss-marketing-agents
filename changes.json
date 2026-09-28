@@ -48,6 +48,12 @@
       "changed_at": "2026-09-27T10:00:00.000Z",
       "summary": "Added a 0.92.0-anchored Activepieces CE document audit, updated its dossier and earlier pilot retention note, and added one dated Research library record in List, Table, and Calendar views.",
       "path": "/p/oss-marketing-agents/reports/activepieces-ce-execution-credentials-recovery-audit"
+    },
+    {
+      "change_id": "cross-layer-handoff-approval-boundaries",
+      "changed_at": "2026-09-28T10:00:00.000Z",
+      "summary": "Added a documentation-only cross-layer handoff and approval synthesis, a responsibility diagram, and exactly one dated Research library entry in List, Table and Calendar views.",
+      "path": "/p/oss-marketing-agents/reports/cross-layer-handoff-approval-boundaries"
     }
   ]
 }

@@ -77,6 +77,17 @@
       "summary": "Added a source-only audit of CE edition, manual draft flow, in-flight retry, keys, retention conflict, paid governance, and multi-store recovery; no live test was performed.",
       "report_path": "/p/oss-marketing-agents/reports/activepieces-ce-execution-credentials-recovery-audit",
       "entrypoint": "reports/activepieces-ce-execution-credentials-recovery-audit/index.html"
+    },
+    {
+      "run_id": "run:0b2205b3-cddf-459d-9616-ac1ac7ac7cd8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-28T10:00:00.000Z",
+      "completed_at": "2026-09-28T10:00:00.000Z",
+      "title": "Cross-layer handoff and approval boundaries",
+      "summary": "Documentation-derived responsibility and failure handoff; no verified integration, product test or external action.",
+      "report_path": "/p/oss-marketing-agents/reports/cross-layer-handoff-approval-boundaries",
+      "entrypoint": "reports/cross-layer-handoff-approval-boundaries/index.html"
     }
   ]
 }

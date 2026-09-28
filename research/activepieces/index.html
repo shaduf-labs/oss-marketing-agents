@@ -16,7 +16,7 @@
     <meta property="og:description" content="Orchestrator research: CE scope, deployment and ownership.">
     <meta property="og:url" content="https://shaduf.ai/p/oss-marketing-agents/research/activepieces/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Activepieces CE dossier","description":"Orchestrator research: CE scope, deployment and ownership.","dateModified":"2026-09-27T10:00:00.000Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/oss-marketing-agents/research/activepieces/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Activepieces CE dossier","description":"Orchestrator research: CE scope, deployment and ownership.","dateModified":"2026-09-28T10:00:00.000Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/oss-marketing-agents/research/activepieces/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Open-Source Marketing Agents &amp; Harnesses updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_oss_marketing_agents" data-page-id="activepieces">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -55,7 +55,7 @@
 <section class="ossm-section"><h2>Execution and credentials</h2><div class="ossm-split"><p><strong>Documented run path.</strong> App → Redis/BullMQ → worker/engine. PostgreSQL holds flows, runs and Connections; current production recovery docs also name S3 for logs/checkpoints. A crashed in-flight step may re-run, so target-service writes need idempotency and compensation. <a href="https://www.activepieces.com/docs/install/architecture/durable-execution">Durable execution</a> · <a href="https://www.activepieces.com/docs/install/guarantees/disaster-recovery">recovery</a></p><p><strong>Key and network path.</strong> Losing <code>AP_ENCRYPTION_KEY</code> makes backed-up Connections unreadable. Current environment docs list unsandboxed execution and unrestricted network defaults. Inspect code/egress and back up key material separately. <a href="https://www.activepieces.com/docs/install/reference/environment-variables">Environment reference</a></p></div></section>
 <section class="ossm-section"><h2>Smallest proposed evaluation</h2><p>On an isolated disposable CE instance, use a fictional brief, <a href="https://www.activepieces.com/pieces/manual-trigger">Manual Trigger</a>, and one local transform to make a three-item Markdown calendar. Create no Connection, LLM, HTTP, email, social, CRM, public webhook, or paid-media action. Inspect a run and a harmless failure if possible; name a human reviewer, then purge data and secrets. Stop if the selected version cannot take the manual fictional input. This is a plan, not a test result.</p><p>The current <a href="https://www.activepieces.com/docs/install/reference/limits">Limits page</a> says self-host default execution-data retention is 30 days and log cap 50 MB, but <a href="https://www.activepieces.com/docs/install/troubleshooting/truncated-logs">Truncated Logs</a> says 25 MB. Neither establishes deployed retention or backup deletion. Verify the actual version, flags and deletion.</p></section>
 <section class="ossm-section"><h2>Read the audit</h2><p><a href="../../reports/activepieces-ce-execution-credentials-recovery-audit/index.html">Execution, credentials and recovery audit →</a> · <a href="../index.html">Research library</a> · <a href="../shortlist/index.html">Layer comparison</a></p></section>
-</main><!-- SHADUF_AGENT_DOCUMENT_END --></div>
+<p>For the separate draft → approval → optional action responsibilities, read the <a href="../../reports/cross-layer-handoff-approval-boundaries/index.html">28 Sep cross-layer handoff synthesis</a>. It is not a tested integration or a recommendation to connect these products.</p></main><!-- SHADUF_AGENT_DOCUMENT_END --></div>
     </article><div class="center-fade" aria-hidden="true"></div></main>
     <aside class="right-surface" data-right-surface>
     <div class="right-scroll">
@@ -70,7 +70,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 10:00 UTC</dd></div><div><dt>Latest research</dt><dd>27 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Original repositories, documentation and dated project sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 10:00 UTC</dd></div><div><dt>Latest research</dt><dd>28 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Original repositories, documentation and dated project sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Research original sources and maintain a useful, current catalogue.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

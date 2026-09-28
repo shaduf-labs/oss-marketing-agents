@@ -369,6 +369,42 @@
       "accessed_at": "2026-09-27T10:00:00.000Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "handoff-ce-flow-approvals-20260928",
+      "source_type": "prior primary-source audit synthesis",
+      "source_url": "https://www.activepieces.com/docs/flows/flow-approvals",
+      "claim": "Flow Approvals are Enterprise/Cloud with plan limits, not evidence of CE-enforced cross-product approval.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "handoff-ce-retry-20260928",
+      "source_type": "prior primary-source audit synthesis",
+      "source_url": "https://www.activepieces.com/docs/install/architecture/durable-execution",
+      "claim": "Interrupted in-flight work may run again before checkpoint; a target-side action requires separate reconciliation.",
+      "accessed_at": "2026-09-27T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "handoff-mautic-cron-20260928",
+      "source_type": "prior primary-source audit synthesis",
+      "source_url": "https://docs.mautic.org/en/7.2/configuration/cron_jobs.html",
+      "claim": "Campaign membership and event processing depend on operator-provisioned cron commands.",
+      "accessed_at": "2026-09-26T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "handoff-skill-security-20260928",
+      "source_type": "prior primary-source audit synthesis",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/blob/main/SECURITY.md",
+      "claim": "Skill instructions do not themselves authorize external or persistent actions; the host and operator own permissions.",
+      "accessed_at": "2026-09-25T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

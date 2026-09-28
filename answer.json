@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Choose the lowest layer that can safely execute the marketing job. Activepieces CE is a conditional self-hosted executor for a reviewed internal draft, not a consent system or CE-enforced approval gate. Its documented retry, secret and recovery paths leave external side effects, keys, data stores, monitoring and deletion to the operator. The 27 September 0.92.0-anchored audit was documentation/source review only, not a flow or recovery test.",
+  "current_answer": "Start with the smallest sufficient layer and keep the human decision separate from any run or sender record. A versioned internal draft and named reviewer can be enough. Marketing Agent OS supplies instructions in a separately controlled host; Activepieces CE can execute a local flow but CE approval is not established; Mautic adds operated contact/campaign state. No cross-product approval, consent or action integration was verified. The 28 September handoff is documentation synthesis and its combined route is a paper architecture, not a recommendation.",
   "catalogue_card": {
     "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
     "text": "A source-linked catalogue with conditional choices, explicit license and execution boundaries, and a draft-only first-test rule."
@@ -10,23 +10,25 @@
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
     "n8n is a source-available/fair-code workflow and optional AI orchestration option; its Sustainable Use License is not OSI-style open source and may restrict commercial provision/hosting.",
     "Marketing Agent OS is a portable harness library, not a marketing application. Its 25 September audit found a component-level provenance boundary and host-owned execution controls.",
-    "Loopmark is retained only under the direct label ‘exploratory local drafting CLI’. MarketingOS AI was examined but is not recommended or catalogued.",
+    "Loopmark is retained only under the direct label \u2018exploratory local drafting CLI\u2019. MarketingOS AI was examined but is not recommended or catalogued.",
     "The research library contains dated dossiers and permanent report links for all completed research runs.",
     "The 24 September operations guide distinguishes a local Mautic form/contact artifact from a local Activepieces CE run artifact and requires human review and teardown for either.",
     "The 26 September Mautic 7.2.1 audit documents campaign, preference, queue, cron, role, and report surfaces while separating them from operator-owned consent, delivery, approval, monitoring, and recovery work.",
-    "The 27 September Activepieces CE audit documents the manual/local draft path, paid governance boundary, in-flight retry risk, encryption-key and multi-store recovery duties, and conflicting retention/log-cap documentation."
+    "The 27 September Activepieces CE audit documents the manual/local draft path, paid governance boundary, in-flight retry risk, encryption-key and multi-store recovery duties, and conflicting retention/log-cap documentation.",
+    "The 28 September synthesis assigns draft, exact-version human decision, optional CE run, sender/CRM action evidence, consent and recovery to distinct owners; no combined integration was tested."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
     "No Loopmark or MarketingOS AI hands-on install or test occurred.",
-    "Loopmark’s package/release provenance and operating/security documentation remain unresolved in the checked primary material; missing documentation is not proof a capability is absent.",
+    "Loopmark\u2019s package/release provenance and operating/security documentation remain unresolved in the checked primary material; missing documentation is not proof a capability is absent.",
     "License labels are component-scoped taxonomy, not legal advice or a decision on a particular deployment.",
     "Individual connectors, permissions, costs, data paths, retry routes, and approval controls require separate verification.",
     "Marketing Agent OS provenance was not verified file-by-file against its four upstream pins; installer collision/rollback behavior, helper effects, connector scopes, release artifacts, CI outputs, and host discovery remain unverified.",
     "The Mautic audit was documentation and repository reading only. It did not install or operate Mautic, test delivery or suppression, or establish runtime compatibility, approval controls, secret management, connector behavior, performance, backup/restore, or production readiness.",
-    "Activepieces 0.92.0 tagged license files and exact CE UI were not verified; current unversioned Limits and Truncated Logs pages conflict, and no deployed retention, flow, retry, backup, restore, alert or deletion behavior was tested."
+    "Activepieces 0.92.0 tagged license files and exact CE UI were not verified; current unversioned Limits and Truncated Logs pages conflict, and no deployed retention, flow, retry, backup, restore, alert or deletion behavior was tested.",
+    "The 28 September cross-layer handoff is synthesis of earlier dated audits only. No new source verification, integration, external action, pilot or restore occurred. The combined route is not a recommendation."
   ],
-  "checked_at": "2026-09-27T10:00:00.000Z",
-  "meaningfully_updated_at": "2026-09-27T10:00:00.000Z",
-  "freshness_note": "Activepieces CE 0.92.0 release was the anchor; current unversioned documentation and main-branch license files were checked on 27 September 2026. Tag-specific behavior, deployed defaults, and future source changes require separate verification."
+  "checked_at": "2026-09-28T10:00:00.000Z",
+  "meaningfully_updated_at": "2026-09-28T10:00:00.000Z",
+  "freshness_note": "Cross-layer synthesis dated 28 September 2026 uses source audits from 24\u201327 September; it did not reverify product state on 28 September. Edition, license, retention and actual integrations require selected-build checks."
 }
