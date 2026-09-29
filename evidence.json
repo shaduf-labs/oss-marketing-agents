@@ -405,6 +405,78 @@
       "accessed_at": "2026-09-25T10:00:00.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-listmonk-license-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/LICENSE",
+      "claim": "The accessible v6.2.0 tagged Listmonk licence is AGPLv3 for the checked repository.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-listmonk-welcome-gap-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/issues/2693",
+      "claim": "An open project request describes ongoing welcome behavior; checked documentation did not establish a built-in form/confirmation-to-welcome trigger.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-listmonk-transactional-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://listmonk.app/docs/apis/transactional/",
+      "claim": "A documented transactional API can be called by a separate actor; its presence does not establish an automatic welcome trigger.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-keila-welcome-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://www.keila.io/updates/welcome-emails/",
+      "claim": "Keila documents form-configured welcome after submission or double opt-in, with a download-link example; this behavior was not tested.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-keila-license-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/pentacent/keila/blob/main/LICENSE.md",
+      "claim": "Current Keila core licence material states AGPL, but exact v0.30.3 licence and extra path scope were not directly readable.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-keila-extra-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/pentacent/keila/blob/main/extra/README.md",
+      "claim": "Current extra notice excludes cloud-only code from the AGPL core grant; it does not establish exact v0.30.3 package scope.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-keila-config-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://www.keila.io/docs/configuration/",
+      "claim": "Keila self-host configuration identifies PostgreSQL, upload persistence, secrets, and mail settings; a complete tested restore procedure was not established.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "smalllist-mautic-cron-20260929",
+      "source_type": "primary project source",
+      "source_url": "https://docs.mautic.org/en/7.2/configuration/cron_jobs.html",
+      "claim": "Mautic campaign processing requires operator-added cron commands, supporting the inference that it is a broader operating surface than one welcome message.",
+      "accessed_at": "2026-09-29T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

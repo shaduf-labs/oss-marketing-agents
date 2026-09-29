@@ -88,6 +88,17 @@
       "summary": "Documentation-derived responsibility and failure handoff; no verified integration, product test or external action.",
       "report_path": "/p/oss-marketing-agents/reports/cross-layer-handoff-approval-boundaries",
       "entrypoint": "reports/cross-layer-handoff-approval-boundaries/index.html"
+    },
+    {
+      "run_id": "run:59b3a1dd-879a-48c2-bdab-c37daa119fde",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-29T10:00:00.000Z",
+      "completed_at": "2026-09-29T10:00:00.000Z",
+      "title": "Small-list newsletter decision: Listmonk, Keila or no new stack?",
+      "summary": "Document-only audit of welcome, licence, edition, sending and recovery boundaries; existing sender first when evidence is present, Keila private evaluation only, no live send or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/small-list-newsletter-decision",
+      "entrypoint": "reports/small-list-newsletter-decision/index.html"
     }
   ]
 }
