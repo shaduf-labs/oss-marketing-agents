@@ -477,6 +477,105 @@
       "accessed_at": "2026-09-29T10:00:00.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-release-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/pentacent/keila/releases/tag/0.30.3",
+      "claim": "The v0.30.3 release identifies the exact commit used for this source audit.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-tagged-readme-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://raw.githubusercontent.com/pentacent/keila/0.30.3/README.md",
+      "claim": "The tagged README states AGPLv3-or-later except for the Keila logo and all files under extra/.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-tagged-license-unread-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://raw.githubusercontent.com/pentacent/keila/0.30.3/LICENSE.md",
+      "claim": "The exact tagged licence could not be read in this run; a cache miss is not evidence of absence.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-tagged-extra-unread-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://raw.githubusercontent.com/pentacent/keila/0.30.3/extra/README.md",
+      "claim": "The exact excluded-code notice could not be read in this run; scope remains open.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-tagged-mix-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://raw.githubusercontent.com/pentacent/keila/0.30.3/mix.exs",
+      "claim": "The tagged build file conditionally includes extra/ in compilation only when WITH_EXTRA is enabled and includes Oban.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-tagged-dockerfile-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://raw.githubusercontent.com/pentacent/keila/0.30.3/ops/Dockerfile",
+      "claim": "The tagged Dockerfile declares build arguments and copies a release from builder to runtime; it does not prove the published image contents.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-dockerhub-digest-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://hub.docker.com/r/pentacent/keila/tags",
+      "claim": "Docker Hub lists the 0.30.3 image and digest; the image and layer were not independently inspected.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-config-recovery-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://www.keila.io/docs/configuration/",
+      "claim": "Configuration identifies database, secrets, persisted uploads, mailer credentials and log settings, but no complete tested restore.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-security-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/pentacent/keila/security",
+      "claim": "Cached security overview did not verify a current private disclosure route; this does not prove no route exists.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-sender-analytics-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://www.keila.io/analytics-and-privacy/",
+      "claim": "Managed-service bounce/complaint handling and optional self-hosted SES handling do not establish generic plain-SMTP outcome reconciliation.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-senders-20260930",
+      "source_type": "primary project source",
+      "source_url": "https://www.keila.io/docs/senders/",
+      "claim": "Self-hosted sender options include SMTP and SES; managed Send with Keila is distinct.",
+      "accessed_at": "2026-09-30T10:00:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

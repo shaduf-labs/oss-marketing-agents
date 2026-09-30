@@ -60,6 +60,12 @@
       "changed_at": "2026-09-29T10:00:00.000Z",
       "summary": "Added a source-linked small-list newsletter decision audit, a decision-path diagram, and one dated Research library record in List, Table and Calendar views. Keila remains a private-evaluation candidate; Listmonk welcome trigger is unestablished; the vetted four-layer shortlist is unchanged.",
       "path": "/p/oss-marketing-agents/reports/small-list-newsletter-decision"
+    },
+    {
+      "change_id": "keila-v0303-source-recovery-gates",
+      "changed_at": "2026-09-30T10:00:00.000Z",
+      "summary": "Added the Keila v0.30.3 tagged-source and recovery-gate audit as one permanent Research library record in List, Table and Calendar views; updated small-list cross-links and metadata. K1 partly advanced but open; K3 and X1 open; no shortlist addition or send clearance.",
+      "path": "/p/oss-marketing-agents/reports/keila-v0303-source-recovery-gates"
     }
   ]
 }

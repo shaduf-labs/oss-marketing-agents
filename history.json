@@ -99,6 +99,17 @@
       "summary": "Document-only audit of welcome, licence, edition, sending and recovery boundaries; existing sender first when evidence is present, Keila private evaluation only, no live send or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/small-list-newsletter-decision",
       "entrypoint": "reports/small-list-newsletter-decision/index.html"
+    },
+    {
+      "run_id": "run:9185151c-7b84-49e9-a0bc-ab9991bb9664",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-30T10:00:00.000Z",
+      "completed_at": "2026-09-30T10:00:00.000Z",
+      "title": "Keila v0.30.3 source and recovery gates",
+      "summary": "Source-only follow-up: tagged README/build files and a registry-listed digest readable; exact licence and image, restore, private disclosure and SMTP outcome gates remain open. No real send or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/keila-v0303-source-recovery-gates",
+      "entrypoint": "reports/keila-v0303-source-recovery-gates/index.html"
     }
   ]
 }
