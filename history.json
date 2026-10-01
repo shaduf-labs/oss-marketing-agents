@@ -110,6 +110,17 @@
       "summary": "Source-only follow-up: tagged README/build files and a registry-listed digest readable; exact licence and image, restore, private disclosure and SMTP outcome gates remain open. No real send or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/keila-v0303-source-recovery-gates",
       "entrypoint": "reports/keila-v0303-source-recovery-gates/index.html"
+    },
+    {
+      "run_id": "run:manual:e0cefd7ab9dbf324891ec8134e3b6bb4",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-01T16:14:17.803Z",
+      "completed_at": "2026-10-01T16:40:06Z",
+      "title": "Listmonk v6.2.0 DOI-to-welcome boundary",
+      "summary": "Tagged-source audit: no distinct native welcome found in inspected confirmation paths; reviewed external trigger/ledger or manual action needed. No install, send, provider test or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/listmonk-v620-doi-welcome-boundary",
+      "entrypoint": "reports/listmonk-v620-doi-welcome-boundary/index.html"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Start with the smallest sufficient layer and keep human approval separate from execution. For a small sign-up list, one welcome with a download link and occasional newsletter, an existing operated sender is the first conditional option only if recipient provenance, opt-outs, review and provider outcome are recorded. Keila v0.30.3 remains a private-evaluation candidate, not send-ready or a vetted shortlist addition: tagged README/build files and a registry-listed digest were readable, but exact licence and image scope, tested recovery, private disclosure and SMTP outcome handling remain open. Listmonk has documented list and campaign paths, but a built-in post-confirmation welcome trigger was not established. Mautic remains the broader campaign option when that operating surface is justified.",
+  "current_answer": "Start with the smallest sufficient layer and keep human approval separate from execution. For one welcome and occasional newsletter, an existing operated sender is first conditional option only if recipient provenance, opt-outs, review and provider outcome are recorded. In inspected Listmonk v6.2.0 tagged paths, double-opt-in confirmation changes membership and renders a page but does not send a distinct welcome. An operator-owned reviewed trigger and durable attempt ledger, or human manual action, is required for this exact job; /api/tx is a send interface, not a consent, suppression or duplicate gate. This is source reading, not a runtime test. Keila v0.30.3 remains private evaluation only with package, recovery, disclosure and sender-outcome gates open. Neither smaller tool is added to the vetted four-layer shortlist.",
   "catalogue_card": {
     "question": "Which open-source marketing projects, AI agents and harnesses are worth using, and for which tasks?",
     "text": "A source-linked catalogue with conditional choices, explicit license and execution boundaries, and a draft-only first-test rule."
@@ -17,7 +17,8 @@
     "The 27 September Activepieces CE audit documents the manual/local draft path, paid governance boundary, in-flight retry risk, encryption-key and multi-store recovery duties, and conflicting retention/log-cap documentation.",
     "The 28 September synthesis assigns draft, exact-version human decision, optional CE run, sender/CRM action evidence, consent and recovery to distinct owners; no combined integration was tested.",
     "The 29 September small-list audit keeps an existing operated sender as the first conditional option, Keila as a private-evaluation candidate only, and Listmonk as a list/campaign tool without an established built-in welcome trigger. Neither is added to the vetted four-layer shortlist.",
-    "The 30 September Keila v0.30.3 source follow-up read tagged README/build files and a registry digest listing. K1 partly advanced but remains open; K3 and X1 remain open. No image inspection, restore or send occurred, and no shortlist addition was made."
+    "The 30 September Keila v0.30.3 source follow-up read tagged README/build files and a registry digest listing. K1 partly advanced but remains open; K3 and X1 remain open. No image inspection, restore or send occurred, and no shortlist addition was made.",
+    "The 1 October Listmonk v6.2.0 tagged-path audit found no distinct native welcome in inspected DOI confirmation, core hook, template, campaign and transactional paths. A reviewed external trigger/ledger or manual action is required; /api/tx does not enforce consent or dedupe. No runtime test or shortlist addition."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -30,9 +31,10 @@
     "Activepieces 0.92.0 tagged license files and exact CE UI were not verified; current unversioned Limits and Truncated Logs pages conflict, and no deployed retention, flow, retry, backup, restore, alert or deletion behavior was tested.",
     "The 28 September cross-layer handoff is synthesis of earlier dated audits only. No new source verification, integration, external action, pilot or restore occurred. The combined route is not a recommendation.",
     "Keila v0.30.3 exact-tag licence and extra path scope were not readable; complete tested restore, current private security disclosure route, provider-event reconciliation and real send outcomes were not established. Listmonk native form/confirmation-to-welcome trigger was not established. No installation, public form, actual contact, mail send, or restore test occurred.",
-    "The v0.30.3 tagged LICENSE.md and extra/README.md, complete archive and final image were unread. The registry digest was listed, not independently checked. No coordinated DB/upload/secret restore, rollback, private security route, plain-SMTP outcome reconciliation or exactly-once behavior was verified."
+    "The v0.30.3 tagged LICENSE.md and extra/README.md, complete archive and final image were unread. The registry digest was listed, not independently checked. No coordinated DB/upload/secret restore, rollback, private security route, plain-SMTP outcome reconciliation or exactly-once behavior was verified.",
+    "The Listmonk v6.2.0 finding is bounded to inspected tagged paths, not every customization. No install or provider receipt was obtained; read/send races, concurrent workers, ambiguous responses, provider reconciliation and exactly-once welcome outcome remain unresolved. Local git/API/raw reads partly failed and were not used as absence evidence."
   ],
-  "checked_at": "2026-09-30T10:00:00.000Z",
-  "meaningfully_updated_at": "2026-09-30T10:00:00.000Z",
-  "freshness_note": "Keila v0.30.3 source and recovery follow-up dated 30 September 2026. Tagged source files were partly readable; self-hosting docs are not necessarily pinned to 0.30.3. No image, install, send or restore was tested."
+  "checked_at": "2026-10-01T16:40:06Z",
+  "meaningfully_updated_at": "2026-10-01T16:40:06Z",
+  "freshness_note": "Listmonk v6.2.0 DOI-to-welcome tagged-source audit dated 1 October 2026. The checked confirmation path does not send a distinct welcome; no runtime or provider test was performed."
 }

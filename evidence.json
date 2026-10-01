@@ -576,6 +576,78 @@
       "accessed_at": "2026-09-30T10:00:00.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-release",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/releases/tag/v6.2.0",
+      "claim": "Official release dates v6.2.0 and points to the checked commit.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-confirm-handler",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/public.go#L318-L384",
+      "claim": "Inspected double-opt-in handler selects unconfirmed memberships, confirms them, and renders a page without a distinct welcome send.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-core-hook",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/internal/core/core.go#L39-L52",
+      "claim": "Checked core hook interface contains pre-confirmation SendOptinConfirmation, not a post-confirmation welcome hook.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-template-inventory",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/docs/docs/content/templating.md#L128-L156",
+      "claim": "Tagged system-template inventory lists the opt-in confirmation email, not a distinct welcome system email.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-confirm-sql",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/subscribers.sql#L216-L224",
+      "claim": "Confirmation SQL updates selected memberships and has no status predicate; concurrent unsubscribe race needs testing.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-tx",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/tx.go#L73-L165",
+      "claim": "Transactional handler does not enforce confirmed membership, suppression or welcome-attempt idempotency; fallback/external can send without an existing subscriber.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-campaign-sql",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/campaigns.sql#L302-L355",
+      "claim": "Campaign recipient SQL distinguishes confirmed double-opt-in membership and exclusion, but a campaign is not a per-confirmation trigger.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-license",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/LICENSE",
+      "claim": "Tagged repository licence is GNU AGPLv3 for checked code, not external providers or custom trigger.",
+      "accessed_at": "2026-10-01T16:40:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
