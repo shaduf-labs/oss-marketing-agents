@@ -648,6 +648,60 @@
       "accessed_at": "2026-10-01T16:40:06Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-release-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/releases/tag/v6.2.0",
+      "claim": "Official v6.2.0 release identifies source commit, not installed artifact bytes or a digest in this workspace.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-confirm-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/public.go#L318-L384",
+      "claim": "Confirmation handler selects unconfirmed memberships before update and page render; sequential duplicate and concurrent races require runtime testing.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-sql-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/subscribers.sql#L216-L250",
+      "claim": "Confirmation update lacks a status predicate; unsubscribe-between-read-and-update outcome is untested.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-resubscribe-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/subscribers.sql#L172-L191",
+      "claim": "Public resubscription can reset unsubscribed list membership to unconfirmed while retaining confirmed membership.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-api-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/docs/docs/content/apis/subscribers.md#L22-L34",
+      "claim": "Subscriber API documents global and per-list status and list/status filtering; a filtered read is not send authorization.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-private-tx-20261002",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/tx.go#L73-L165",
+      "claim": "Inspected transactional handler does not provide welcome-specific consent, suppression or idempotency gates; no /api/tx call was made in this run.",
+      "accessed_at": "2026-10-02T10:15:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

@@ -121,6 +121,17 @@
       "summary": "Tagged-source audit: no distinct native welcome found in inspected confirmation paths; reviewed external trigger/ledger or manual action needed. No install, send, provider test or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/listmonk-v620-doi-welcome-boundary",
       "entrypoint": "reports/listmonk-v620-doi-welcome-boundary/index.html"
+    },
+    {
+      "run_id": "run:29691de1-0601-436d-ad86-2b8cb1681740",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-02T10:00:00.000Z",
+      "completed_at": "2026-10-02T10:15:00Z",
+      "title": "Listmonk v6.2.0 private DOI and suppression test gate",
+      "summary": "No runtime test occurred because the pinned artifact and isolated sink-only fixture were absent. Added a reproducible private test card and retained the conditional, no-send decision.",
+      "report_path": "/p/oss-marketing-agents/reports/listmonk-v620-private-doi-suppression-check",
+      "entrypoint": "reports/listmonk-v620-private-doi-suppression-check/index.html"
     }
   ]
 }
