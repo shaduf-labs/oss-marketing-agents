@@ -702,6 +702,60 @@
       "accessed_at": "2026-10-02T10:15:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-release",
+      "source_type": "primary project source",
+      "source_url": "https://github.com/phpList/phplist3/releases/tag/v3.6.16",
+      "claim": "Official release identifies v3.6.16, 26 May 2025 and short commit 69915ff; release provenance is not installed package verification.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-confirmation-handler",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/phpList/phplist3/blob/v3.6.16/public_html/lists/index.php#L3370-L3477",
+      "claim": "Confirmation path reads prior confirmed status, writes confirmed/blacklisted/optedin fields, and conditionally calls sendMail with page-keyed confirmation text; send result and races are not resolved by those lines.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-configuration-doc",
+      "source_type": "primary project current or undated documentation",
+      "source_url": "https://resources.phplist.com/documentation/configuration",
+      "claim": "Documentation describes editable global after-confirmation subject/body and page transaction messages; exact-tag fallback was not verified.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-subscribe-page-doc",
+      "source_type": "primary project current or undated documentation",
+      "source_url": "https://www.phplist.org/manual/books/phplist-manual/page/creating-a-subscribe-page",
+      "claim": "Manual documents per-page transaction messages initialized from global settings; tagged editor was not fetched.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-autoresponder-doc",
+      "source_type": "primary project current or undated documentation",
+      "source_url": "https://resources.phplist.com/plugin/autoresponder",
+      "claim": "Delayed drip/autoresponder flow is a separate plugin/campaign/cron path, not the checked built-in confirmation message.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "phplist-v3616-license",
+      "source_type": "primary project tagged repository",
+      "source_url": "https://github.com/phpList/phplist3/tree/v3.6.16#license",
+      "claim": "Tagged phpList 3 repository labels AGPLv3 and contains LICENSE/COPYING; this does not classify plugins, dependencies or service stack.",
+      "accessed_at": "2026-10-03T10:11:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

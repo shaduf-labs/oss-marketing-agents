@@ -132,6 +132,17 @@
       "summary": "No runtime test occurred because the pinned artifact and isolated sink-only fixture were absent. Added a reproducible private test card and retained the conditional, no-send decision.",
       "report_path": "/p/oss-marketing-agents/reports/listmonk-v620-private-doi-suppression-check",
       "entrypoint": "reports/listmonk-v620-private-doi-suppression-check/index.html"
+    },
+    {
+      "run_id": "run:571d0517-9c5d-4779-bb76-51b02aaa63c8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-03T10:11:00Z",
+      "completed_at": "2026-10-03T10:11:00Z",
+      "title": "phpList v3.6.16 one-email welcome audit",
+      "summary": "Source-only v3.6.16 audit: immediate page-keyed system confirmation message path in tagged handler; signup/editor, suppression, send outcome and recovery untested. Conditional research entry, not send-ready or shortlisted.",
+      "report_path": "/p/oss-marketing-agents/reports/phplist-v3616-one-email-welcome-audit",
+      "entrypoint": "reports/phplist-v3616-one-email-welcome-audit/index.html"
     }
   ]
 }

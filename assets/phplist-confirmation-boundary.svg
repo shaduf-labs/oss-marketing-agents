@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 216" role="img" aria-labelledby="title desc">
+  <title id="title">phpList one-message evidence boundary</title><desc id="desc">A documented subscribe and confirmation request leads to an exact-tag confirmation handler and sendMail call. Delivery and retry safety remain unverified.</desc>
+  <rect width="900" height="216" rx="18" fill="#f7fcf9"/>
+  <g font-family="system-ui,sans-serif">
+    <rect x="20" y="35" width="195" height="128" rx="12" fill="#edf5ef" stroke="#83b69d"/><text x="36" y="64" font-size="16" font-weight="700" fill="#173b2d">Subscribe + DOI request</text><text x="36" y="93" font-size="13" fill="#476258">Documented in manuals</text><text x="36" y="117" font-size="13" fill="#476258">Tagged signup not read</text>
+    <path d="M222 99h30" stroke="#4b866c" stroke-width="3"/><path d="m248 93 9 6-9 6" fill="none" stroke="#4b866c" stroke-width="3"/>
+    <rect x="264" y="35" width="215" height="128" rx="12" fill="#def2e7" stroke="#4b9b73"/><text x="280" y="64" font-size="16" font-weight="700" fill="#173b2d">ConfirmPage</text><text x="280" y="93" font-size="13" fill="#476258">v3.6.16 tagged handler</text><text x="280" y="117" font-size="13" fill="#476258">Writes confirmation state</text><text x="280" y="140" font-size="13" fill="#476258">Clears blacklist flag</text>
+    <path d="M486 99h30" stroke="#4b866c" stroke-width="3"/><path d="m512 93 9 6-9 6" fill="none" stroke="#4b866c" stroke-width="3"/>
+    <rect x="528" y="35" width="161" height="128" rx="12" fill="#def2e7" stroke="#4b9b73"/><text x="544" y="64" font-size="16" font-weight="700" fill="#173b2d">sendMail</text><text x="544" y="93" font-size="13" fill="#476258">Page-keyed copy</text><text x="544" y="117" font-size="13" fill="#476258">Immediate system</text><text x="544" y="140" font-size="13" fill="#476258">message call</text>
+    <path d="M696 99h30" stroke="#bd8b34" stroke-width="3" stroke-dasharray="5 5"/><path d="m722 93 9 6-9 6" fill="none" stroke="#bd8b34" stroke-width="3"/>
+    <rect x="738" y="35" width="142" height="128" rx="12" fill="#fff5df" stroke="#d4a144"/><text x="754" y="64" font-size="16" font-weight="700" fill="#69480c">Unknown</text><text x="754" y="93" font-size="13" fill="#6d5b36">Delivery result</text><text x="754" y="117" font-size="13" fill="#6d5b36">Retry safety</text><text x="754" y="140" font-size="13" fill="#6d5b36">Race outcome</text>
+    <text x="20" y="192" font-size="13" fill="#536b5d">Solid arrows: checked source path. Dashed arrow: no runtime or provider evidence.</text>
+  </g>
+</svg>

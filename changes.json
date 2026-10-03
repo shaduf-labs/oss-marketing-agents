@@ -78,6 +78,12 @@
       "changed_at": "2026-10-02T10:15:00Z",
       "summary": "Added a permanent Listmonk v6.2.0 private-test gate and one dated Research library record in List, Table and Calendar. No runtime test ran: artifact, isolated app/database, sink-only mail and teardown were unavailable; no send clearance or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/listmonk-v620-private-doi-suppression-check"
+    },
+    {
+      "change_id": "phplist-v3616-one-email-welcome-audit",
+      "changed_at": "2026-10-03T10:11:00Z",
+      "summary": "Added a permanent phpList v3.6.16 one-email welcome audit and one Research library record in List, Table and Calendar views. Tagged confirmation handler shows an immediate system message path; signup/editor and runtime/send outcomes remain unverified. Conditional research entry only, no shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/phplist-v3616-one-email-welcome-audit"
     }
   ]
 }
