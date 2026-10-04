@@ -50,3 +50,17 @@
 [data-agent-document] .ossm-decision dd { margin:.12rem 0 .65rem; line-height:1.5; }
 [data-agent-document] .ossm-library-tool iframe { min-height:510px; }
 @media (max-width:640px) { [data-agent-document] .ossm-decision { grid-template-columns:1fr; } [data-agent-document] .ossm-library-tool iframe { min-height:620px; } }
+
+[data-agent-document] .ossm-small-path { padding: clamp(1rem, 2vw, 1.5rem); border:1px solid #bad7c8; border-radius:1rem; background:#f6faf7; }
+[data-agent-document] .ossm-small-path h2 { max-width:28ch; }
+[data-agent-document] .ossm-small-path > p { max-width:72ch; }
+[data-agent-document] .ossm-path-steps { list-style:none; display:grid; gap:.65rem; margin:1rem 0; padding:0; }
+[data-agent-document] .ossm-path-steps li { display:grid; grid-template-columns:2rem minmax(0,1fr); gap:.7rem; padding:.8rem; border:1px solid #d3e3d8; border-radius:.65rem; background:#fff; }
+[data-agent-document] .ossm-step-no { display:grid; place-items:center; width:2rem; height:2rem; border-radius:50%; background:#176b53; color:#fff; font-weight:800; }
+[data-agent-document] .ossm-path-steps strong, [data-agent-document] .ossm-path-steps span:not(.ossm-step-no) { display:block; }
+[data-agent-document] .ossm-path-steps span:not(.ossm-step-no) { margin-top:.15rem; color:#405449; line-height:1.5; }
+[data-agent-document] .ossm-path-foot { margin-bottom:0; padding-top:.7rem; border-top:1px solid #c8ddd0; }
+[data-agent-document] .ossm-route { list-style:none; counter-reset:route; display:grid; gap:.85rem; margin:0; padding:0; }
+[data-agent-document] .ossm-route li { counter-increment:route; position:relative; padding:.9rem 1rem .9rem 3.4rem; border-left:3px solid #57a280; background:#f6faf7; line-height:1.55; }
+[data-agent-document] .ossm-route li::before { content:counter(route); position:absolute; left:.75rem; top:.9rem; display:grid; place-items:center; width:1.9rem; height:1.9rem; border-radius:50%; background:#176b53; color:#fff; font-weight:800; }
+[data-agent-document] .ossm-route strong, [data-agent-document] .ossm-route span { display:block; }

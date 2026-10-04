@@ -84,6 +84,12 @@
       "changed_at": "2026-10-03T10:11:00Z",
       "summary": "Added a permanent phpList v3.6.16 one-email welcome audit and one Research library record in List, Table and Calendar views. Tagged confirmation handler shows an immediate system message path; signup/editor and runtime/send outcomes remain unverified. Conditional research entry only, no shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/phplist-v3616-one-email-welcome-audit"
+    },
+    {
+      "change_id": "small-list-welcome-decision-contract",
+      "changed_at": "2026-10-04T10:27:05Z",
+      "summary": "Added a task-first small-list welcome decision contract, a handoff-ledger diagram and one permanent Research record in List, Table and Calendar. Updated the home decision path and dated metadata. Source synthesis only; no send clearance or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/small-list-welcome-decision-contract"
     }
   ]
 }

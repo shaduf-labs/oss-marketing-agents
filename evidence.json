@@ -756,6 +756,60 @@
       "accessed_at": "2026-10-03T10:11:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-phplist-v3616-confirmation-20261004",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/phpList/phplist3/blob/v3.6.16/public_html/lists/index.php#L3370-L3477",
+      "claim": "Tagged confirmation handler calls page-keyed system-message sendMail after a previously unconfirmed read; it does not establish exactly-once, provider receipt or safe suppression races.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-keila-welcome-20261004",
+      "source_type": "primary project current documentation",
+      "source_url": "https://www.keila.io/updates/welcome-emails/",
+      "claim": "Keila documents a post-DOI form welcome and download-link example; documentation does not establish this run’s image, licence, restore or provider outcome.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-listmonk-v620-confirmation-20261004",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/public.go#L318-L384",
+      "claim": "Inspected tagged confirmation path does not show a distinct post-confirmation welcome, so an external/manual handoff needs its own reviewed trigger and ledger.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-listmonk-v620-tx-20261004",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/cmd/tx.go#L73-L165",
+      "claim": "Transactional API is a send interface, not a welcome-specific consent, suppression or idempotency gate.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-listmonk-v620-campaign-20261004",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/campaigns.sql#L302-L355",
+      "claim": "Campaign query selects eligible recipients, not an ongoing per-confirmation one-attempt trigger.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "welcome-contract-phplist-autoresponder-20261004",
+      "source_type": "primary project current documentation",
+      "source_url": "https://resources.phplist.com/plugin/autoresponder",
+      "claim": "Delayed autoresponder work uses separate plugin, campaign and cron machinery; it was not tested against v3.6.16.",
+      "accessed_at": "2026-10-04T10:27:05Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

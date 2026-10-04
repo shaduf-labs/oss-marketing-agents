@@ -143,6 +143,17 @@
       "summary": "Source-only v3.6.16 audit: immediate page-keyed system confirmation message path in tagged handler; signup/editor, suppression, send outcome and recovery untested. Conditional research entry, not send-ready or shortlisted.",
       "report_path": "/p/oss-marketing-agents/reports/phplist-v3616-one-email-welcome-audit",
       "entrypoint": "reports/phplist-v3616-one-email-welcome-audit/index.html"
+    },
+    {
+      "run_id": "run:dc3cb71a-83fc-402b-a602-291a0863ef6d",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-04T10:00:00Z",
+      "completed_at": "2026-10-04T10:27:05Z",
+      "title": "Small-list welcome decision contract",
+      "summary": "Source-only decision synthesis for one small-list welcome: existing-sender evidence first, phpList/Keila private evaluation, Listmonk external handoff, and a durable consent-to-outcome record. No runtime test or send clearance.",
+      "report_path": "/p/oss-marketing-agents/reports/small-list-welcome-decision-contract",
+      "entrypoint": "reports/small-list-welcome-decision-contract/index.html"
     }
   ]
 }
