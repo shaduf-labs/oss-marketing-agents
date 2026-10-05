@@ -90,6 +90,12 @@
       "changed_at": "2026-10-04T10:27:05Z",
       "summary": "Added a task-first small-list welcome decision contract, a handoff-ledger diagram and one permanent Research record in List, Table and Calendar. Updated the home decision path and dated metadata. Source synthesis only; no send clearance or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/small-list-welcome-decision-contract"
+    },
+    {
+      "change_id": "ghost-v6630-publication-site-welcome-off-ramp",
+      "changed_at": "2026-10-05T10:00:00Z",
+      "summary": "Added a Ghost v6.63.0 source-only welcome audit as one permanent Research record in List, Table and Calendar. Existing publication-site route is conditional; delayed sequence beta is separate. No send clearance or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/ghost-v6630-publication-site-welcome-off-ramp"
     }
   ]
 }

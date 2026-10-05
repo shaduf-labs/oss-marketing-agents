@@ -154,6 +154,17 @@
       "summary": "Source-only decision synthesis for one small-list welcome: existing-sender evidence first, phpList/Keila private evaluation, Listmonk external handoff, and a durable consent-to-outcome record. No runtime test or send clearance.",
       "report_path": "/p/oss-marketing-agents/reports/small-list-welcome-decision-contract",
       "entrypoint": "reports/small-list-welcome-decision-contract/index.html"
+    },
+    {
+      "run_id": "run:ab76634f-c3d7-4703-9798-7046e13c0482",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-05T10:00:00Z",
+      "completed_at": "2026-10-05T10:00:00Z",
+      "title": "Ghost v6.63.0 publication-site welcome off-ramp",
+      "summary": "Source-only conditional route for an already-operated Ghost site; native one-message welcome triggers versus current beta sequence docs. No install, send, provider result, restore or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/ghost-v6630-publication-site-welcome-off-ramp",
+      "entrypoint": "reports/ghost-v6630-publication-site-welcome-off-ramp/index.html"
     }
   ]
 }

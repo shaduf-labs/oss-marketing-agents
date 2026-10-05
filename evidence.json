@@ -810,6 +810,87 @@
       "accessed_at": "2026-10-04T10:27:05Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-v6630-release",
+      "source_type": "primary project tagged release",
+      "source_url": "https://github.com/TryGhost/Ghost/releases/tag/v6.63.0",
+      "claim": "v6.63.0 is the pinned 8 September 2026 release, not necessarily the latest.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-v6630-member-trigger",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/TryGhost/Ghost/blob/v6.63.0/ghost/core/core/server/services/members/members-api/repositories/member-repository.js#L185-L275",
+      "claim": "Tagged member repository contains signup automation triggers and legacy welcome-run enqueue, not verified delivery or duplicate control.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-v6630-member-paths",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/TryGhost/Ghost/blob/v6.63.0/ghost/core/core/server/services/members/members-api/repositories/member-repository.js#L473-L515",
+      "claim": "Free-member create path triggers member signup; paid transition path is documented separately in the report.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-v6630-core-manifest",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/TryGhost/Ghost/blob/v6.63.0/ghost/core/package.json#L1-L43",
+      "claim": "Core manifest states v6.63.0, MIT and public publish config; packed distribution and all components were not inspected.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-current-welcome-help",
+      "source_type": "primary project living documentation",
+      "source_url": "https://ghost.org/help/welcome-emails/",
+      "claim": "Current help describes editable free and paid member welcomes and a test-send control; not exact-tag send proof.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-current-beta-help",
+      "source_type": "primary project living documentation",
+      "source_url": "https://ghost.org/help/automations-beta/",
+      "claim": "Beta help describes send/wait flows, one-way enabling and live-edit effects; exact-tag scheduler and recovery unverified.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-2026-sequence-launch",
+      "source_type": "primary project dated changelog",
+      "source_url": "https://ghost.org/changelog/email-sequences-for-new-members/",
+      "claim": "Dated June 2026 launch note documents member email sequences beta, superseding January forum context.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-current-config",
+      "source_type": "primary project living documentation",
+      "source_url": "https://ghost.org/docs/config/",
+      "claim": "Transactional member mail configuration is distinct from supported bulk newsletter Mailgun API operation.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghost-current-backup",
+      "source_type": "primary project living documentation",
+      "source_url": "https://ghost.org/docs/faq/manual-backup/",
+      "claim": "Backup guidance covers content and member export, not automation-run restore or non-replay.",
+      "accessed_at": "2026-10-05T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
