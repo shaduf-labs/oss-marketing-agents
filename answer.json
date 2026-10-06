@@ -22,7 +22,8 @@
     "The 2 October Listmonk v6.2.0 private DOI/suppression test did not run: pinned artifact, isolated runtime, local-only mail sink, egress proof and teardown were unavailable. A reproducible fictional-data test card was prepared; no observed behavior, send clearance or shortlist addition follows.",
     "The 3 October phpList v3.6.16 audit found a tagged call to sendMail for one immediate page-keyed system confirmation message after DOI, not a delayed welcome sequence. Current docs describe editable global/page copy; exact-tag signup/editor fallback, suppression, duplicate and provider outcome remain untested. Conditional research entry only.",
     "The 4 October small-list welcome decision contract separates DOI request, immediate welcome, ongoing campaign and delayed sequence. It puts the existing-sender evidence test first and maps consent, approval, suppression, attempt, provider outcome, duplicate hold and restore. No runtime, sink, provider or restore test occurred; no send clearance.",
-    "The 5 October Ghost v6.63.0 source audit found native member-signup welcome triggers and current help for free/paid welcome emails. Reuse is conditional on an already-operated publication site and a complete consent-to-recovery record; no install, send, provider or restore test occurred. Delayed sequences are an opt-in beta, not covered by the one-message finding."
+    "The 5 October Ghost v6.63.0 source audit found native member-signup welcome triggers and current help for free/paid welcome emails. Reuse is conditional on an already-operated publication site and a complete consent-to-recovery record; no install, send, provider or restore test occurred. Delayed sequences are an opt-in beta, not covered by the one-message finding.",
+    "The 6 October Marketing Agent OS one-skill installation test did not run. The intended pinned checkout was unreachable and a network-denied boundary could not be established. No skill or target was selected, no installer was executed, and no file effects were observed. No recommendation change."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -40,9 +41,10 @@
     "The Listmonk v6.2.0 confirmation/suppression matrix, read-only candidate selector, external attempt ledger, and controlled unsubscribe/confirm race remain untested. No installed-artifact digest, private app/database, local mail sink, egress proof or teardown was available on 2 October; /api/tx was not called.",
     "phpList v3.6.16 was not installed or used to submit a form or send mail. Tagged signup library and page editor/config fallback were not fetched; current docs do not prove exact-tag behavior. No package hash, runtime, sink, provider receipt, race, rejection or restore test was obtained. The confirmation handler clears the blacklist flag and uses an earlier confirmed read; exactly-once, safe suppression, secure downloads and delivery are not established.",
     "The 4 October decision is documentation/source synthesis, not an observed ranking. phpList exact-tag signup/editor, package, suppression and provider outcome; Keila licence/image, restore and SMTP outcomes; Listmonk supported trigger/idempotency or audited external ledger; and existing-sender records remain unverified. No product is send-ready.",
-    "Ghost v6.63.0 exact-tag signup/confirmation path, welcome/beta send adapter, duplicate claim, just-in-time suppression, provider result and automation-run restore were not verified. Current welcome and beta help are living documentation, not exact-tag proof. No package bytes, site, mail fixture, send or restore were checked; no send-ready or shortlist claim follows."
+    "Ghost v6.63.0 exact-tag signup/confirmation path, welcome/beta send adapter, duplicate claim, just-in-time suppression, provider result and automation-run restore were not verified. Current welcome and beta help are living documentation, not exact-tag proof. No package bytes, site, mail fixture, send or restore were checked; no send-ready or shortlist claim follows.",
+    "Marketing Agent OS one-skill dry-run, install, copied-file scope, hashes, file modes, repeat/collision behavior and teardown remain unobserved; the 6 October attempt stopped at pinned-checkout and network-isolation gates."
   ],
-  "checked_at": "2026-10-05T10:00:00Z",
-  "meaningfully_updated_at": "2026-10-05T10:00:00Z",
-  "freshness_note": "5 October 2026 Ghost v6.63.0 source-only publication-site welcome off-ramp; no runtime/send test or send clearance."
+  "checked_at": "2026-10-06T10:08:00Z",
+  "meaningfully_updated_at": "2026-10-06T10:08:00Z",
+  "freshness_note": "6 October 2026 Marketing Agent OS one-skill install test stopped at source and isolation gates; no installer result or recommendation change."
 }

@@ -891,6 +891,33 @@
       "accessed_at": "2026-10-05T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-install-pin-20261006",
+      "source_type": "primary project commit",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS/commit/adb39acf84ce8920bc6880218eba38f6648aa599",
+      "claim": "Intended immutable revision for the proposed one-skill test; not a verified local checkout on 6 October.",
+      "accessed_at": "2026-10-06T10:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-install-readme-20261006",
+      "source_type": "primary project README",
+      "source_url": "https://github.com/iamwaqargulzar/Marketing-Agent-OS",
+      "claim": "README documents selective --skill and --dry-run options; their pinned-revision behavior was not tested on 6 October.",
+      "accessed_at": "2026-10-06T10:08:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "marketing-agent-os-install-gate-record-20261006",
+      "source_type": "owner-authored test record",
+      "source_url": "https://shaduf.ai/p/oss-marketing-agents/reports/marketing-agent-os-one-skill-install-test-gate",
+      "claim": "Managed-workspace attempt stopped before installer execution: git ls-remote exited 128 after DNS failure, unshare -n exited 1, no checkout was present, and no file effects were observed.",
+      "accessed_at": "2026-10-06T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
     }
   ]
 }
