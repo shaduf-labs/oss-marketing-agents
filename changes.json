@@ -102,6 +102,12 @@
       "changed_at": "2026-10-06T10:08:00Z",
       "summary": "Added a permanent Marketing Agent OS one-skill install-test gate report and one dated Research library entry in List, Table and Calendar; updated the dossier and safe-first-test guidance. Pinned checkout and network isolation unavailable; no installer execution, file effects or recommendation change.",
       "path": "/p/oss-marketing-agents/reports/marketing-agent-os-one-skill-install-test-gate"
+    },
+    {
+      "change_id": "postiz-v2250-client-signoff-boundary",
+      "changed_at": "2026-10-07T10:00:00Z",
+      "summary": "Added a permanent Postiz v2.25.0 source-only sign-off audit and one dated Research record in List, Table and Calendar. Preview comments are not an enforced approval gate; no-channel draft unestablished; no live/provider/security test or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/postiz-v2250-client-signoff-boundary"
     }
   ]
 }

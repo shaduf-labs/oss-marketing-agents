@@ -176,6 +176,17 @@
       "summary": "No installer test: pinned checkout unreachable and network isolation unavailable. No target, file effects, safety proof or shortlist change.",
       "report_path": "/p/oss-marketing-agents/reports/marketing-agent-os-one-skill-install-test-gate",
       "entrypoint": "reports/marketing-agent-os-one-skill-install-test-gate/index.html"
+    },
+    {
+      "run_id": "run:d87d0bac-4d67-4da7-999f-e7412e6c3cca",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-07T10:00:00Z",
+      "completed_at": "2026-10-07T10:00:00Z",
+      "title": "Postiz v2.25.0 client sign-off boundary",
+      "summary": "Source-only audit: draft preview comments support feedback but no documented enforced approval gate; connected-channel prerequisite and self-hosted boundaries. No install, account connection, provider action, security test or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/postiz-v2250-client-signoff-boundary",
+      "entrypoint": "reports/postiz-v2250-client-signoff-boundary/index.html"
     }
   ]
 }

@@ -918,6 +918,96 @@
       "accessed_at": "2026-10-06T10:08:00Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "postiz-v2250-release",
+      "source_type": "primary project tagged release",
+      "source_url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.0",
+      "claim": "v2.25.0 release note includes inline, anonymous and resolved preview comments, agent preview URL and Prisma schema change.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-v2250-readme",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/gitroomhq/postiz-app/blob/v2.25.0/README.md",
+      "claim": "Tagged README identifies self-hosted edition and AGPL-3.0, distinct from managed Cloud obligations.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-approval",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/general/approvals.mdx",
+      "claim": "Approval guidance says preview URL is not password-protected and comments do not set a blocking approved flag.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-quickstart",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/general/quickstart.mdx",
+      "claim": "Quickstart connects and selects a channel before composing; does not establish a no-channel in-app draft.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-create-api",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/public-api/posts/create.mdx",
+      "claim": "Create-post API attaches drafts to an integration and accepts now, schedule and draft types.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-team",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/general/settings/team.mdx",
+      "claim": "Current role guidance gives User work on channels and posts; no reviewer-only hard approval role documented.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-architecture",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/self-host/architecture.mdx",
+      "claim": "Current architecture describes Temporal scheduled workflow and outbound provider activity; no runtime outcome observed.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-bluesky",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/self-host/providers/bluesky.mdx",
+      "claim": "Bluesky requires an app password but no provider developer-app environment key.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-current-post-actions",
+      "source_type": "primary project living documentation",
+      "source_url": "https://github.com/gitroomhq/postiz-docs/blob/main/general/posts/actions-and-stats.mdx",
+      "claim": "Provider may accept a post while Postiz misses its post ID; reconcile destination before manual retry.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-advisories",
+      "source_type": "primary project security advisory list",
+      "source_url": "https://github.com/gitroomhq/postiz-app/security/advisories",
+      "claim": "September advisories need exact deployed-image reconciliation; this source audit is not a vulnerability assessment.",
+      "accessed_at": "2026-10-07T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 210" role="img" aria-labelledby="title desc">
+  <title id="title">Postiz review and scheduling boundary</title>
+  <desc id="desc">A Postiz draft can be shared through an unlisted preview for comments. A separate agency sign-off record must be checked before an operator schedules; Postiz does not enforce the approval transition.</desc>
+  <rect width="760" height="210" rx="18" fill="#f5faf6"/>
+  <g font-family="system-ui,sans-serif" fill="#17372a">
+    <rect x="18" y="36" width="150" height="80" rx="13" fill="#e4f4ea" stroke="#8fbea4"/>
+    <text x="34" y="66" font-size="17" font-weight="700">Draft</text><text x="34" y="91" font-size="12">Connected test channel</text>
+    <path d="M174 76h40" stroke="#206a50" stroke-width="3"/><path d="m207 69 9 7-9 7" fill="none" stroke="#206a50" stroke-width="3"/>
+    <rect x="220" y="36" width="178" height="80" rx="13" fill="#e4f4ea" stroke="#8fbea4"/>
+    <text x="236" y="66" font-size="17" font-weight="700">Unlisted preview</text><text x="236" y="91" font-size="12">Comments, not approval</text>
+    <path d="M404 76h40" stroke="#bb7a14" stroke-width="3" stroke-dasharray="6 5"/><path d="m437 69 9 7-9 7" fill="none" stroke="#bb7a14" stroke-width="3"/>
+    <rect x="450" y="36" width="124" height="80" rx="13" fill="#fff0d2" stroke="#e0aa4c"/>
+    <text x="466" y="66" font-size="16" font-weight="700">External sign-off</text><text x="466" y="91" font-size="12">Agency-owned record</text>
+    <path d="M580 76h40" stroke="#206a50" stroke-width="3"/><path d="m613 69 9 7-9 7" fill="none" stroke="#206a50" stroke-width="3"/>
+    <rect x="626" y="36" width="116" height="80" rx="13" fill="#e4f4ea" stroke="#8fbea4"/>
+    <text x="640" y="66" font-size="17" font-weight="700">Schedule</text><text x="640" y="91" font-size="12">Operator action</text>
+    <path d="M220 144h522" stroke="#9b3940" stroke-width="2" stroke-dasharray="5 5"/>
+    <text x="220" y="170" font-size="13" font-weight="700" fill="#9b3940">No documented in-product gate prevents a permitted user or automation from scheduling.</text>
+  </g>
+</svg>
