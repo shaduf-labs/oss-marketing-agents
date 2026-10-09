@@ -114,6 +114,12 @@
       "changed_at": "2026-10-08T10:00:00Z",
       "summary": "Added a permanent Umami v3.4.0 tagged-newsletter UTM-to-signup measurement audit and one Research record in List, Table and Calendar. Post-click counts are distinct from delivery, verified accounts and causal ROI; no runtime test or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/umami-v340-newsletter-utm-signup-measurement-audit"
+    },
+    {
+      "change_id": "plausible-ce-v321-newsletter-utm-signup-measurement-audit",
+      "changed_at": "2026-10-09T10:00:00Z",
+      "summary": "Added permanent Plausible CE v3.2.1 tagged-source newsletter measurement audit and one Research record in List, Table and Calendar. Post-click analytics, edition/licence, operator and /storybook patch boundaries are explicit; no runtime test or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/plausible-ce-v321-newsletter-utm-signup-measurement-audit"
     }
   ]
 }

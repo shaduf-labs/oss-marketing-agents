@@ -1161,6 +1161,159 @@
       "accessed_at": "2026-10-08T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-v321-release",
+      "source_type": "primary project release notice",
+      "source_url": "https://github.com/plausible/analytics/releases/tag/v3.2.1",
+      "claim": "Release says v3.2.1 removes the /storybook endpoint and lists affected stable/rolling and prerelease tags.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-advisory",
+      "source_type": "primary project security advisory",
+      "source_url": "https://github.com/plausible/analytics/security/advisories/GHSA-mhcv-h7gf-57cf",
+      "claim": "CE images >=3 and <3.2.1 are affected when /storybook is reachable from a public or untrusted network; advisory describes possible unauthenticated code execution and response guidance.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-app-license",
+      "source_type": "primary project tagged licence",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/LICENSE.md",
+      "claim": "The v3.2.1 application licence contains AGPLv3 terms.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-tracker-license",
+      "source_type": "primary project tagged licence",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/tracker/npm_package/LICENSE.md",
+      "claim": "The tagged tracker package licence contains MIT terms.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-compose-license",
+      "source_type": "primary project tagged licence",
+      "source_url": "https://github.com/plausible/community-edition/blob/v3.2.1/LICENSE",
+      "claim": "The separate CE Compose repository licence contains MIT terms; it does not govern the application image.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-comparison",
+      "source_type": "primary project tagged README",
+      "source_url": "https://github.com/plausible/analytics/tree/v3.2.1",
+      "claim": "Tagged Cloud/CE comparison excludes marketing funnels, ecommerce revenue goals, SSO and sites API from CE and assigns operations to the CE operator.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-deploy",
+      "source_type": "primary project tagged README",
+      "source_url": "https://github.com/plausible/community-edition/tree/v3.2.1",
+      "claim": "Matching CE deployment README documents prerequisites, environment, HTTPS/reverse proxy and first-user setup.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-compose",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/plausible/community-edition/blob/v3.2.1/compose.yml",
+      "claim": "Tagged Compose file uses Plausible v3.2.1 image with PostgreSQL 16 Alpine and ClickHouse 24.12 Alpine and persistent volumes.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-tracker-track",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/tracker/src/track.js",
+      "claim": "Tagged tracker sends current URL and referrer and permits named custom events/properties.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-tracker-auto",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/tracker/src/autocapture.js",
+      "claim": "Tagged autocapture invokes pageview tracking.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ingestion-request",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/lib/plausible/ingestion/request.ex",
+      "claim": "Tagged request ingestion parses URL query fields.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ingestion-event",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/lib/plausible/ingestion/event.ex",
+      "claim": "Tagged event ingestion assigns UTM session attributes and contains an edition-specific revenue boundary.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ingestion-source",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/plausible/analytics/v3.2.1/lib/plausible/ingestion/source.ex",
+      "claim": "Tagged source classifier prioritizes UTM source over referrer and formats valid referrer host/path without query.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-campaign-docs",
+      "source_type": "primary project living documentation",
+      "source_url": "https://plausible.io/docs/top-referrers",
+      "claim": "Campaign guide documents UTM breakdowns and last-click source credit, not causal lift.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-custom-event-docs",
+      "source_type": "primary project living documentation",
+      "source_url": "https://plausible.io/docs/custom-event-goals",
+      "claim": "Manual named custom events and exact-match goal setup are documented; goals do not retroactively backfill events.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-metrics-docs",
+      "source_type": "primary project living documentation",
+      "source_url": "https://plausible.io/docs/metrics-definitions",
+      "claim": "Goal conversion rate uses unique conversions divided by unique visitors under filters; visitors are not uniquely identified people across devices/days.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-query-docs",
+      "source_type": "primary project living documentation",
+      "source_url": "https://plausible.io/docs/custom-query-params",
+      "claim": "Ordinary query strings are stripped from dashboard page paths; this does not mean raw URL never reaches endpoint or logs.",
+      "accessed_at": "2026-10-09T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

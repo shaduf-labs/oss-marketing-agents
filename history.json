@@ -198,6 +198,17 @@
       "summary": "Tagged-source and current-doc audit of newsletter UTM page views, a separate signup-confirmed event, goals and attribution. No instance, message, browser test, verified signup, ROI or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/umami-v340-newsletter-utm-signup-measurement-audit",
       "entrypoint": "reports/umami-v340-newsletter-utm-signup-measurement-audit/index.html"
+    },
+    {
+      "run_id": "run:ab4522c1-41fc-49fc-ae27-5b47780a72da",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-09T10:00:00Z",
+      "completed_at": "2026-10-09T10:00:00Z",
+      "title": "Plausible CE v3.2.1 newsletter UTM-to-signup measurement audit",
+      "summary": "Tagged-source and current-doc audit of generic newsletter UTMs, pageviews, a separate signup event and goal rate, with CE/Cloud, licence, two-database and /storybook patch boundaries. No instance, browser test, verified signup, ROI or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/plausible-ce-v321-newsletter-utm-signup-measurement-audit",
+      "entrypoint": "reports/plausible-ce-v321-newsletter-utm-signup-measurement-audit/index.html"
     }
   ]
 }
