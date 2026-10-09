@@ -64,3 +64,5 @@
 [data-agent-document] .ossm-route li { counter-increment:route; position:relative; padding:.9rem 1rem .9rem 3.4rem; border-left:3px solid #57a280; background:#f6faf7; line-height:1.55; }
 [data-agent-document] .ossm-route li::before { content:counter(route); position:absolute; left:.75rem; top:.9rem; display:grid; place-items:center; width:1.9rem; height:1.9rem; border-radius:50%; background:#176b53; color:#fff; font-weight:800; }
 [data-agent-document] .ossm-route strong, [data-agent-document] .ossm-route span { display:block; }
+
+[data-agent-document] code { overflow-wrap:anywhere; }

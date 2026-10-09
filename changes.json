@@ -108,6 +108,12 @@
       "changed_at": "2026-10-07T10:00:00Z",
       "summary": "Added a permanent Postiz v2.25.0 source-only sign-off audit and one dated Research record in List, Table and Calendar. Preview comments are not an enforced approval gate; no-channel draft unestablished; no live/provider/security test or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/postiz-v2250-client-signoff-boundary"
+    },
+    {
+      "change_id": "umami-v340-newsletter-utm-signup-measurement-audit",
+      "changed_at": "2026-10-08T10:00:00Z",
+      "summary": "Added a permanent Umami v3.4.0 tagged-newsletter UTM-to-signup measurement audit and one Research record in List, Table and Calendar. Post-click counts are distinct from delivery, verified accounts and causal ROI; no runtime test or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/umami-v340-newsletter-utm-signup-measurement-audit"
     }
   ]
 }

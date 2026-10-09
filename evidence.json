@@ -1008,6 +1008,159 @@
       "accessed_at": "2026-10-07T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-v340-release",
+      "source_type": "primary project tagged release",
+      "source_url": "https://github.com/umami-software/umami/releases/tag/v3.4.0",
+      "claim": "v3.4.0 is the tagged application baseline released 17 September 2026.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-v340-license",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/umami-software/umami/blob/v3.4.0/LICENSE",
+      "claim": "Root LICENSE contains MIT terms for the tagged repository application.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-v340-manifest",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/umami-software/umami/blob/v3.4.0/package.json",
+      "claim": "Tagged package manifest declares version 3.4.0 and MIT licence.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-campaign-guide",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/guides/measure-campaigns",
+      "claim": "Sender delivery metrics and on-site campaign measurement are separate systems joined by tagged URLs.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-tracker-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/umami-software/umami/blob/v3.4.0/src/tracker/index.ts",
+      "claim": "Tracker includes current URL and referrer and automatically sends page views; query data can enter collection.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-collector-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/umami-software/umami/v3.4.0/src/app/api/send/route.ts",
+      "claim": "Collector parses UTM fields and URL/referrer query strings, stores named events and derives hash-based session and visit IDs.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-utm-query-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/umami-software/umami/v3.4.0/src/queries/sql/utm/getUTM.ts",
+      "claim": "Tagged UTM breakdown selects page-view records; these views are not event, recipient or customer counts.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-stats-query-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/umami-software/umami/v3.4.0/src/queries/sql/getWebsiteStats.ts",
+      "claim": "Website stats count distinct session and visit IDs rather than identifiable people.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-metrics",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/metric-definitions",
+      "claim": "Metric definitions describe UTM fields, hash-derived visitors and shorter visit windows.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-events",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/track-events",
+      "claim": "Custom named events can be sent from a site; a browser event does not verify an account. Email-valued property example is a privacy hazard.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-goals",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/goals",
+      "claim": "Goals are visitor proportions reaching a selected page or event in a date range.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-attribution",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/attribution",
+      "claim": "First- and last-click models assign credit for a selected outcome, not causal lift.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-config",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/tracker-configuration",
+      "claim": "Tracker supports search-parameter exclusion and before-send hook; selective scrubbing must retain intended UTM values.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-install",
+      "source_type": "primary project living documentation",
+      "source_url": "https://docs.umami.is/docs/install",
+      "claim": "Node/PostgreSQL prerequisites and initial credentials are documented; installation was not tested.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-compose-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://github.com/umami-software/umami/blob/v3.4.0/docker-compose.yml",
+      "claim": "Tagged Compose example nevertheless uses latest app image, requiring a separately pinned deployment for reproducibility.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-replay-advisory",
+      "source_type": "primary project security advisory",
+      "source_url": "https://github.com/umami-software/umami/security/advisories/GHSA-3xx8-742v-m4mq",
+      "claim": "Advisory metadata says latest affected/no patch; tagged source suggests a specific token-type mitigation, not an exploit test.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "umami-auth-v340",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/umami-software/umami/v3.4.0/src/lib/auth.ts",
+      "claim": "Tagged share-token type check is source-level evidence for specific replay mitigation, not general security clearance.",
+      "accessed_at": "2026-10-08T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

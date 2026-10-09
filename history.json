@@ -187,6 +187,17 @@
       "summary": "Source-only audit: draft preview comments support feedback but no documented enforced approval gate; connected-channel prerequisite and self-hosted boundaries. No install, account connection, provider action, security test or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/postiz-v2250-client-signoff-boundary",
       "entrypoint": "reports/postiz-v2250-client-signoff-boundary/index.html"
+    },
+    {
+      "run_id": "run:526fcdfe-6492-4285-9726-717ea801a1dd",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-08T10:00:00Z",
+      "completed_at": "2026-10-08T10:00:00Z",
+      "title": "Umami v3.4.0 newsletter UTM-to-signup measurement audit",
+      "summary": "Tagged-source and current-doc audit of newsletter UTM page views, a separate signup-confirmed event, goals and attribution. No instance, message, browser test, verified signup, ROI or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/umami-v340-newsletter-utm-signup-measurement-audit",
+      "entrypoint": "reports/umami-v340-newsletter-utm-signup-measurement-audit/index.html"
     }
   ]
 }
