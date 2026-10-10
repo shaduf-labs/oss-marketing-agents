@@ -120,6 +120,12 @@
       "changed_at": "2026-10-09T10:00:00Z",
       "summary": "Added permanent Plausible CE v3.2.1 tagged-source newsletter measurement audit and one Research record in List, Table and Calendar. Post-click analytics, edition/licence, operator and /storybook patch boundaries are explicit; no runtime test or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/plausible-ce-v321-newsletter-utm-signup-measurement-audit"
+    },
+    {
+      "change_id": "siteone-v251-five-page-promotion-audit",
+      "changed_at": "2026-10-10T10:00:00Z",
+      "summary": "Added permanent SiteOne v2.5.1 five-page promotion source audit and one record in Research List, Table and Calendar. Manual review first; crawl only with owner authorization and external exact-scope guard. No runtime test or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/siteone-v251-five-page-promotion-audit"
     }
   ]
 }

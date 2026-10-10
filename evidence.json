@@ -1314,6 +1314,87 @@
       "accessed_at": "2026-10-09T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-release-list",
+      "source_type": "primary project release list",
+      "source_url": "https://github.com/janreges/siteone-crawler/releases",
+      "claim": "v2.5.1 was marked Latest when checked.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-release",
+      "source_type": "primary project tagged release",
+      "source_url": "https://github.com/janreges/siteone-crawler/releases/tag/v2.5.1",
+      "claim": "The 27 June 2026 release points to short commit 12b4916 and describes browser/AI support in prebuilt binaries.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-manifest",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/Cargo.toml",
+      "claim": "Tagged manifest sets version 2.5.1 and MIT repository licence.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-license",
+      "source_type": "primary project tagged licence",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/LICENSE",
+      "claim": "Tagged repository licence contains MIT terms; component and service terms are separate.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-readme",
+      "source_type": "primary project tagged README",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/README.md",
+      "claim": "Documents inventory/report formats and CLI behavior, including URL-list bypass, resource settings, browser rendering, optional AI and upload.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-json-output",
+      "source_type": "primary project tagged specification",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/docs/JSON-OUTPUT.md",
+      "claim": "JSON rows include 404 and redirect source links plus title, description and indexing fields.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-v251-seo-analyzer",
+      "source_type": "primary project tagged source",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/src/analysis/seo_opengraph_analyzer.rs",
+      "claim": "Canonical mismatch checks host rather than full path, and site-wide noindex critical requires at least ten pages.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-audit-report-doc",
+      "source_type": "primary project living documentation",
+      "source_url": "https://crawler.siteone.io/features/audit-report/",
+      "claim": "Current audit-report page uses broader indexability wording than the narrow tagged analyzer finding.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "lighthouse-cli-doc",
+      "source_type": "primary project documentation",
+      "source_url": "https://github.com/GoogleChrome/lighthouse#using-the-node-cli",
+      "claim": "Official Lighthouse CLI accepts a URL and writes a page report; it is not a whole-site link crawler.",
+      "accessed_at": "2026-10-10T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
