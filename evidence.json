@@ -1395,6 +1395,87 @@
       "accessed_at": "2026-10-10T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-release",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/releases/tag/1.10.6",
+      "claim": "1.10.6 release says version-string correction from 1.10.5-dev, otherwise same code as 1.10.5.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-license",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/LICENSE",
+      "claim": "Tagged YOURLS core is MIT licensed.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-create",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/includes/functions-shorturls.php#L1632-L1841",
+      "claim": "Add-link checks URL and keyword, inserts record; duplicate long URL and keyword collisions are distinct.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-edit",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/includes/functions-shorturls.php#L2155-L2269",
+      "claim": "Tagged core edit updates target, keyword and title directly without pending approval or prior-target ledger in the inspected path.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-go",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/yourls-go.php#L248-L290",
+      "claim": "Go path redirects stored URL with 301 and routes unknown keyword to site root with 302.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-redirect",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/includes/functions.php#L2722-L2795",
+      "claim": "Redirect path uses stored target; 301 caching concern is an inference, not observed runtime.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-logging",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/blob/1.10.6/includes/functions.php#L3160-L3235",
+      "claim": "Detailed log can store referrer, user agent, IP and country; redirect attempts do not prove outcomes.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-config",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://yourls.org/docs/guide/essentials/configuration",
+      "claim": "Living docs explain private/API/stats options, unique URLs and secret cookie key.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "yourls-v1106-security",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/YOURLS/YOURLS/security/advisories/GHSA-5rjp-2vrp-g6q8",
+      "claim": "Official Docker image cookie-key advisory lists 1.10.5 patched; deployed image still needs assessment.",
+      "accessed_at": "2026-10-11T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

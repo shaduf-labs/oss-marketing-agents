@@ -126,6 +126,12 @@
       "changed_at": "2026-10-10T10:00:00Z",
       "summary": "Added permanent SiteOne v2.5.1 five-page promotion source audit and one record in Research List, Table and Calendar. Manual review first; crawl only with owner authorization and external exact-scope guard. No runtime test or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/siteone-v251-five-page-promotion-audit"
+    },
+    {
+      "change_id": "yourls-v1106-one-campaign-link-governance-audit",
+      "changed_at": "2026-10-11T10:00:00Z",
+      "summary": "Added permanent YOURLS 1.10.6 source audit and one Research List, Table and Calendar record. Direct approved URL first; private redirect requires separate approval and rollback ledger. 301 cache and click/outcome limits explicit. No runtime test or shortlist addition.",
+      "path": "/p/oss-marketing-agents/reports/yourls-v1106-one-campaign-link-governance-audit"
     }
   ]
 }

@@ -220,6 +220,17 @@
       "summary": "Manual five-route review is the off-ramp. A SiteOne inventory is conditional on explicit owner permission and external exact host/path guard. URL-list bypass, five-page noindex alert limit, browser-download and outbound boundaries are explicit. Source-only; no crawl or runtime test.",
       "report_path": "/p/oss-marketing-agents/reports/siteone-v251-five-page-promotion-audit",
       "entrypoint": "reports/siteone-v251-five-page-promotion-audit/index.html"
+    },
+    {
+      "run_id": "run:d92b0ee2-77c6-405e-b426-2118f563dcb8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-11T10:00:00Z",
+      "completed_at": "2026-10-11T10:00:00Z",
+      "title": "YOURLS 1.10.6 one-campaign-link governance audit",
+      "summary": "Tagged-source and living-doc audit: direct URL off-ramp, private redirect controls, missing built-in second approval/rollback, 301 cache and click/outcome distinction. No live redirect or runtime test; no shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/yourls-v1106-one-campaign-link-governance-audit",
+      "entrypoint": "reports/yourls-v1106-one-campaign-link-governance-audit/index.html"
     }
   ]
 }
