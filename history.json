@@ -242,6 +242,17 @@
       "summary": "Fact card and human checklist first; tiny script for recurring rules, promptfoo for a repeatable matrix only after an isolated pinned trial. No eval, copy approval or shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/promptfoo-v01241-ai-campaign-copy-qa-audit",
       "entrypoint": "reports/promptfoo-v01241-ai-campaign-copy-qa-audit/index.html"
+    },
+    {
+      "run_id": "run:01846bfc-556f-415c-9f89-1d4eb453e42e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-13T10:00:00Z",
+      "completed_at": "2026-10-13T10:00:00Z",
+      "title": "ResourceSpace one-image DAM decision",
+      "summary": "Folder/register and three-placement ledger first; manifest/script and ResourceSpace compared. Expiry field warning-only; optional plugin/cron state changes do not act on external copies. Source-only, no fixed 11.0 artifact or install.",
+      "report_path": "/p/oss-marketing-agents/reports/resourcespace-one-image-dam-decision",
+      "entrypoint": "reports/resourcespace-one-image-dam-decision/index.html"
     }
   ]
 }

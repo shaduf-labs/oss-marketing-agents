@@ -1548,6 +1548,96 @@
       "accessed_at": "2026-10-13T09:30:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-versions",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/versions",
+      "claim": "Vendor listed 11.0 dated 29 June 2026; this did not provide an immutable inspected package.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-expiry",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/resourceadmin/expiry-date",
+      "claim": "Standalone expiry field guide describes a visual warning, recoverable download options and a separately scheduled notification script.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-actiondates",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/plugins/actiondates",
+      "claim": "Optional action dates can change state/access/collections and depend on configured daily cron.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-license-manager",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/plugins/license-manager",
+      "claim": "Optional linked licence records can warn and optionally change workflow state on expiry when configured.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-consent-manager",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/plugins/consent-manager",
+      "claim": "Optional consent records can link to assets and support configured expiry handling; records do not validate legal scope.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-status",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/user/resource-status-and-access",
+      "claim": "Status and access govern DAM availability, not copies already exported.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-version-control",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/user/version-control",
+      "claim": "Internal version logs and revert do not update external publication destinations.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-licence",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://github.com/resourcespace/resourcespace/blob/master/documentation/licenses/resourcespace.txt",
+      "claim": "Repository master code licence sets software redistribution terms; it does not grant image-use rights.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-requirements",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/systemadmin/general_requirements",
+      "claim": "Self-hosting requires web server, PHP and MySQL/MariaDB stack.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "resourcespace-backup",
+      "source_type": "primary vendor documentation or repository notice",
+      "source_url": "https://www.resourcespace.com/knowledge-base/systemadmin/backup",
+      "claim": "Operator backup scope includes database, application/configuration and filestore.",
+      "accessed_at": "2026-10-13T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
