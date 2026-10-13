@@ -1476,6 +1476,78 @@
       "accessed_at": "2026-10-11T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-release",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/promptfoo/promptfoo/releases/tag/0.124.1",
+      "claim": "0.124.1 release dated 8 October; notes mention security dependency patches.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-package",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/promptfoo/promptfoo/blob/0.124.1/package.json",
+      "claim": "Tagged package metadata gives MIT and Node >=22.22.0.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-eval-source",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/promptfoo/promptfoo/blob/0.124.1/src/commands/eval.ts",
+      "claim": "Tagged eval CLI exposes assertions and precomputed model-outputs options and local-output controls.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-direct-assertions",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://www.promptfoo.dev/docs/configuration/expected-outputs/#running-assertions-directly-on-outputs",
+      "claim": "Living official documentation shows assertions against existing JSON outputs.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-telemetry",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/promptfoo/promptfoo/blob/0.124.1/site/docs/configuration/telemetry.md",
+      "claim": "Tagged docs describe default metadata telemetry and npm update check.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-optout-source",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/0.124.1/src/telemetry.ts",
+      "claim": "Tagged source shows potential one-time telemetry-disabled event; opt-out flags alone do not prove zero egress.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-security",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/promptfoo/promptfoo/blob/0.124.1/SECURITY.md",
+      "claim": "Tagged policy treats configurations and referenced scripts as trusted code running with user permissions.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "promptfoo-v01241-install",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://www.promptfoo.dev/docs/installation/",
+      "claim": "Current docs describe local config, history and cache paths.",
+      "accessed_at": "2026-10-13T09:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

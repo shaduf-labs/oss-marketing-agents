@@ -132,6 +132,12 @@
       "changed_at": "2026-10-11T10:00:00Z",
       "summary": "Added permanent YOURLS 1.10.6 source audit and one Research List, Table and Calendar record. Direct approved URL first; private redirect requires separate approval and rollback ledger. 301 cache and click/outcome limits explicit. No runtime test or shortlist addition.",
       "path": "/p/oss-marketing-agents/reports/yourls-v1106-one-campaign-link-governance-audit"
+    },
+    {
+      "change_id": "promptfoo-v01241-ai-campaign-copy-qa-audit",
+      "changed_at": "2026-10-13T09:30:00Z",
+      "summary": "Added permanent promptfoo 0.124.1 AI campaign copy-QA source audit and one record in Research List, Table and Calendar. Checklist/script off-ramps, data/network/code boundaries and human approval are explicit; no eval or copy approval.",
+      "path": "/p/oss-marketing-agents/reports/promptfoo-v01241-ai-campaign-copy-qa-audit"
     }
   ]
 }

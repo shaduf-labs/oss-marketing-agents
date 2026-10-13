@@ -231,6 +231,17 @@
       "summary": "Tagged-source and living-doc audit: direct URL off-ramp, private redirect controls, missing built-in second approval/rollback, 301 cache and click/outcome distinction. No live redirect or runtime test; no shortlist addition.",
       "report_path": "/p/oss-marketing-agents/reports/yourls-v1106-one-campaign-link-governance-audit",
       "entrypoint": "reports/yourls-v1106-one-campaign-link-governance-audit/index.html"
+    },
+    {
+      "run_id": "run:cc051490-ee35-4d99-a909-aafda4aad428",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-12T10:00:00Z",
+      "completed_at": "2026-10-13T09:30:00Z",
+      "title": "promptfoo 0.124.1 AI campaign copy-QA source audit",
+      "summary": "Fact card and human checklist first; tiny script for recurring rules, promptfoo for a repeatable matrix only after an isolated pinned trial. No eval, copy approval or shortlist addition.",
+      "report_path": "/p/oss-marketing-agents/reports/promptfoo-v01241-ai-campaign-copy-qa-audit",
+      "entrypoint": "reports/promptfoo-v01241-ai-campaign-copy-qa-audit/index.html"
     }
   ]
 }
