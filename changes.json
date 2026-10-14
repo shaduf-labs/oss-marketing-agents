@@ -144,6 +144,12 @@
       "changed_at": "2026-10-13T10:00:00Z",
       "summary": "Added a ResourceSpace 11.0 source-only one-image DAM decision, rights/placement diagram and one Research List/Table/Calendar entry. Folder/register/ledger first; expiry warning versus configured plugin/cron action and external-copy duties explicit. No immutable artifact or install.",
       "path": "/p/oss-marketing-agents/reports/resourcespace-one-image-dam-decision"
+    },
+    {
+      "change_id": "weblate-localized-offer-release-control",
+      "changed_at": "2026-10-14T10:59:00Z",
+      "summary": "Added localized-offer release-control report, six-placement stop/go visual and one permanent Research List/Table/Calendar record. Bilingual register first; Weblate 2026.10.1 release and versioned documentation only, no tagged-code or runtime test.",
+      "path": "/p/oss-marketing-agents/reports/weblate-localized-offer-release-control"
     }
   ]
 }

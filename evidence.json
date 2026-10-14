@@ -1638,6 +1638,105 @@
       "accessed_at": "2026-10-13T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-2026-10-1-release",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://github.com/WeblateOrg/weblate/releases",
+      "claim": "Release view listed Weblate 2026.10.1 with signed tag and linked commit; neither tree nor signature was independently verified.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-2026-10-1-changes",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/changes.html",
+      "claim": "Versioned change log lists 2026.10.1 security fixes and push-after-translation-commit option.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-formats",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/formats.html",
+      "claim": "Components use supported translation file formats; format and source-update choices matter.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-integration",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/devel/integration.html",
+      "claim": "String extraction and some source/PO update steps occur outside Weblate.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-gettext",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/formats/gettext.html",
+      "claim": "PO previous-source and fuzzy information depend on generation and merge workflow.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-html",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/formats/html.html",
+      "claim": "Direct HTML translations are Weblate-source-of-truth and do not prove arbitrary ESP template round-trip.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-workflows",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/workflows.html",
+      "claim": "Review states and approved-only output filtering govern translation workflow but do not approve campaign facts or channels.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-access",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/admin/access.html",
+      "claim": "Review strings permission and access controls are separate from channel release authority.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-continuous",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/admin/continuous.html",
+      "claim": "Save, commit and push are distinct from merge, channel export and release.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-backup",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/admin/backup.html",
+      "claim": "Complete instance recovery covers more than project archives; database and file/key scope require an operator.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "weblate-license",
+      "source_type": "primary project release or versioned documentation",
+      "source_url": "https://docs.weblate.org/en/weblate-2026.10.1/contributing/license.html",
+      "claim": "Core software licence and separately licensed modules do not grant rights to campaign copy or translation work.",
+      "accessed_at": "2026-10-14T10:59:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

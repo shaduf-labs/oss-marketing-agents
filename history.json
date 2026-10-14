@@ -253,6 +253,17 @@
       "summary": "Folder/register and three-placement ledger first; manifest/script and ResourceSpace compared. Expiry field warning-only; optional plugin/cron state changes do not act on external copies. Source-only, no fixed 11.0 artifact or install.",
       "report_path": "/p/oss-marketing-agents/reports/resourcespace-one-image-dam-decision",
       "entrypoint": "reports/resourcespace-one-image-dam-decision/index.html"
+    },
+    {
+      "run_id": "report-5874d67d05a73ace8e0b09d9",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-14T10:59:00Z",
+      "completed_at": "2026-10-14T10:59:00Z",
+      "title": "Localized offer and CTA release-control decision",
+      "summary": "Approved source card and bilingual placement register first; separate language, fact and destination release receipts. Weblate 2026.10.1 release/versioned documentation only; no tagged-code or runtime test.",
+      "report_path": "/p/oss-marketing-agents/reports/weblate-localized-offer-release-control",
+      "entrypoint": "reports/weblate-localized-offer-release-control/index.html"
     }
   ]
 }
