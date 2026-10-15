@@ -264,6 +264,17 @@
       "summary": "Approved source card and bilingual placement register first; separate language, fact and destination release receipts. Weblate 2026.10.1 release/versioned documentation only; no tagged-code or runtime test.",
       "report_path": "/p/oss-marketing-agents/reports/weblate-localized-offer-release-control",
       "entrypoint": "reports/weblate-localized-offer-release-control/index.html"
+    },
+    {
+      "run_id": "report-151832d18d4c46d6881eff5e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-15T10:00:00Z",
+      "completed_at": "2026-10-15T10:12:31Z",
+      "title": "Campaign calendar to destination receipts",
+      "summary": "Existing calendar plus versioned receipt ledger first; Vikunja v2.7.0 coordinates repeated handoffs but does not prove channel state. Fictional exceptions; tagged-source and living-help audit only.",
+      "report_path": "/p/oss-marketing-agents/reports/vikunja-v270-campaign-calendar-receipt-ledger",
+      "entrypoint": "reports/vikunja-v270-campaign-calendar-receipt-ledger/index.html"
     }
   ]
 }

@@ -150,6 +150,12 @@
       "changed_at": "2026-10-14T10:59:00Z",
       "summary": "Added localized-offer release-control report, six-placement stop/go visual and one permanent Research List/Table/Calendar record. Bilingual register first; Weblate 2026.10.1 release and versioned documentation only, no tagged-code or runtime test.",
       "path": "/p/oss-marketing-agents/reports/weblate-localized-offer-release-control"
+    },
+    {
+      "change_id": "vikunja-v270-campaign-calendar-receipt-ledger",
+      "changed_at": "2026-10-15T10:12:31Z",
+      "summary": "Added campaign calendar-to-destination-receipt audit, planned-versus-observed visual and one dated Research List/Table/Calendar record. Calendar and ledger first; Vikunja v2.7.0 is source-only coordination, not a channel proof or installed test.",
+      "path": "/p/oss-marketing-agents/reports/vikunja-v270-campaign-calendar-receipt-ledger"
     }
   ]
 }

@@ -1737,6 +1737,105 @@
       "accessed_at": "2026-10-14T10:59:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-release",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.7.0",
+      "claim": "Release page identifies v2.7.0, date, signed tag and listed assets; assets were not downloaded or signature-verified.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-license",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://github.com/go-vikunja/vikunja/blob/v2.7.0/LICENSE",
+      "claim": "Tagged application licence identifies AGPL-3.0-or-later; scope does not establish rights to campaign content or hosted services.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-task-model",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://raw.githubusercontent.com/go-vikunja/vikunja/v2.7.0/pkg/models/tasks.go",
+      "claim": "Tagged Task fields support assignment, dates, reminders and comments but lack dedicated destination receipt and approval fields.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-webhook-model",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://raw.githubusercontent.com/go-vikunja/vikunja/v2.7.0/pkg/models/webhooks.go",
+      "claim": "Tagged webhook code sends a Vikunja event POST, not an external channel result.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-views",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/help/views/",
+      "claim": "Current help describes task views; living documentation is not pinned to v2.7.0.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-permissions",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/help/permissions/",
+      "claim": "Current help distinguishes Read, Read & Write and Admin project permissions.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-sharing",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/help/sharing-and-teams/",
+      "claim": "Link shares may allow access without named account and can grant writing rights; not an approval identity.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-webhooks-help",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/help/webhooks/",
+      "claim": "Current help describes optional HMAC and one-shot webhook delivery without retry.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-pro",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/docs/pro/",
+      "claim": "Current Pro docs describe audit logs and licence check/caching separately from the AGPL core.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-install",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/docs/installing/",
+      "claim": "Current install guide describes deployment and operations; its v2.7.1 signing statement does not prove v2.7.0 artifact provenance.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vikunja-v270-backup",
+      "source_type": "primary project tagged source or current documentation",
+      "source_url": "https://vikunja.io/docs/what-to-backup/",
+      "claim": "Backup guide calls for database and attachments, not just a user export.",
+      "accessed_at": "2026-10-15T10:12:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
