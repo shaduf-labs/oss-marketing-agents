@@ -275,6 +275,17 @@
       "summary": "Existing calendar plus versioned receipt ledger first; Vikunja v2.7.0 coordinates repeated handoffs but does not prove channel state. Fictional exceptions; tagged-source and living-help audit only.",
       "report_path": "/p/oss-marketing-agents/reports/vikunja-v270-campaign-calendar-receipt-ledger",
       "entrypoint": "reports/vikunja-v270-campaign-calendar-receipt-ledger/index.html"
+    },
+    {
+      "run_id": "report-d737bd88cbac1fd73f2b9c13",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-16T10:00:00Z",
+      "completed_at": "2026-10-16T10:08:00Z",
+      "title": "Two-newsletter migration and suppression parity",
+      "summary": "Existing service repair first; tagged Listmonk v6.2.0 selection and import paths require external no-send holds, collision control and row-level parity. Nine fictional contacts; no migration or send test.",
+      "report_path": "/p/oss-marketing-agents/reports/two-newsletters-listmonk-v620-migration-suppression-audit",
+      "entrypoint": "reports/two-newsletters-listmonk-v620-migration-suppression-audit/index.html"
     }
   ]
 }

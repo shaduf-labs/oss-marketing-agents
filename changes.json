@@ -156,6 +156,12 @@
       "changed_at": "2026-10-15T10:12:31Z",
       "summary": "Added campaign calendar-to-destination-receipt audit, planned-versus-observed visual and one dated Research List/Table/Calendar record. Calendar and ledger first; Vikunja v2.7.0 is source-only coordination, not a channel proof or installed test.",
       "path": "/p/oss-marketing-agents/reports/vikunja-v270-campaign-calendar-receipt-ledger"
+    },
+    {
+      "change_id": "two-newsletters-listmonk-v620-migration-suppression-audit",
+      "changed_at": "2026-10-16T10:08:00Z",
+      "summary": "Added two-newsletter no-send state and Listmonk v6.2.0 import/selection audit, fictional nine-contact reconciliation, and one dated Research List/Table/Calendar record. Existing ESP repair first; source-only, no migration or send.",
+      "path": "/p/oss-marketing-agents/reports/two-newsletters-listmonk-v620-migration-suppression-audit"
     }
   ]
 }

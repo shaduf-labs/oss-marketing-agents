@@ -1836,6 +1836,114 @@
       "accessed_at": "2026-10-15T10:12:31Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-campaign-selection",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/campaigns.sql#L302-L355",
+      "claim": "Tagged regular-campaign selection excludes blocklisted global rows; single-opt-in selection can include unconfirmed per-list rows.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-campaign-count",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/campaigns.sql#L193-L205",
+      "claim": "Tagged count query supports the same scoped selection reading.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-importer",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/internal/subimporter/importer.go#L84-L94",
+      "claim": "Import overwrite maps to user-info and subscription-status flags; selected status applies per import session.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-upsert",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/subscribers.sql#L107-L141",
+      "claim": "Email-keyed upsert can overwrite existing per-list status or add missing association depending on flags.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-schema",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://raw.githubusercontent.com/knadh/listmonk/v6.2.0/schema.sql",
+      "claim": "Subscriber global and per-list status are separate schema fields.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-migration-release",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://github.com/knadh/listmonk/releases/tag/v6.2.0",
+      "claim": "Pinned release anchor; assets listed, not downloaded or verified.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailchimp-export",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://mailchimp.com/help/view-export-contacts/",
+      "claim": "Contact export help identifies types and certain permission fields while omitting signup source and complete update history.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailchimp-unsubscribe",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://mailchimp.com/help/about-unsubscribes/",
+      "claim": "Mailchimp describes independent audience unsubscribe scopes.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-import-api",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://listmonk.app/docs/apis/import/",
+      "claim": "Living import API wording is less specific than tagged upsert behavior for existing records and missing list associations.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-subscriber-handler",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://raw.githubusercontent.com/knadh/listmonk/v6.2.0/cmd/subscribers.go",
+      "claim": "Tagged subscriber handler distinguishes PUT replacement from PATCH omission for lists.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-public-handler",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://raw.githubusercontent.com/knadh/listmonk/v6.2.0/cmd/public.go",
+      "claim": "Tagged public preference path has separate list visibility and unsubscribe behavior.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "keila-contact-import",
+      "source_type": "primary project tagged source or official documentation",
+      "source_url": "https://www.keila.io/docs/contacts/",
+      "claim": "Living Keila docs describe duplicate replacement checkbox, not full two-newsletter suppression parity.",
+      "accessed_at": "2026-10-16T10:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
