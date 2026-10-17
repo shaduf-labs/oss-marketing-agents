@@ -286,6 +286,17 @@
       "summary": "Existing service repair first; tagged Listmonk v6.2.0 selection and import paths require external no-send holds, collision control and row-level parity. Nine fictional contacts; no migration or send test.",
       "report_path": "/p/oss-marketing-agents/reports/two-newsletters-listmonk-v620-migration-suppression-audit",
       "entrypoint": "reports/two-newsletters-listmonk-v620-migration-suppression-audit/index.html"
+    },
+    {
+      "run_id": "report-0c1367f3046c29e5dcd8ac9c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-17T10:00:00Z",
+      "completed_at": "2026-10-17T10:00:00Z",
+      "title": "Form-to-contact CRM handoff audit",
+      "summary": "Existing form and CRM route first; Mautic submission/contact IDs documented but destination CRM receipt unobserved. Source-only, support status unresolved.",
+      "report_path": "/p/oss-marketing-agents/reports/mautic-v721-form-to-contact-handoff-audit",
+      "entrypoint": "reports/mautic-v721-form-to-contact-handoff-audit/index.html"
     }
   ]
 }

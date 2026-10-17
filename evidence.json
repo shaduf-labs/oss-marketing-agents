@@ -1944,6 +1944,78 @@
       "accessed_at": "2026-10-16T10:08:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-721-release",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://github.com/mautic/mautic/releases/tag/7.2.1",
+      "claim": "Release record identifies Mautic 7.2.1, published 23 September 2026.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-721-composer",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://github.com/mautic/mautic/blob/7.2.1/composer.json",
+      "claim": "Tagged package metadata declares GPL-3.0 for the core project.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-releases-support-conflict",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://mautic.org/releases/",
+      "claim": "The project page labels 7.2 active/latest but lists its support end before this audit and 7.3 as LTS; current support status unresolved.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-72-forms",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://docs.mautic.org/en/7.2/components/forms.html",
+      "claim": "Living guide documents field mapping, Save result, contact matching and form POST/plugin actions, not a CRM receipt.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-72-forms-api",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://devdocs.mautic.org/en/7.2/rest_api/forms.html",
+      "claim": "Forms API examples expose submission and associated contact IDs; no destination CRM acknowledgment is established.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-72-utm",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://docs.mautic.org/en/7.2/utm_tags/utm_tags_overview.html",
+      "claim": "UTM action reads URL values or referrer fallback; those values are not authenticated attribution.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mautic-72-roles",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://docs.mautic.org/en/7.2/users_roles/managing_roles.html",
+      "claim": "Roles guide describes scoped export and other permissions, not verified deployment configuration.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "askmarketing-form-crm-question",
+      "source_type": "primary project source or independent operator question",
+      "source_url": "https://www.reddit.com/r/AskMarketing/comments/1p2tl8j/whats_your_favorite_way_to_integrate_forms_with/",
+      "claim": "Anecdotal operator question about form-to-CRM duplicates and mapping; not a prevalence estimate.",
+      "accessed_at": "2026-10-17T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

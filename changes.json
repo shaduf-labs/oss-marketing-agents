@@ -162,6 +162,12 @@
       "changed_at": "2026-10-16T10:08:00Z",
       "summary": "Added two-newsletter no-send state and Listmonk v6.2.0 import/selection audit, fictional nine-contact reconciliation, and one dated Research List/Table/Calendar record. Existing ESP repair first; source-only, no migration or send.",
       "path": "/p/oss-marketing-agents/reports/two-newsletters-listmonk-v620-migration-suppression-audit"
+    },
+    {
+      "change_id": "mautic-v721-form-to-contact-handoff-audit",
+      "changed_at": "2026-10-17T10:00:00Z",
+      "summary": "Added form-to-contact source audit and one dated Research List/Table/Calendar record. Existing form and CRM route first; Mautic submission/contact IDs documented but CRM receipt unobserved, support status unresolved.",
+      "path": "/p/oss-marketing-agents/reports/mautic-v721-form-to-contact-handoff-audit"
     }
   ]
 }
