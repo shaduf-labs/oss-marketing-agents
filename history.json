@@ -297,6 +297,17 @@
       "summary": "Existing form and CRM route first; Mautic submission/contact IDs documented but destination CRM receipt unobserved. Source-only, support status unresolved.",
       "report_path": "/p/oss-marketing-agents/reports/mautic-v721-form-to-contact-handoff-audit",
       "entrypoint": "reports/mautic-v721-form-to-contact-handoff-audit/index.html"
+    },
+    {
+      "run_id": "report-0cede2976f92ef47ee808415",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-18T10:00:00Z",
+      "completed_at": "2026-10-18T10:00:00Z",
+      "title": "Pre-send email preview and Mailpit capture boundary",
+      "summary": "Existing reviewable preview first; isolated Mailpit v1.31.5 only for application SMTP output. Source-only; no message was sent or captured.",
+      "report_path": "/p/oss-marketing-agents/reports/mailpit-v1315-pre-send-capture-decision",
+      "entrypoint": "reports/mailpit-v1315-pre-send-capture-decision/index.html"
     }
   ]
 }

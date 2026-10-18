@@ -2016,6 +2016,177 @@
       "accessed_at": "2026-10-17T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1315-release",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://github.com/axllent/mailpit/releases/tag/v1.31.5",
+      "claim": "Release identifies v1.31.5, 11 October 2026 and short commit 4355c8c; no binary provenance verified.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1315-license",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://raw.githubusercontent.com/axllent/mailpit/v1.31.5/LICENSE",
+      "claim": "Tagged repository licence is MIT; dependencies, packaged artifact, hosted and provider terms were not audited.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1315-readme",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://raw.githubusercontent.com/axllent/mailpit/v1.31.5/README.md",
+      "claim": "Tagged README documents capture views, API, unsubscribe syntax check, relay/forwarding and Chaos surface.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1315-config",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://raw.githubusercontent.com/axllent/mailpit/v1.31.5/config/config.go",
+      "claim": "Tagged defaults listen on [::]:1025 SMTP and [::]:8025 HTTP/API, retain 500 by count and have no age limit unless set.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1315-cli",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://raw.githubusercontent.com/axllent/mailpit/v1.31.5/cmd/root.go",
+      "claim": "Tagged CLI exposes listener, storage/retention, auth, recipient allow, version-check and Chaos options.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-storage-docs",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/email-storage/",
+      "claim": "Current storage docs describe temporary SQLite behavior; living docs may differ from v1.31.5.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-smtp-docs",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/smtp/",
+      "claim": "Current SMTP docs describe default no encryption or authentication.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-http-docs",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/http/",
+      "claim": "Current HTTP/API docs describe optional basic authentication.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-relay-docs",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/smtp-relay/",
+      "claim": "Relay-all may send to original recipients, making a no-egress configuration essential.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-forward-docs",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/smtp-forward/",
+      "claim": "Forwarding can create automatic copies to configured destinations.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-ui-policy",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/configuration/ui-security-policies/",
+      "claim": "UI blocks mail scripts but can load remote images; tracking pixels are not blocked.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-link-check",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/usage/link-check/",
+      "claim": "Link checking may issue outbound HTTP requests.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-html-check",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/usage/html-check/",
+      "claim": "HTML checking may issue outbound HTTP requests.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-chaos",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://mailpit.axllent.org/docs/integration/chaos/",
+      "claim": "Chaos documents deterministic SMTP 451 errors; not exercised in this audit.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1311-hardening",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://github.com/axllent/mailpit/releases/tag/v1.31.1",
+      "claim": "Release statements include DNS-rebinding and API hardening; not a security certification.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mailpit-v1312-fix",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://github.com/axllent/mailpit/releases/tag/v1.31.2",
+      "claim": "Release statement records a thumbnail memory-allocation security fix.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "rfc2606-invalid",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://www.rfc-editor.org/info/rfc2606/",
+      "claim": "The .invalid name is reserved for deliberately invalid domains; an egress firewall is still required.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "operator-email-preview-question",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://www.reddit.com/r/Emailmarketing/comments/1946r3g/how_do_you_test_your_emails_on_different_apps_and/",
+      "claim": "Anecdotal operator discussion distinguishes preview and controlled-account checks; not a prevalence estimate.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-mailpit-question",
+      "source_type": "primary project source, standard or independent operator question",
+      "source_url": "https://github.com/knadh/listmonk/issues/1683",
+      "claim": "Operator integration question indicates an application-to-sink setup concern, not successful capture.",
+      "accessed_at": "2026-10-18T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

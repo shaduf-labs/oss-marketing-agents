@@ -168,6 +168,12 @@
       "changed_at": "2026-10-17T10:00:00Z",
       "summary": "Added form-to-contact source audit and one dated Research List/Table/Calendar record. Existing form and CRM route first; Mautic submission/contact IDs documented but CRM receipt unobserved, support status unresolved.",
       "path": "/p/oss-marketing-agents/reports/mautic-v721-form-to-contact-handoff-audit"
+    },
+    {
+      "change_id": "mailpit-v1315-pre-send-capture-decision",
+      "changed_at": "2026-10-18T10:00:00Z",
+      "summary": "Added a source-only pre-send email decision: existing reviewable preview first, Mailpit v1.31.5 only as an isolated SMTP capture sink; no message sent or captured. Added one dated Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/mailpit-v1315-pre-send-capture-decision"
     }
   ]
 }
