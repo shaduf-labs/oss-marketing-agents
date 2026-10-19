@@ -174,6 +174,12 @@
       "changed_at": "2026-10-18T10:00:00Z",
       "summary": "Added a source-only pre-send email decision: existing reviewable preview first, Mailpit v1.31.5 only as an isolated SMTP capture sink; no message sent or captured. Added one dated Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/mailpit-v1315-pre-send-capture-decision"
+    },
+    {
+      "change_id": "serpbear-v310-search-console-rank-disagreement",
+      "changed_at": "2026-10-19T10:00:00Z",
+      "summary": "Added a Search Console-first decision and fictional disagreement triage for SerpBear v3.1.0, with a page-versus-domain warning, provider/depth and source-only limits; added one dated Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/serpbear-v310-search-console-rank-disagreement"
     }
   ]
 }

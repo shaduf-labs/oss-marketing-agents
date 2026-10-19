@@ -308,6 +308,17 @@
       "summary": "Existing reviewable preview first; isolated Mailpit v1.31.5 only for application SMTP output. Source-only; no message was sent or captured.",
       "report_path": "/p/oss-marketing-agents/reports/mailpit-v1315-pre-send-capture-decision",
       "entrypoint": "reports/mailpit-v1315-pre-send-capture-decision/index.html"
+    },
+    {
+      "run_id": "report-dc6926731ef863148eb61a4a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-19T10:00:00Z",
+      "completed_at": "2026-10-19T10:00:00Z",
+      "title": "Search Console and SerpBear v3.1.0 rank disagreement",
+      "summary": "Search Console clicks and impressions first; SerpBear fixed snapshot conditional on matched URL, depth, provider and errors. Source-only with fictional triage.",
+      "report_path": "/p/oss-marketing-agents/reports/serpbear-v310-search-console-rank-disagreement",
+      "entrypoint": "reports/serpbear-v310-search-console-rank-disagreement/index.html"
     }
   ]
 }

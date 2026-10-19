@@ -2187,6 +2187,141 @@
       "accessed_at": "2026-10-18T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-position",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/7042828?hl=en",
+      "claim": "Google defines average position using topmost site/page result positions across impressions, not a live universal rank.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-performance",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/17011364?hl=en",
+      "claim": "Performance report describes clicks, impressions, freshness and preliminary data limits.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-groupings",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/17011259?hl=en&ref_topic=17010766",
+      "claim": "Search Console dimensions and grouping affect page/property and canonical attribution; dates and query rows require care.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-url-inspection",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+      "claim": "URL Inspection indexed status and live test answer different questions; eligibility does not guarantee appearance.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-release-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://github.com/towfiqi/serpbear/releases/tag/v3.1.0",
+      "claim": "SerpBear v3.1.0 release identifies the version, date and tagged changes.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-license-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/LICENSE",
+      "claim": "Tagged SerpBear repository code has an MIT licence; provider services and packages need separate review.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-scraper-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/utils/scraper.ts",
+      "claim": "Tagged scraper shows provider/proxy requests, strategies, checked depth and a hostname fallback that can match another page.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-settings-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/pages/api/settings.ts",
+      "claim": "Tagged settings define Basic strategy and depth defaults plus stored settings and secret handling.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-cron-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/cron.js",
+      "claim": "Tagged cron schedules rank collection and failed-queue retry.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-refresh-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/utils/refresh.ts",
+      "claim": "Tagged refresh records last success and errors and can queue failures.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-tagged-compose-v310",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/towfiqi/serpbear/v3.1.0/docker-compose.yml",
+      "claim": "Tagged Compose mounts data but references latest image, so it does not establish an exact pinned executable.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-docs-strategies",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.serpbear.com/how-serpbear-works/",
+      "claim": "Living project documentation explains intended rank-check strategies and skipped positions; it is not live provider evidence.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-docs-api",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.serpbear.com/miscellaneous/api-documentation/",
+      "claim": "Living API documentation describes Bearer-key endpoints that include provider-consuming refresh actions.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-docs-gsc",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.serpbear.com/miscellaneous/integrate-google-search-console/",
+      "claim": "Optional Google Search Console integration needs separate project, service-account and property access.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "serpbear-docs-ads",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.serpbear.com/miscellaneous/integrate-google-ads/",
+      "claim": "Optional Google Ads keyword ideas have a separate account/OAuth/developer-token and Basic Access path.",
+      "accessed_at": "2026-10-19T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
