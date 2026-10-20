@@ -2322,6 +2322,96 @@
       "accessed_at": "2026-10-19T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-drop-guidance",
+      "source_type": "primary project or platform source",
+      "source_url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=en",
+      "claim": "Google distinguishes technical, demand and seasonal traffic-drop causes and recommends query-level comparisons.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-performance-overview",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "claim": "Search Console Performance report supports clicks, impressions, CTR and position analysis.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-dimensions-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/17011259?hl=en",
+      "claim": "Search Console dimensions, canonical attribution, query filtering and dates bound the page/query comparison.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-counting-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/17011364?hl=en",
+      "claim": "Performance counting and preliminary data limit comparisons.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-position-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/7042828?hl=en",
+      "claim": "Average position is impression-bearing topmost result position rather than a live fixed rank.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gsc-url-inspection-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+      "claim": "Indexed status and a live URL test answer different questions.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "trends-normalization-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "claim": "Trends reports normalized relative interest, not absolute query volume.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-analyzer-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/src/analysis/seo_opengraph_analyzer.rs",
+      "claim": "Tagged analyzer provides candidate SEO inventory findings but does not measure query intent or actual indexation.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-json-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/docs/JSON-OUTPUT.md",
+      "claim": "Tagged output schema describes reported inventory fields.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "siteone-readme-20261020",
+      "source_type": "primary project or platform source",
+      "source_url": "https://raw.githubusercontent.com/janreges/siteone-crawler/v2.5.1/README.md",
+      "claim": "Tagged README documents crawler options; exact permission boundaries still need external enforcement.",
+      "accessed_at": "2026-10-20T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

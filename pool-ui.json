@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-19T10:00:00Z",
+  "meaningfully_updated_at": "2026-10-20T10:00:00Z",
   "pages": [
     {
       "id": "home",
@@ -39,7 +39,7 @@
       "label": "Research library",
       "icon": "library",
       "group": "Research",
-      "description": "Dated reports and dossiers with List, Table and Calendar views, including the Search Console–SerpBear rank disagreement decision.",
+      "description": "Dated reports and dossiers with List, Table and Calendar views, including the one-page content refresh diagnosis.",
       "parent": null,
       "entrypoint": "research/index.html",
       "entrypoint_type": "html_fragment",

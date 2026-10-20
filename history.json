@@ -319,6 +319,17 @@
       "summary": "Search Console clicks and impressions first; SerpBear fixed snapshot conditional on matched URL, depth, provider and errors. Source-only with fictional triage.",
       "report_path": "/p/oss-marketing-agents/reports/serpbear-v310-search-console-rank-disagreement",
       "entrypoint": "reports/serpbear-v310-search-console-rank-disagreement/index.html"
+    },
+    {
+      "run_id": "report-edcabeef3aa33b74545dcb61",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-20T10:00:00Z",
+      "completed_at": "2026-10-20T10:00:00Z",
+      "title": "Choose one page to diagnose before a content refresh",
+      "summary": "Matched Search Console page/query periods and manual checks before a content edit; fictional refresh, diagnose and wait card. Source-only.",
+      "report_path": "/p/oss-marketing-agents/reports/one-page-content-refresh-diagnosis",
+      "entrypoint": "reports/one-page-content-refresh-diagnosis/index.html"
     }
   ]
 }

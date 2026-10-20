@@ -180,6 +180,12 @@
       "changed_at": "2026-10-19T10:00:00Z",
       "summary": "Added a Search Console-first decision and fictional disagreement triage for SerpBear v3.1.0, with a page-versus-domain warning, provider/depth and source-only limits; added one dated Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/serpbear-v310-search-console-rank-disagreement"
+    },
+    {
+      "change_id": "one-page-content-refresh-diagnosis",
+      "changed_at": "2026-10-20T10:00:00Z",
+      "summary": "Added a one-page content refresh diagnosis with fictional three-page refresh, diagnose and wait decisions, exact Search Console cuts, manual-first checks and conditional SiteOne; one Research List/Table/Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/one-page-content-refresh-diagnosis"
     }
   ]
 }
