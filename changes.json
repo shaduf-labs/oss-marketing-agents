@@ -186,6 +186,12 @@
       "changed_at": "2026-10-20T10:00:00Z",
       "summary": "Added a one-page content refresh diagnosis with fictional three-page refresh, diagnose and wait decisions, exact Search Console cuts, manual-first checks and conditional SiteOne; one Research List/Table/Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/one-page-content-refresh-diagnosis"
+    },
+    {
+      "change_id": "page-correction-publication-receipt",
+      "changed_at": "2026-10-21T10:00:00Z",
+      "summary": "Added a manual-first page-publication receipt separating approved, deployed, public and indexed states, with fictional variants and no observed customer page; one dated Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/page-correction-publication-receipt"
     }
   ]
 }

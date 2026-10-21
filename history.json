@@ -330,6 +330,17 @@
       "summary": "Matched Search Console page/query periods and manual checks before a content edit; fictional refresh, diagnose and wait card. Source-only.",
       "report_path": "/p/oss-marketing-agents/reports/one-page-content-refresh-diagnosis",
       "entrypoint": "reports/one-page-content-refresh-diagnosis/index.html"
+    },
+    {
+      "run_id": "report-1c515f7a71d37241986aa4c1",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-21T10:00:00Z",
+      "completed_at": "2026-10-21T10:00:00Z",
+      "title": "Approved page correction to public URL: receipt contract",
+      "summary": "Manual normal-URL receipt separates approval, deploy, public response and Google indexed copy; fictional variants only, no observed customer page.",
+      "report_path": "/p/oss-marketing-agents/reports/page-correction-publication-receipt",
+      "entrypoint": "reports/page-correction-publication-receipt/index.html"
     }
   ]
 }

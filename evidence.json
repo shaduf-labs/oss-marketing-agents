@@ -2412,6 +2412,60 @@
       "accessed_at": "2026-10-20T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "github-pages-source-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+      "claim": "GitHub Pages uses a configured publishing source and deployment workflow; a build result is not the returned custom-domain copy.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "github-pages-deploy-status-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://docs.github.com/en/rest/pages/pages#get-the-status-of-a-github-pages-deployment",
+      "claim": "Pages deployment status is a deployment-process receipt, not a normal public-URL response.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "rfc9111-cache-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "claim": "HTTP caching permits fresh reuse and conditional revalidation; Age and Vary inform variant diagnosis without proving universal purge.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-url-inspection-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+      "claim": "Indexed and live URL Inspection views answer different questions; live test and indexing request are not inclusion guarantees.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-robots-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "claim": "Robots policy may be expressed in HTML meta or X-Robots-Tag HTTP header.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-canonical-20261021",
+      "source_type": "primary project or platform source",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "claim": "Canonical declarations are signals rather than guarantees of Google-selected canonical.",
+      "accessed_at": "2026-10-21T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
