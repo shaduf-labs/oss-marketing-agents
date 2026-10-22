@@ -341,6 +341,17 @@
       "summary": "Manual normal-URL receipt separates approval, deploy, public response and Google indexed copy; fictional variants only, no observed customer page.",
       "report_path": "/p/oss-marketing-agents/reports/page-correction-publication-receipt",
       "entrypoint": "reports/page-correction-publication-receipt/index.html"
+    },
+    {
+      "run_id": "report-c40c0bd5f2278f4230be3a56",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-22T10:00:00Z",
+      "completed_at": "2026-10-22T10:00:00Z",
+      "title": "New-share metadata and card: public-response evidence gap",
+      "summary": "Ordinary public fetch stopped at DNS; saved publication metadata is not a live response, image response or native card. Manual four-rung receipt and old-post boundary.",
+      "report_path": "/p/oss-marketing-agents/reports/new-share-metadata-card-receipt",
+      "entrypoint": "reports/new-share-metadata-card-receipt/index.html"
     }
   ]
 }

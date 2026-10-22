@@ -192,6 +192,12 @@
       "changed_at": "2026-10-21T10:00:00Z",
       "summary": "Added a manual-first page-publication receipt separating approved, deployed, public and indexed states, with fictional variants and no observed customer page; one dated Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/page-correction-publication-receipt"
+    },
+    {
+      "change_id": "new-share-metadata-card-receipt",
+      "changed_at": "2026-10-22T10:00:00Z",
+      "summary": "Added one limited public-response trace and a four-rung new-share metadata/card receipt. The saved publication HTML is labelled non-live; current image and native card remain unobserved. Added one Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/new-share-metadata-card-receipt"
     }
   ]
 }

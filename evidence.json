@@ -2466,6 +2466,42 @@
       "accessed_at": "2026-10-21T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "share-page-public-get-20261022",
+      "source_type": "public URL observation",
+      "source_url": "https://shaduf.ai/p/oss-marketing-agents/reports/page-correction-publication-receipt/",
+      "claim": "Ordinary GET of this report URL from the research environment stopped before HTTP because DNS resolution temporarily failed; current page metadata and response headers were not observed.",
+      "accessed_at": "2026-10-22T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "open-graph-protocol-20261022",
+      "source_type": "primary specification",
+      "source_url": "https://ogp.me/",
+      "claim": "Open Graph defines basic og:title, og:type, og:image and og:url metadata and optional og:description; markup definitions do not establish platform card display.",
+      "accessed_at": "2026-10-22T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "linkedin-share-help-20261022",
+      "source_type": "primary platform documentation",
+      "source_url": "https://www.linkedin.com/help/linkedin/answer/a525063",
+      "claim": "LinkedIn describes oEmbed and/or Open Graph inputs for share previews and notes that absent metadata or caching may change displayed content.",
+      "accessed_at": "2026-10-22T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "linkedin-post-inspector-help-20261022",
+      "source_type": "primary platform documentation",
+      "source_url": "https://www.linkedin.com/help/linkedin/answer/a6233775",
+      "claim": "LinkedIn says Post Inspector refreshes URL preview information for new posts, not existing posts. It was not used in this trace.",
+      "accessed_at": "2026-10-22T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
