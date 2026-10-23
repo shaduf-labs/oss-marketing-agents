@@ -352,6 +352,17 @@
       "summary": "Ordinary public fetch stopped at DNS; saved publication metadata is not a live response, image response or native card. Manual four-rung receipt and old-post boundary.",
       "report_path": "/p/oss-marketing-agents/reports/new-share-metadata-card-receipt",
       "entrypoint": "reports/new-share-metadata-card-receipt/index.html"
+    },
+    {
+      "run_id": "report-37b41f239ba144986a7586c4",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-23T10:00:00Z",
+      "completed_at": "2026-10-23T10:00:00Z",
+      "title": "Planned campaign-link offline fixture",
+      "summary": "17/17 expected outcomes matched for 17 fictional planned URL strings under Node v24.20.0; no live destination, sent link, analytics or signup observed.",
+      "report_path": "/p/oss-marketing-agents/reports/check-planned-campaign-link-offline",
+      "entrypoint": "reports/check-planned-campaign-link-offline/index.html"
     }
   ]
 }

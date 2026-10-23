@@ -1,0 +1,100 @@
+{
+  "contract": {
+    "origin": "https://example.invalid",
+    "path": "/guide",
+    "required_query": {
+      "utm_source": "newsletter",
+      "utm_medium": "email",
+      "utm_campaign": "autumn-guide"
+    },
+    "allow_fragment": false,
+    "allow_other_query_keys": false
+  },
+  "cases": [
+    {
+      "id": "approved",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": []
+    },
+    {
+      "id": "percent_encoded_pass",
+      "url": "https://example.invalid/guide?%75tm_source=%6Eewsletter&utm_medium=email&utm_campaign=autumn%2Dguide",
+      "expected": []
+    },
+    {
+      "id": "normalized_origin_pass",
+      "url": "https://EXAMPLE.invalid:443/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": []
+    },
+    {
+      "id": "mixed_case_name",
+      "url": "https://example.invalid/guide?utm_source=newsletter&UTM_medium=email&utm_campaign=autumn-guide",
+      "expected": ["missing:utm_medium", "unapproved_parameter:UTM_medium"]
+    },
+    {
+      "id": "missing_campaign",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_medium=email",
+      "expected": ["missing:utm_campaign"]
+    },
+    {
+      "id": "empty_source",
+      "url": "https://example.invalid/guide?utm_source=&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["empty:utm_source", "wrong_value:utm_source"]
+    },
+    {
+      "id": "duplicate_same",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["duplicate:utm_source"]
+    },
+    {
+      "id": "duplicate_conflict",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_source=print&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["duplicate:utm_source", "conflicting:utm_source", "wrong_value:utm_source"]
+    },
+    {
+      "id": "wrong_origin",
+      "url": "https://elsewhere.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["origin_mismatch"]
+    },
+    {
+      "id": "wrong_path",
+      "url": "https://example.invalid/other?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["path_mismatch"]
+    },
+    {
+      "id": "not_https",
+      "url": "http://example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["not_https", "origin_mismatch"]
+    },
+    {
+      "id": "embedded_credentials",
+      "url": "https://reader:secret@example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["embedded_credentials"]
+    },
+    {
+      "id": "fragment",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide#section",
+      "expected": ["fragment_not_approved"]
+    },
+    {
+      "id": "empty_fragment",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide#",
+      "expected": ["fragment_not_approved"]
+    },
+    {
+      "id": "email_like_extra",
+      "url": "https://example.invalid/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide&email=ada%40example.invalid",
+      "expected": ["unapproved_parameter:email", "email_like_value:email"]
+    },
+    {
+      "id": "encoded_path_not_equal",
+      "url": "https://example.invalid/%67uide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["path_mismatch"]
+    },
+    {
+      "id": "relative_url",
+      "url": "/guide?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-guide",
+      "expected": ["invalid_absolute_url"]
+    }
+  ]
+}

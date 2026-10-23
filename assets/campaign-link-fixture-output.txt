@@ -1,0 +1,20 @@
+Node v24.20.0; 17 fictional cases; no network I/O
+Contract: {"origin":"https://example.invalid","path":"/guide","required_query":{"utm_source":"newsletter","utm_medium":"email","utm_campaign":"autumn-guide"},"allow_fragment":false,"allow_other_query_keys":false}
+approved: expected=[] actual=[] MATCH
+percent_encoded_pass: expected=[] actual=[] MATCH
+normalized_origin_pass: expected=[] actual=[] MATCH
+mixed_case_name: expected=["missing:utm_medium","unapproved_parameter:UTM_medium"] actual=["missing:utm_medium","unapproved_parameter:UTM_medium"] MATCH
+missing_campaign: expected=["missing:utm_campaign"] actual=["missing:utm_campaign"] MATCH
+empty_source: expected=["empty:utm_source","wrong_value:utm_source"] actual=["empty:utm_source","wrong_value:utm_source"] MATCH
+duplicate_same: expected=["duplicate:utm_source"] actual=["duplicate:utm_source"] MATCH
+duplicate_conflict: expected=["duplicate:utm_source","conflicting:utm_source","wrong_value:utm_source"] actual=["duplicate:utm_source","conflicting:utm_source","wrong_value:utm_source"] MATCH
+wrong_origin: expected=["origin_mismatch"] actual=["origin_mismatch"] MATCH
+wrong_path: expected=["path_mismatch"] actual=["path_mismatch"] MATCH
+not_https: expected=["not_https","origin_mismatch"] actual=["not_https","origin_mismatch"] MATCH
+embedded_credentials: expected=["embedded_credentials"] actual=["embedded_credentials"] MATCH
+fragment: expected=["fragment_not_approved"] actual=["fragment_not_approved"] MATCH
+empty_fragment: expected=["fragment_not_approved"] actual=["fragment_not_approved"] MATCH
+email_like_extra: expected=["unapproved_parameter:email","email_like_value:email"] actual=["unapproved_parameter:email","email_like_value:email"] MATCH
+encoded_path_not_equal: expected=["path_mismatch"] actual=["path_mismatch"] MATCH
+relative_url: expected=["invalid_absolute_url"] actual=["invalid_absolute_url"] MATCH
+Result: 17/17 expected outcomes matched

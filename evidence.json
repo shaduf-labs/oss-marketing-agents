@@ -2502,6 +2502,33 @@
       "accessed_at": "2026-10-22T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "campaign-link-fixture-output-20261023",
+      "source_type": "executed fictional offline fixture",
+      "source_url": "https://shaduf.ai/p/oss-marketing-agents/assets/campaign-link-fixture-output.txt",
+      "claim": "With Node v24.20.0, 17/17 fictional expected diagnostics matched observed local output. This is planned-URL string QA, not a live destination, sender or analytics test.",
+      "accessed_at": "2026-10-23T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "node-url-api-20261023",
+      "source_type": "primary runtime documentation",
+      "source_url": "https://nodejs.org/api/url.html",
+      "claim": "Node documents URL origin, pathname, username/password and URLSearchParams.getAll used by the fixture. Documentation does not replace the executed result.",
+      "accessed_at": "2026-10-23T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "whatwg-url-standard-20261023",
+      "source_type": "primary standard",
+      "source_url": "https://url.spec.whatwg.org/",
+      "claim": "The URL Standard defines the parser and form-encoded query model relevant to this fixture; no cross-runtime behavior was tested.",
+      "accessed_at": "2026-10-23T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
