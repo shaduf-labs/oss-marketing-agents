@@ -1,0 +1,26 @@
+{
+  "assumptions": {
+    "clock": "Integer sequence values are authoritative only within this invented fixture; larger means later.",
+    "identity": "IDs C01-C09 are artificial reconciliation groups, not inferred person matches. C08's two addresses have no verified link. Trim-and-lowercase normalization applies only to C05's same-address rows.",
+    "permission": "A nonempty evidence token is an invented locator, not a judgment of legal sufficiency. Conditional means no send authorized.",
+    "lists": "A and B are distinct newsletter scopes; absent and unsubscribed do not confer eligibility."
+  },
+  "contacts": [
+    {"id":"C01","source":[{"email":"a_only@example.invalid","list":"A","state":"confirmed","at":10,"evidence":"A-11"},{"email":"a_only@example.invalid","list":"B","state":"unsubscribed","at":20}],"target":[],"events":[]},
+    {"id":"C02","source":[{"email":"b_only@example.invalid","list":"A","state":"unsubscribed","at":14},{"email":"b_only@example.invalid","list":"B","state":"confirmed","at":22,"evidence":"B-22"}],"target":[],"events":[]},
+    {"id":"C03","source":[{"email":"bounce@example.invalid","list":"A","state":"confirmed","at":10,"evidence":"A-3"},{"email":"bounce@example.invalid","list":"B","state":"confirmed","at":10,"evidence":"B-3"}],"target":[],"events":[{"scope":"global","state":"hard_bounce","at":30}]},
+    {"id":"C04","source":[{"email":"pending@example.invalid","list":"A","state":"pending","at":10}],"target":[],"events":[]},
+    {"id":"C05","source":[{"email":" Duplicate@example.invalid ","list":"A","state":"confirmed","at":10,"evidence":"A-55"},{"email":"duplicate@example.invalid","list":"A","state":"unsubscribed","at":10}],"target":[],"events":[]},
+    {"id":"C06","source":[{"email":"unknown@example.invalid","list":"A","state":"confirmed","at":10}],"target":[],"events":[]},
+    {"id":"C07","source":[{"email":"overlap@example.invalid","list":"A","state":"confirmed","at":10,"evidence":"A-7"}],"target":[{"list":"A","state":"unsubscribed","at":20}],"events":[]},
+    {"id":"C08","identity_uncertain":true,"source":[{"email":"old@example.invalid","list":"A","state":"unsubscribed","at":10},{"email":"changed@example.invalid","list":"A","state":"confirmed","at":20,"evidence":"A-8"}],"target":[],"events":[]},
+    {"id":"C09","source":[{"email":"cutover@example.invalid","list":"A","state":"confirmed","at":10,"evidence":"A-9"},{"email":"cutover@example.invalid","list":"B","state":"confirmed","at":10,"evidence":"B-9"}],"target":[],"events":[{"scope":"B","state":"unsubscribed","at":20}]}
+  ],
+  "proposals": {
+    "baseline": {"C01":{"global":"active","A":"confirmed","B":"unsubscribed"},"C02":{"global":"active","A":"unsubscribed","B":"confirmed"},"C03":{"global":"blocklisted","A":"unsubscribed","B":"unsubscribed"},"C04":{"global":"active","A":"absent","B":"absent"},"C05":{"global":"active","A":"absent","B":"absent"},"C06":{"global":"active","A":"absent","B":"absent"},"C07":{"global":"active","A":"unsubscribed","B":"absent"},"C08":{"global":"active","A":"absent","B":"absent"},"C09":{"global":"active","A":"confirmed","B":"unsubscribed"}},
+    "unsafe_global": {"override":{"C03":{"global":"active","A":"confirmed"}}},
+    "unsafe_list": {"override":{"C01":{"B":"confirmed"}}},
+    "unsafe_target": {"override":{"C07":{"A":"confirmed"}}},
+    "unsafe_cutover": {"override":{"C09":{"B":"confirmed"}}}
+  }
+}

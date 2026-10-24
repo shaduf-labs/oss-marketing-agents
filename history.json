@@ -363,6 +363,17 @@
       "summary": "17/17 expected outcomes matched for 17 fictional planned URL strings under Node v24.20.0; no live destination, sent link, analytics or signup observed.",
       "report_path": "/p/oss-marketing-agents/reports/check-planned-campaign-link-offline",
       "entrypoint": "reports/check-planned-campaign-link-offline/index.html"
+    },
+    {
+      "run_id": "report-888e1174c5b5e72484a900c7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-24T10:00:00Z",
+      "completed_at": "2026-10-24T10:00:00Z",
+      "title": "Fictional two-newsletter reconciliation: executed local check",
+      "summary": "Python local fixture matched 3 conditional and 15 no-send slots across nine invented identities; four unsafe proposals rejected. No Listmonk runtime, import or send.",
+      "report_path": "/p/oss-marketing-agents/reports/fictional-two-newsletter-reconciliation-offline",
+      "entrypoint": "reports/fictional-two-newsletter-reconciliation-offline/index.html"
     }
   ]
 }

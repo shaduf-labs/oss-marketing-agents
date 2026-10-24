@@ -2529,6 +2529,24 @@
       "accessed_at": "2026-10-23T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-campaign-query-20261024",
+      "source_type": "tagged project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/campaigns.sql#L302-L355",
+      "claim": "Tagged campaign recipient query is source evidence for Listmonk behavior and was not exercised by the local fixture.",
+      "accessed_at": "2026-10-24T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "listmonk-v620-upsert-query-20261024",
+      "source_type": "tagged project source",
+      "source_url": "https://github.com/knadh/listmonk/blob/v6.2.0/queries/subscribers.sql#L107-L141",
+      "claim": "Tagged subscriber upsert query needs a separate isolated destination test before mapping this diagnostic fixture to an import.",
+      "accessed_at": "2026-10-24T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

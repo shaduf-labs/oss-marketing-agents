@@ -204,6 +204,12 @@
       "changed_at": "2026-10-23T10:00:00Z",
       "summary": "Published an executed fictional offline campaign-link check with 17/17 expected outcomes, exact approval contract, reproducible local script/cases/output and downstream evidence boundaries. Added one Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/check-planned-campaign-link-offline"
+    },
+    {
+      "change_id": "fictional-two-newsletter-reconciliation-offline",
+      "changed_at": "2026-10-24T10:00:00Z",
+      "summary": "Added an executed local reconciliation of nine invented two-newsletter identities, expected-versus-observed negative cases, reproduction files and explicit fixture versus Listmonk boundary; added one Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/fictional-two-newsletter-reconciliation-offline"
     }
   ]
 }

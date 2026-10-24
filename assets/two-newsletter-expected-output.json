@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "case": "baseline",
+    "classifications": [
+      {"id":"C01","A":{"decision":"conditional","reason":"permission_record"},"B":{"decision":"no_send","reason":"source_unsubscribe"}},
+      {"id":"C02","A":{"decision":"no_send","reason":"source_unsubscribe"},"B":{"decision":"conditional","reason":"permission_record"}},
+      {"id":"C03","A":{"decision":"no_send","reason":"global_hard_bounce"},"B":{"decision":"no_send","reason":"global_hard_bounce"}},
+      {"id":"C04","A":{"decision":"no_send","reason":"pending_confirmation"},"B":{"decision":"no_send","reason":"absent"}},
+      {"id":"C05","A":{"decision":"no_send","reason":"duplicate_conflict"},"B":{"decision":"no_send","reason":"duplicate_conflict"}},
+      {"id":"C06","A":{"decision":"no_send","reason":"missing_provenance"},"B":{"decision":"no_send","reason":"absent"}},
+      {"id":"C07","A":{"decision":"no_send","reason":"target_later_unsubscribe"},"B":{"decision":"no_send","reason":"absent"}},
+      {"id":"C08","A":{"decision":"no_send","reason":"unverified_address_link"},"B":{"decision":"no_send","reason":"unverified_address_link"}},
+      {"id":"C09","A":{"decision":"conditional","reason":"permission_record"},"B":{"decision":"no_send","reason":"cutover_unsubscribe"}}
+    ],
+    "failures": []
+  },
+  "unsafe_global":{"failures":[{"id":"C03","scope":"global","reason":"global_hard_bounce","proposed":"active"},{"id":"C03","scope":"A","reason":"global_hard_bounce","proposed":"confirmed"}]},
+  "unsafe_list":{"failures":[{"id":"C01","scope":"B","reason":"source_unsubscribe","proposed":"confirmed"}]},
+  "unsafe_target":{"failures":[{"id":"C07","scope":"A","reason":"target_later_unsubscribe","proposed":"confirmed"}]},
+  "unsafe_cutover":{"failures":[{"id":"C09","scope":"B","reason":"cutover_unsubscribe","proposed":"confirmed"}]}
+}
