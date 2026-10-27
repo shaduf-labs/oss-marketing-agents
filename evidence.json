@@ -2547,6 +2547,123 @@
       "accessed_at": "2026-10-24T10:00:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "one-click-fixture-output-20261026",
+      "source_type": "executed fictional offline fixture",
+      "source_url": "https://shaduf.ai/p/oss-marketing-agents/assets/one-click-execution.txt",
+      "claim": "Recorded Python 3.11.2 output: two valid A/B messages passed, nine planted unsafe headers failed with expected diagnostics, unknown case failed closed and two unit tests passed. No send or network request occurred.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "rfc8058-31-20261027",
+      "source_type": "primary standard",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc8058.html#section-3.1",
+      "claim": "One-click sender header format, one HTTPS URI and recipient/list identification; local fixture checks only advertised header strings.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "rfc8058-32-20261027",
+      "source_type": "primary standard",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc8058.html#section-3.2",
+      "claim": "Receiving system HTTPS POST behavior is specified but not exercised by the fixture.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "rfc8058-4-20261027",
+      "source_type": "primary standard",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc8058.html#section-4",
+      "claim": "Valid DKIM coverage of the one-click headers is required but not tested here.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gmail-sender-guidelines-20261027",
+      "source_type": "first-party guidance",
+      "source_url": "https://support.google.com/mail/answer/81126?hl=en",
+      "claim": "Gmail sender guidance distinguishes one-click header control from a visible body unsubscribe link; no Gmail behavior was observed.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gmail-one-click-faq-20261027",
+      "source_type": "first-party guidance",
+      "source_url": "https://support.google.com/mail/answer/14229414?hl=en",
+      "claim": "Gmail FAQ describes list-associated one-click action, body preference-link boundary and eligibility-dependent mailbox display; not an observed result in this fixture.",
+      "accessed_at": "2026-10-27T08:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-noindex-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "claim": "Google describes HTML meta and X-Robots-Tag noindex and requires the crawler to fetch the rule.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-robots-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+      "claim": "Google warns that a robots-disallowed URL may still appear without crawled content; robots disallow is not a noindex or privacy substitute.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-remove-page-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/remove-information",
+      "claim": "Google distinguishes quick Removals from lasting site-side removal and calls for protection/removal of URL variants.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-removals-help-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://support.google.com/webmasters/answer/9689846?hl=en",
+      "claim": "Temporary Removals are for owner-controlled Search Console properties and require separate permanent action; they do not remove content from the internet.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-inspection-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+      "claim": "URL Inspection separates indexed data from live indexability testing and reports last crawl and Google-selected canonical in indexed data.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-canonical-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "claim": "Canonical declarations express a preferred duplicate URL, not a privacy or de-indexing directive.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-sitemap-20261027",
+      "source_type": "Google primary guidance",
+      "source_url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+      "claim": "Sitemaps support URL discovery; omission alone does not revoke a live page.",
+      "accessed_at": "2026-10-27T10:54:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

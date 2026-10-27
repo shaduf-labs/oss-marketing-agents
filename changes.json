@@ -210,6 +210,18 @@
       "changed_at": "2026-10-24T10:00:00Z",
       "summary": "Added an executed local reconciliation of nine invented two-newsletter identities, expected-versus-observed negative cases, reproduction files and explicit fixture versus Listmonk boundary; added one Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/fictional-two-newsletter-reconciliation-offline"
+    },
+    {
+      "change_id": "one-click-unsubscribe-header-scope-offline",
+      "changed_at": "2026-10-27T08:24:00Z",
+      "summary": "Added an executed fictional A/B one-click header-scope check: two valid messages passed and nine planted unsafe headers failed; includes reproducible files, standards, limits and one dated Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/one-click-unsubscribe-header-scope-offline"
+    },
+    {
+      "change_id": "campaign-page-search-removal-decision",
+      "changed_at": "2026-10-27T10:54:00Z",
+      "summary": "Added a Google-documentation decision table and exact-URL receipt for noindex, 404/410 and access control; updated landing and Research library List, Table and Calendar. No site or Search Console state observed.",
+      "path": "/p/oss-marketing-agents/reports/campaign-page-search-removal-decision"
     }
   ]
 }

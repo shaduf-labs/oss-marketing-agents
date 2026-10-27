@@ -1,0 +1,13 @@
+{
+  "valid-a": {"pass": true, "issues": []},
+  "valid-b": {"pass": true, "issues": []},
+  "cross-a-to-b": {"pass": false, "issues": ["wrong_list_route"]},
+  "global-a": {"pass": false, "issues": ["global_route"]},
+  "missing-uri-a": {"pass": false, "issues": ["missing_list_unsubscribe"]},
+  "missing-post-b": {"pass": false, "issues": ["missing_list_unsubscribe_post"]},
+  "duplicate-uri-a": {"pass": false, "issues": ["duplicate_list_unsubscribe"]},
+  "duplicate-post-b": {"pass": false, "issues": ["duplicate_list_unsubscribe_post"]},
+  "malformed-uri-a": {"pass": false, "issues": ["malformed_list_unsubscribe_uri"]},
+  "malformed-post-b": {"pass": false, "issues": ["malformed_list_unsubscribe_post"]},
+  "multiple-https-a": {"pass": false, "issues": ["malformed_list_unsubscribe_uri"]}
+}

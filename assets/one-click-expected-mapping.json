@@ -1,0 +1,25 @@
+{
+  "campaigns": {
+    "campaign-a": {
+      "list": "newsletter-a",
+      "one_click_uri": "https://unsubscribe.example.invalid/one-click/newsletter-a/token-a-001"
+    },
+    "campaign-b": {
+      "list": "newsletter-b",
+      "one_click_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001"
+    }
+  },
+  "cases": {
+    "valid-a": "campaign-a",
+    "valid-b": "campaign-b",
+    "cross-a-to-b": "campaign-a",
+    "global-a": "campaign-a",
+    "missing-uri-a": "campaign-a",
+    "missing-post-b": "campaign-b",
+    "duplicate-uri-a": "campaign-a",
+    "duplicate-post-b": "campaign-b",
+    "malformed-uri-a": "campaign-a",
+    "malformed-post-b": "campaign-b",
+    "multiple-https-a": "campaign-a"
+  }
+}

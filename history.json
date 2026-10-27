@@ -374,6 +374,28 @@
       "summary": "Python local fixture matched 3 conditional and 15 no-send slots across nine invented identities; four unsafe proposals rejected. No Listmonk runtime, import or send.",
       "report_path": "/p/oss-marketing-agents/reports/fictional-two-newsletter-reconciliation-offline",
       "entrypoint": "reports/fictional-two-newsletter-reconciliation-offline/index.html"
+    },
+    {
+      "run_id": "report-abf8fa93fc606755a067b0a2",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-26T10:00:00Z",
+      "completed_at": "2026-10-27T08:24:00Z",
+      "title": "One-click unsubscribe header scope: executed fictional A/B fixture",
+      "summary": "Two valid A/B headers passed and nine planted unsafe headers were rejected in a local parser fixture. No DKIM, POST, Listmonk, endpoint or send test.",
+      "report_path": "/p/oss-marketing-agents/reports/one-click-unsubscribe-header-scope-offline",
+      "entrypoint": "reports/one-click-unsubscribe-header-scope-offline/index.html"
+    },
+    {
+      "run_id": "report-489dd9895d7d26ce58fe2a87",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-27T10:00:00Z",
+      "completed_at": "2026-10-27T10:54:00Z",
+      "title": "Campaign-page visibility: noindex, 404/410 or access control",
+      "summary": "Google primary-guidance decision and exact-URL receipt; no authorized page, Search Console property, indexed result or removal observed.",
+      "report_path": "/p/oss-marketing-agents/reports/campaign-page-search-removal-decision",
+      "entrypoint": "reports/campaign-page-search-removal-decision/index.html"
     }
   ]
 }

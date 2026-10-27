@@ -1,0 +1,25 @@
+Python 3.11.2
+runtime_exit=0
+wrote 11 fictional message files to messages/
+fixture_exit=0
+test_all_predeclared_cases (test_checker.FixtureTest.test_all_predeclared_cases) ... ok
+test_unknown_case_fails_closed (test_checker.FixtureTest.test_unknown_case_fails_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.824s
+
+OK
+unittest_exit=0
+case=valid-a exit=0 stdout={"campaign": "campaign-a", "case": "valid-a", "expected_list": "newsletter-a", "issues": [], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-a/token-a-001", "pass": true}
+case=valid-b exit=0 stdout={"campaign": "campaign-b", "case": "valid-b", "expected_list": "newsletter-b", "issues": [], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001", "pass": true}
+case=cross-a-to-b exit=2 stdout={"campaign": "campaign-a", "case": "cross-a-to-b", "expected_list": "newsletter-a", "issues": ["wrong_list_route"], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001", "pass": false}
+case=global-a exit=2 stdout={"campaign": "campaign-a", "case": "global-a", "expected_list": "newsletter-a", "issues": ["global_route"], "observed_uri": "https://unsubscribe.example.invalid/one-click/all/token-a-001", "pass": false}
+case=missing-uri-a exit=2 stdout={"campaign": "campaign-a", "case": "missing-uri-a", "expected_list": "newsletter-a", "issues": ["missing_list_unsubscribe"], "observed_uri": null, "pass": false}
+case=missing-post-b exit=2 stdout={"campaign": "campaign-b", "case": "missing-post-b", "expected_list": "newsletter-b", "issues": ["missing_list_unsubscribe_post"], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001", "pass": false}
+case=duplicate-uri-a exit=2 stdout={"campaign": "campaign-a", "case": "duplicate-uri-a", "expected_list": "newsletter-a", "issues": ["duplicate_list_unsubscribe"], "observed_uri": null, "pass": false}
+case=duplicate-post-b exit=2 stdout={"campaign": "campaign-b", "case": "duplicate-post-b", "expected_list": "newsletter-b", "issues": ["duplicate_list_unsubscribe_post"], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001", "pass": false}
+case=malformed-uri-a exit=2 stdout={"campaign": "campaign-a", "case": "malformed-uri-a", "expected_list": "newsletter-a", "issues": ["malformed_list_unsubscribe_uri"], "observed_uri": null, "pass": false}
+case=malformed-post-b exit=2 stdout={"campaign": "campaign-b", "case": "malformed-post-b", "expected_list": "newsletter-b", "issues": ["malformed_list_unsubscribe_post"], "observed_uri": "https://unsubscribe.example.invalid/one-click/newsletter-b/token-b-001", "pass": false}
+case=multiple-https-a exit=2 stdout={"campaign": "campaign-a", "case": "multiple-https-a", "expected_list": "newsletter-a", "issues": ["malformed_list_unsubscribe_uri"], "observed_uri": null, "pass": false}
+{"case": "not-declared", "error": "unknown case", "issues": ["fixture_error"], "pass": false}
+unknown_case_exit=3
