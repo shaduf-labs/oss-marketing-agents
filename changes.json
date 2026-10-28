@@ -222,6 +222,12 @@
       "changed_at": "2026-10-27T10:54:00Z",
       "summary": "Added a Google-documentation decision table and exact-URL receipt for noindex, 404/410 and access control; updated landing and Research library List, Table and Calendar. No site or Search Console state observed.",
       "path": "/p/oss-marketing-agents/reports/campaign-page-search-removal-decision"
+    },
+    {
+      "change_id": "formbricks-one-question-feedback-decision",
+      "changed_at": "2026-10-28T10:00:00Z",
+      "summary": "Added one-question feedback decision with existing-form off-ramp, conditional Formbricks plain-link route, exact-tag/edition and privacy/recovery limits; one Research List/Table/Calendar record. No form or survey response tested.",
+      "path": "/p/oss-marketing-agents/reports/formbricks-one-question-feedback-decision"
     }
   ]
 }

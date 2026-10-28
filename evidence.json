@@ -2664,6 +2664,96 @@
       "accessed_at": "2026-10-27T10:54:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-releases-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://github.com/formbricks/formbricks/releases",
+      "claim": "The release list showed 6.1.2 as Latest, with maintenance notes; this does not prove installed behavior.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-root-license-main-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://github.com/formbricks/formbricks/blob/main/LICENSE",
+      "claim": "Current unversioned root licence separates EE code from AGPL-covered code and package-specific declarations; exact 6.1.2 file unavailable.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-ee-license-main-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://github.com/formbricks/formbricks/blob/main/apps/web/modules/ee/LICENSE",
+      "claim": "Current EE licence is separate; exact 6.1.2 EE file unavailable.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-self-host-license-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/self-hosting/advanced/license",
+      "claim": "Current self-host matrix separates Community surveys from EE identity and governance features; exact-tag entitlement unverified.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-survey-types-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/surveys/best-practices/understanding-survey-types",
+      "claim": "Link surveys use shareable URLs; website surveys have a different SDK/action path.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-results-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/surveys/analysis/reading-results",
+      "claim": "Current guide describes review/export and survey impression/start/completion counts, not campaign outcomes.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-reserved-fields-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/surveys/embedded-data/reserved-fields",
+      "claim": "Responses can carry context metadata and conditional IP capture; unidentified does not mean no personal data.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-docker-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/self-hosting/setup/docker",
+      "claim": "Current self-host stack includes multiple services and stores requiring coordinated operation.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "formbricks-authzed-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://formbricks.com/docs/self-hosting/configuration/authzed-operations",
+      "claim": "v6 authorization uses SpiceDB alongside PostgreSQL and needs recovery attention beyond a Web health check.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aapor-opt-in-20261028",
+      "source_type": "first-party project or research source",
+      "source_url": "https://aapor.org/wp-content/uploads/2022/11/AAPOR_Reassessing_Survey_Methods_Report_Final.pdf",
+      "claim": "Opt-in or nonprobability participation cannot be treated as representative response measurement without accounting for selection and denominators.",
+      "accessed_at": "2026-10-28T10:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
