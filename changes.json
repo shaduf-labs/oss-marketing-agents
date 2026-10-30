@@ -228,6 +228,12 @@
       "changed_at": "2026-10-28T10:00:00Z",
       "summary": "Added one-question feedback decision with existing-form off-ramp, conditional Formbricks plain-link route, exact-tag/edition and privacy/recovery limits; one Research List/Table/Calendar record. No form or survey response tested.",
       "path": "/p/oss-marketing-agents/reports/formbricks-one-question-feedback-decision"
+    },
+    {
+      "change_id": "inquiry-to-qualified-conversation-reconciliation",
+      "changed_at": "2026-10-29T10:00:00Z",
+      "summary": "Added inquiry-to-qualified-conversation measurement contract and fictional reconciliation, existing-system route, conditional Cal.diy source boundary, and one Research List/Table/Calendar record. No live funnel or scheduler tested.",
+      "path": "/p/oss-marketing-agents/reports/inquiry-to-qualified-conversation-reconciliation"
     }
   ]
 }

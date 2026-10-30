@@ -407,6 +407,17 @@
       "summary": "Existing approved form first; plain Formbricks link conditional on exact 6.1.2 licence/edition, privacy and recovery verification. Documentation only; no response or runtime test.",
       "report_path": "/p/oss-marketing-agents/reports/formbricks-one-question-feedback-decision",
       "entrypoint": "reports/formbricks-one-question-feedback-decision/index.html"
+    },
+    {
+      "run_id": "report-538568f4b15dd1d532ea5b70",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-29T10:00:00Z",
+      "completed_at": "2026-10-29T10:00:00Z",
+      "title": "Inquiry to attended and qualified conversation reconciliation",
+      "summary": "Existing form, CRM and calendar first; fictional nine-inquiry reconciliation and conditional Cal.diy exact-artifact boundary. No live conversion or product integration.",
+      "report_path": "/p/oss-marketing-agents/reports/inquiry-to-qualified-conversation-reconciliation",
+      "entrypoint": "reports/inquiry-to-qualified-conversation-reconciliation/index.html"
     }
   ]
 }

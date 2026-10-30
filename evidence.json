@@ -2754,6 +2754,96 @@
       "accessed_at": "2026-10-28T10:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "calcom-split-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://cal.com/blog/cal-diy-open-source-to-closed-source",
+      "claim": "Cal.com says its production codebase moved private in April 2026 and Cal.diy is the public fork.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "calcom-selfhost-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://cal.com/blog/self-hosted-scheduling-platforms-benefits-and-challenges",
+      "claim": "Current Cal.com self-hosting explanation routes commercial self-hosting through Enterprise and recommends Cal.diy for personal, non-production use.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-readme-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/blob/main/README.md",
+      "claim": "Current Cal.diy README repeats non-production warning and lists removed commercial features.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-tag-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/releases/tag/v6.2.0",
+      "claim": "Visible latest release tag v6.2.0 predates April 2026 split.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-tag-license-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/blob/v6.2.0/LICENSE",
+      "claim": "Pre-split tagged licence has AGPLv3 and commercial exceptions; it is not the moving main-branch MIT licence.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-main-license-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/blob/main/LICENSE",
+      "claim": "Current main-branch root licence says MIT; it does not establish exact older tag or image contents.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-release-issue-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/issues/30126",
+      "claim": "Maintainer/governance issue raised lack of post-split tag/image; an issue is not a release guarantee.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "calcom-webhooks-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/help/blob/main/webhooks.mdx",
+      "claim": "Current Cal.com help documents booking-created, canceled and rescheduled webhook triggers and example UIDs; this is not tested Cal.diy behavior.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "caldiy-api-guidance-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/calcom/cal.diy/blob/main/agents/skills/calcom-api/SKILL.md",
+      "claim": "Current API guidance describes booking UIDs and routes but uses hosted API base URL; self-host applicability is unverified.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "calcom-uid-faq-20261029",
+      "source_type": "first-party project source",
+      "source_url": "https://cal.com/faq",
+      "claim": "Cal.com FAQ describes hosted booking UID use that warrants treating the value as sensitive.",
+      "accessed_at": "2026-10-29T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
