@@ -418,6 +418,17 @@
       "summary": "Existing form, CRM and calendar first; fictional nine-inquiry reconciliation and conditional Cal.diy exact-artifact boundary. No live conversion or product integration.",
       "report_path": "/p/oss-marketing-agents/reports/inquiry-to-qualified-conversation-reconciliation",
       "entrypoint": "reports/inquiry-to-qualified-conversation-reconciliation/index.html"
+    },
+    {
+      "run_id": "report-f508d397f642237340bd3a1b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-30T10:00:00Z",
+      "completed_at": "2026-10-30T10:00:00Z",
+      "title": "Changed email CTA: approved sender versus local MJML compile",
+      "summary": "Approved sender/editor first; MJML v5.4.1 conditional for owned source, with tagged MIT scope. Exact compiler test unrun; no HTML output, diff, send or client check.",
+      "report_path": "/p/oss-marketing-agents/reports/mjml-v541-changed-email-cta-compile-gate",
+      "entrypoint": "reports/mjml-v541-changed-email-cta-compile-gate/index.html"
     }
   ]
 }

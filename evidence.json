@@ -2844,6 +2844,87 @@
       "accessed_at": "2026-10-29T10:00:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-release-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/releases/tag/v5.4.1",
+      "claim": "Official v5.4.1 release is dated 10 September 2026; notes describe maintenance changes.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-releases-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/releases",
+      "claim": "Release list showed v5.4.1 latest stable on the research date; v6 alpha is separately pre-release.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-license-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/blob/v5.4.1/LICENSE.md",
+      "claim": "Tagged root repository licence is MIT.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-package-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/blob/v5.4.1/packages/mjml/package.json",
+      "claim": "Tagged mjml package manifest declares 5.4.1, MIT and direct package dependencies.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-cli-manifest-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/blob/v5.4.1/packages/mjml-cli/package.json",
+      "claim": "Tagged CLI package manifest declares 5.4.1 and MIT; no stable Node floor is stated.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-cli-readme-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/mjml/blob/v5.4.1/packages/mjml-cli/README.md",
+      "claim": "Tagged CLI README documents validation and output commands; not an observed execution.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-validation-docs-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://documentation.mjml.io/#validating-mjml",
+      "claim": "Living official validation guide documents explicit strict level; default wording differs from tagged README.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-card-template-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/mjmlio/email-templates/blob/master/templates/card.mjml",
+      "claim": "First-party moving-master card example has one CTA button and no mj-preview in inspected view; it is not a pinned local fixture.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mjml-preview-docs-20261030",
+      "source_type": "first-party project source",
+      "source_url": "https://documentation.mjml.io/#mj-preview",
+      "claim": "Official docs describe mj-preview for source preheader text.",
+      "accessed_at": "2026-10-30T10:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

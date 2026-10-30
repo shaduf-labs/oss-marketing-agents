@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "For submitted inquiries, start with the existing form, CRM or inbox and calendar. Reconcile canonical accepted inquiry IDs to CRM receipt, unique booking chain, affirmative host-reviewed attendance and separate human qualification. Hold ambiguous matches. An executed fictional nine-inquiry fixture returned six ever-linked bookings, four attended and three qualified; it is not a live conversion rate. Cal.com production code is closed source; Cal.diy is a public fork with a non-production warning and an unresolved post-split exact-release/licence gap, not a commercial deployment recommendation.",
+  "current_answer": "For a one-line email CTA or preheader edit, use the existing approved sender/editor preview first. If the team owns MJML templates, a pinned local MJML v5.4.1 strict validation and compile could add a draft-to-HTML assertion gate. This report did not run the compiler or produce HTML. Final sender-produced message, link, consent, unsubscribe, authorized client display and delivery remain separate checks.",
   "catalogue_card": {
-    "question": "Are submissions becoming attended, qualified conversations?",
-    "text": "Existing form, CRM and calendar first. Inquiry-based ledger and fictional reconciliation; Cal.diy exact-build gap remains."
+    "question": "Changed an email CTA: is a local compile useful?",
+    "text": "Approved sender/editor first. MJML v5.4.1 is a conditional draft-to-HTML gate for owned source; compiler test unrun."
   },
   "summary": [
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
@@ -45,7 +45,8 @@
     "The 26 October executed local parser fixture accepted two valid A/B one-click headers and rejected nine planted unsafe headers. It is pre-send string QA, not a DKIM, POST, Listmonk, consent, mailbox or delivery test.",
     "The 27 October Google-documentation decision distinguishes a crawlable noindex public page, an obsolete 404/410 page and an access-controlled private offer, with a per-URL receipt separating current response from later indexed state.",
     "The 28 October one-question decision checks the existing approved form first. A plain Formbricks link is conditional on exact 6.1.2 licence/edition, privacy and coordinated recovery checks; website triggers are a larger SDK flow. No survey response or runtime behavior was observed, and volunteer comments are not conversion measurement.",
-    "The 29 October inquiry-to-conversation report adds an inquiry-based measurement contract and a fictional no-send reconciliation: nine canonical accepted inquiries, six ever-linked booking chains, four attended, three human-qualified and two ambiguous holds. Existing systems come first; no live conversion or product integration was observed."
+    "The 29 October inquiry-to-conversation report adds an inquiry-based measurement contract and a fictional no-send reconciliation: nine canonical accepted inquiries, six ever-linked booking chains, four attended, three human-qualified and two ambiguous holds. Existing systems come first; no live conversion or product integration was observed.",
+    "The 30 October MJML v5.4.1 review sets a three-gate path: approved sender preview, conditional local strict compile for owned MJML source, then final-message and authorized client checks. Tagged repository/package MIT scope is narrow; exact compiler test was unrun, with no HTML output or diff."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -86,9 +87,10 @@
     "The A/B endpoints and all eleven messages are invented. Exact header matching cannot prove endpoint operation or recipient/list suppression; no actual sender, DKIM, POST, mailbox control, consent or delivery was tested.",
     "No authorized URL, server response, Googlebot fetch, Search Console property, indexed result, Temporary Removals request, asset or social-card state was observed for the campaign-page decision.",
     "Formbricks 6.1.2 exact-tag README, root licence, EE licence, tag tree, shipped image and edition behavior were not verified. No existing form, survey submission, response read-back, export, deletion, browser storage, egress, backup or restore was tested. Current unversioned documentation cannot certify the exact tag or privacy compliance.",
-    "No real form, CRM, calendar, campaign, attendance or qualification record was available. The fictional fixture did not implement a general windowing engine or test webhooks, identity matching, Cal.com/Cal.diy builds, security, consent or production reliability. A post-split stable Cal.diy release/image and matching licence were not established."
+    "No real form, CRM, calendar, campaign, attendance or qualification record was available. The fictional fixture did not implement a general windowing engine or test webhooks, identity matching, Cal.com/Cal.diy builds, security, consent or production reliability. A post-split stable Cal.diy release/image and matching licence were not established.",
+    "No exact MJML v5.4.1 local compiler or fixed-commit template artifact was obtained. No strict validation, malformed-input probe, HTML assertion, output diff, send, client render or provider result was observed. Tagged MIT evidence does not cover all transitive dependencies or a hosted editor."
   ],
-  "checked_at": "2026-10-29T10:00:00Z",
-  "meaningfully_updated_at": "2026-10-29T10:00:00Z",
-  "freshness_note": "Checked through 29 October 2026. Latest work is an operator-defined ledger and executed fictional reconciliation, not live campaign measurement or a tested scheduler."
+  "checked_at": "2026-10-30T10:00:00Z",
+  "meaningfully_updated_at": "2026-10-30T10:00:00Z",
+  "freshness_note": "MJML v5.4.1 release, tagged package manifests and CLI documentation checked 30 October 2026. Compiler behavior remains unobserved."
 }
