@@ -2925,6 +2925,42 @@
       "accessed_at": "2026-10-30T10:00:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-announcement-20261031",
+      "source_type": "first-party project source",
+      "source_url": "https://plausible.io/blog/community-edition",
+      "claim": "Dated CE announcement describes the free self-hosted CE offer and links to a Cloud–CE differences overview that resolved to the self-hosted comparison.",
+      "accessed_at": "2026-10-31T10:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-comparison-20261031",
+      "source_type": "first-party project source",
+      "source_url": "https://plausible.io/self-hosted-web-analytics",
+      "claim": "Crawler-rendered comparison distinguishes CE from managed Cloud; selected CE link resolved to the GitHub repository and labelled Cloud trial link to registration.",
+      "accessed_at": "2026-10-31T10:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-ce-repository-20261031",
+      "source_type": "project repository",
+      "source_url": "https://github.com/plausible/community-edition/",
+      "claim": "Crawler-rendered project README showed an example Compose quick start with a visible v3.2.1 clone command; no installation or licence audit followed.",
+      "accessed_at": "2026-10-31T10:07:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-cloud-register-20261031",
+      "source_type": "first-party project source",
+      "source_url": "https://plausible.io/register",
+      "claim": "Crawler-rendered registration page displayed a 30-day trial offer; no form was submitted.",
+      "accessed_at": "2026-10-31T10:07:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

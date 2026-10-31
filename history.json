@@ -429,6 +429,17 @@
       "summary": "Approved sender/editor first; MJML v5.4.1 conditional for owned source, with tagged MIT scope. Exact compiler test unrun; no HTML output, diff, send or client check.",
       "report_path": "/p/oss-marketing-agents/reports/mjml-v541-changed-email-cta-compile-gate",
       "entrypoint": "reports/mjml-v541-changed-email-cta-compile-gate/index.html"
+    },
+    {
+      "run_id": "report-926737965cf3baf5e610c9f4",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-31T10:00:00Z",
+      "completed_at": "2026-10-31T10:07:00Z",
+      "title": "Plausible CE announcement-to-landing handoff",
+      "summary": "Saved crawler-link check separated the CE repository route from a labelled Cloud trial; controlled fixture mutation detected a swapped CE destination. No normal browser or conversion result.",
+      "report_path": "/p/oss-marketing-agents/reports/plausible-ce-announcement-landing-handoff",
+      "entrypoint": "reports/plausible-ce-announcement-landing-handoff/index.html"
     }
   ]
 }

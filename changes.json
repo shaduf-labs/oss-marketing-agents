@@ -240,6 +240,12 @@
       "changed_at": "2026-10-30T10:00:00Z",
       "summary": "Added a three-gate changed-email decision, conditional MJML v5.4.1 documentation review and explicit unrun compiler limit; one dated Research library entry in List, Table and Calendar.",
       "path": "/p/oss-marketing-agents/reports/mjml-v541-changed-email-cta-compile-gate"
+    },
+    {
+      "change_id": "plausible-ce-announcement-landing-handoff",
+      "changed_at": "2026-10-31T10:07:00Z",
+      "summary": "Added a Plausible CE announcement-to-comparison handoff report with distinct CE repository and labelled Cloud trial routes; saved-link assertion and controlled mutation, with browser and outcome limits. Added one dated Research List, Table and Calendar entry.",
+      "path": "/p/oss-marketing-agents/reports/plausible-ce-announcement-landing-handoff"
     }
   ]
 }
