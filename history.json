@@ -440,6 +440,28 @@
       "summary": "Saved crawler-link check separated the CE repository route from a labelled Cloud trial; controlled fixture mutation detected a swapped CE destination. No normal browser or conversion result.",
       "report_path": "/p/oss-marketing-agents/reports/plausible-ce-announcement-landing-handoff",
       "entrypoint": "reports/plausible-ce-announcement-landing-handoff/index.html"
+    },
+    {
+      "run_id": "report-ebd0521f9f189689750f3190",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-02T10:00:00Z",
+      "completed_at": "2026-11-02T12:40:00Z",
+      "title": "Thelia newsletter CSV two-package spreadsheet gate",
+      "summary": "Core and Twig direct newsletter exports have separate patch lines. Four tagged-source static assertions passed; two guard-removal copies failed as intended. No installed export or spreadsheet tested.",
+      "report_path": "/p/oss-marketing-agents/reports/thelia-newsletter-csv-spreadsheet-gate",
+      "entrypoint": "reports/thelia-newsletter-csv-spreadsheet-gate/index.html"
+    },
+    {
+      "run_id": "report-70cbc3c745c1e772327161ee",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-07T10:00:00Z",
+      "completed_at": "2026-11-07T15:06:24Z",
+      "title": "Postiz CLI 2.0.27 image alt source handoff",
+      "summary": "Tagged source maps aligned nonempty --alt to image[].alt and a JSON POST method. Missing or misaligned entries can omit or shift descriptions; package bytes, request and Instagram display unverified.",
+      "report_path": "/p/oss-marketing-agents/reports/postiz-v2027-image-alt-source-handoff",
+      "entrypoint": "reports/postiz-v2027-image-alt-source-handoff/index.html"
     }
   ]
 }

@@ -2961,6 +2961,141 @@
       "accessed_at": "2026-10-31T10:07:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "thelia-advisory-20261102",
+      "source_type": "first-party source",
+      "source_url": "https://github.com/thelia/thelia/security/advisories/GHSA-gcgv-f8rf-w2wc",
+      "claim": "Thelia advisory version matrix and spreadsheet handoff warning.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "thelia-core-csv-320-20261102",
+      "source_type": "first-party source",
+      "source_url": "https://github.com/thelia/thelia/blob/cdff8e3d89985d880a3605ebd6bc585780583d92/core/lib/Thelia/Core/Serializer/Serializer/CSVSerializer.php#L91-L110",
+      "claim": "Core 3.2.0 CSV serializer source has no formula guard in the inspected writer path.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "thelia-core-csv-321-20261102",
+      "source_type": "first-party source",
+      "source_url": "https://github.com/thelia/thelia/blob/72a72e442b7a15a54eb2991758e1066b58cfab1e/core/lib/Thelia/Core/Serializer/Serializer/CSVSerializer.php#L98-L141",
+      "claim": "Core 3.2.1 CSV serializer calls SpreadsheetFormulaGuard for values before row writing.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "thelia-twig-newsletter-121-20261102",
+      "source_type": "first-party source",
+      "source_url": "https://github.com/thelia-templates/default-twig/blob/08dde0eb60092049540fbf1fb7ce11a0b57287cc/src/Controller/NewsletterController.php#L109-L141",
+      "claim": "Twig 1.2.1 direct newsletter controller writes subscriber values without a local formula guard in this method.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "thelia-twig-newsletter-122-20261102",
+      "source_type": "first-party source",
+      "source_url": "https://github.com/thelia-templates/default-twig/blob/c45a7360dab37bc3a918d874259558531b3d7f39/src/Controller/NewsletterController.php#L109-L173",
+      "claim": "Twig 1.2.2 direct newsletter writer maps asSpreadsheetText over all five values inside csvLine.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "owasp-csv-injection-20261102",
+      "source_type": "security testing guidance",
+      "source_url": "https://wstg.owasp.org/latest/4-Web_Application_Security_Testing/07-Injection/21-CSV_Injection/",
+      "claim": "Spreadsheet CSV formula and save/reopen behavior limit claims drawn from source guards alone.",
+      "accessed_at": "2026-11-02T12:40:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-release-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/releases/tag/v2.0.27",
+      "claim": "The 2.0.27 release points to commit 425474e and claims Instagram alt_text for image posts/carousels, excluding video/stories.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-npm-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://www.npmjs.com/package/postiz",
+      "claim": "The first-party package listing showed postiz 2.0.27 on 7 November; tarball contents were not obtained.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-index-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/index.ts#L15-L80",
+      "claim": "Tagged posts:create command defines --alt and dispatches createPost.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-posts-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/commands/posts.ts#L49-L145",
+      "claim": "Tagged post builder selects alt and media by content index, comma-splits lists and adds nonempty image[].alt before API handoff; missing or misaligned entries can be omitted or shifted.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-api-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/api.ts#L15-L48",
+      "claim": "Tagged API method prepares POST /public/v1/posts with JSON content type and JSON.stringify(data).",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-config-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/config.ts",
+      "claim": "Tagged configuration prefers stored OAuth credentials over POSTIZ_API_KEY.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-package-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/package.json",
+      "claim": "Tagged package manifest declares version 2.0.27, dist/index.js binary and prepublish build; these declarations do not verify shipped bytes.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-workflow-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/.github/workflows/publish-npm.yml",
+      "claim": "Tagged workflow checks tag/version equality and invokes pnpm publish on release; shipped tarball was not inspected.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-alt-license-20261107",
+      "source_type": "first-party project source",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/LICENSE",
+      "claim": "Tagged agent/CLI repository states AGPL v3 or later; this is not a separate app or tarball licence audit.",
+      "accessed_at": "2026-11-07T15:06:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

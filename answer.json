@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "The Plausible Community Edition announcement links to a self-hosted comparison page. In the 31 October 2026 crawler view, that page linked CE to its GitHub repository and separately labelled its prominent Cloud-trial button as a 30-day Plausible Cloud offer. A saved-link assertion and controlled fixture mutation distinguished the branches; no normal logged-out browser, redirect trace or conversion outcome was observed. Review the intended next action and exact CTA placement before promotion.",
+  "current_answer": "Keep the approved native composer and check the final image description there. Postiz CLI 2.0.27 tagged source maps a nonempty, index-matched --alt entry into image[].alt and passes the post object to an API client JSON POST method. Missing, empty or positionally misaligned alt entries can omit or shift descriptions. The npm page lists 2.0.27, but released package bytes, an outgoing request, a deployed Postiz app and Instagram display were not verified.",
   "catalogue_card": {
-    "question": "Does a Plausible CE announcement lead to CE or Cloud?",
-    "text": "The comparison offers a CE repository link and a separate labelled Cloud trial. Saved crawler links only; live browser and outcomes unverified."
+    "question": "Does Postiz CLI --alt deliver image descriptions to Instagram?",
+    "text": "Tagged CLI source confirms the image[].alt JSON handoff when aligned and nonempty; actual package, request and Instagram result remain unverified."
   },
   "summary": [
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
@@ -47,7 +47,9 @@
     "The 28 October one-question decision checks the existing approved form first. A plain Formbricks link is conditional on exact 6.1.2 licence/edition, privacy and coordinated recovery checks; website triggers are a larger SDK flow. No survey response or runtime behavior was observed, and volunteer comments are not conversion measurement.",
     "The 29 October inquiry-to-conversation report adds an inquiry-based measurement contract and a fictional no-send reconciliation: nine canonical accepted inquiries, six ever-linked booking chains, four attended, three human-qualified and two ambiguous holds. Existing systems come first; no live conversion or product integration was observed.",
     "The 30 October MJML v5.4.1 review sets a three-gate path: approved sender preview, conditional local strict compile for owned MJML source, then final-message and authorized client checks. Tagged repository/package MIT scope is narrow; exact compiler test was unrun, with no HTML output or diff.",
-    "The 31 October Plausible CE handoff check found a comparison destination from the announcement, a CE repository route and a separately labelled Cloud trial route in saved crawler links. A controlled saved-link mutation failed the local assertion; no normal browser, redirect or conversion outcome was observed."
+    "The 31 October Plausible CE handoff check found a comparison destination from the announcement, a CE repository route and a separately labelled Cloud trial route in saved crawler links. A controlled saved-link mutation failed the local assertion; no normal browser, redirect or conversion outcome was observed.",
+    "The 2 November Thelia source check separates core MailingExport from the Twig direct newsletter download. Four static assertions passed and two guard-removal mutations failed as intended; installed packages, CSV bytes and spreadsheet interpretation remain unverified.",
+    "The 7 November Postiz CLI 2.0.27 tagged-source check traced --alt through content-index mapping to image[].alt and the API client JSON POST method. A narrow assertion passed and detected a deliberate property-name mutation. npm lists 2.0.27, but package bytes, request, app and Instagram display were not verified."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -90,9 +92,11 @@
     "Formbricks 6.1.2 exact-tag README, root licence, EE licence, tag tree, shipped image and edition behavior were not verified. No existing form, survey submission, response read-back, export, deletion, browser storage, egress, backup or restore was tested. Current unversioned documentation cannot certify the exact tag or privacy compliance.",
     "No real form, CRM, calendar, campaign, attendance or qualification record was available. The fictional fixture did not implement a general windowing engine or test webhooks, identity matching, Cal.com/Cal.diy builds, security, consent or production reliability. A post-split stable Cal.diy release/image and matching licence were not established.",
     "No exact MJML v5.4.1 local compiler or fixed-commit template artifact was obtained. No strict validation, malformed-input probe, HTML assertion, output diff, send, client render or provider result was observed. Tagged MIT evidence does not cover all transitive dependencies or a hosted editor.",
-    "The Plausible CE handoff used selective crawler-rendered extracts and transcribed clicked destinations, not raw HTML or a normal logged-out browser. Direct HTTP retrieval failed at DNS. No live DOM, redirect/UTM behavior, variant, accessibility, account, installation or downstream outcome was verified; the mutation affected only saved fixture data."
+    "The Plausible CE handoff used selective crawler-rendered extracts and transcribed clicked destinations, not raw HTML or a normal logged-out browser. Direct HTTP retrieval failed at DNS. No live DOM, redirect/UTM behavior, variant, accessibility, account, installation or downstream outcome was verified; the mutation affected only saved fixture data.",
+    "Thelia core 3.2.0/3.2.1 and Twig template 1.2.1/1.2.2 tagged-source checks do not verify the installed pair, active route, custom forks, CSV bytes, opt-out row selection, upstream tests or spreadsheet open/save/reopen behavior. The 3.1/1.1 version matrix is advisory-only here.",
+    "Postiz CLI 2.0.27 package tarball, registry integrity, built binary, local CLI parsing, request bytes, deployed app version and Instagram acceptance/display were not verified. Release alt_text scope for image/carousel is a claim; video/story and other channels are not established."
   ],
-  "checked_at": "2026-10-31T10:07:00Z",
-  "meaningfully_updated_at": "2026-10-31T10:07:00Z",
-  "freshness_note": "Plausible announcement, self-hosted comparison, CE repository and Cloud registration were viewed through crawler-rendered pages on 31 October 2026; normal browser and conversion behavior remain unobserved."
+  "checked_at": "2026-11-07T15:06:24Z",
+  "meaningfully_updated_at": "2026-11-07T15:06:24Z",
+  "freshness_note": "The Postiz CLI 2.0.27 exact tagged source, release and npm listing were checked on 7 November 2026. No shipped binary, request or provider display was observed."
 }

@@ -246,6 +246,18 @@
       "changed_at": "2026-10-31T10:07:00Z",
       "summary": "Added a Plausible CE announcement-to-comparison handoff report with distinct CE repository and labelled Cloud trial routes; saved-link assertion and controlled mutation, with browser and outcome limits. Added one dated Research List, Table and Calendar entry.",
       "path": "/p/oss-marketing-agents/reports/plausible-ce-announcement-landing-handoff"
+    },
+    {
+      "change_id": "thelia-newsletter-csv-spreadsheet-gate",
+      "changed_at": "2026-11-02T12:40:00Z",
+      "summary": "Added a two-package Thelia newsletter CSV source-path decision with four passing static checks, two deliberate failing mutations, installed-build and spreadsheet limits, plus one Research List/Table/Calendar record.",
+      "path": "/p/oss-marketing-agents/reports/thelia-newsletter-csv-spreadsheet-gate"
+    },
+    {
+      "change_id": "postiz-v2027-image-alt-source-handoff",
+      "changed_at": "2026-11-07T15:06:24Z",
+      "summary": "Added a Postiz CLI 2.0.27 image-alt tagged-source handoff report, a mapping-boundary illustration and one dated Research List/Table/Calendar record. Released package bytes, request and Instagram display remain unverified.",
+      "path": "/p/oss-marketing-agents/reports/postiz-v2027-image-alt-source-handoff"
     }
   ]
 }
