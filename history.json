@@ -473,6 +473,17 @@
       "summary": "Exact tagged function with mocked imports passed whole synthetic URL, including fictional token, to in-memory sendRequest. Transform-null made zero calls. No built tracker, browser, HTTP, CE ingestion or dashboard test.",
       "report_path": "/p/oss-marketing-agents/reports/plausible-ce-v321-track-function-url-handoff",
       "entrypoint": "reports/plausible-ce-v321-track-function-url-handoff/index.html"
+    },
+    {
+      "run_id": "report-867f296b1aa533ca761ea104",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-09T10:00:00Z",
+      "completed_at": "2026-11-09T10:50:00Z",
+      "title": "Postiz v2.0.27 tagged-handler image-alt test",
+      "summary": "Five fictional draft cases at a mocked API method: one aligned alt, one positional shift, comma-bearing JSON alt, and absent properties for missing/empty input. No released binary or downstream post result.",
+      "report_path": "/p/oss-marketing-agents/reports/postiz-v2027-tagged-handler-image-alt-test",
+      "entrypoint": "reports/postiz-v2027-tagged-handler-image-alt-test/index.html"
     }
   ]
 }

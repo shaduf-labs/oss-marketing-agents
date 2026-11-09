@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Use generic UTMs and keep personal or secret values out of landing-page URLs before analytics collection. In an exact v3.2.1-tagged Plausible track-function test with mocked imports, payload.u handed the whole synthetic location.href—including a fictional token when present—to an in-memory sendRequest mock. A transformRequest returning null made zero mock calls. This is not a built tracker, browser, HTTP, installed CE, ingestion, dashboard or compliance result; check an existing approved analytics/manual route first.",
+  "current_answer": "In the Postiz v2.0.27 tagged createPost handler, an aligned nonempty image description reached image[].alt in the object passed to a mocked API method. Omitting an earlier alt position in a two-image case silently attached the later description to the first image and left the second without alt; missing and empty values also omitted the property. A JSON-file description containing a comma stayed intact. Check content/media/alt alignment and inspect the final post separately. This was not a released CLI, HTTP, server, provider, screen-reader or reach test.",
   "catalogue_card": {
-    "question": "Does Plausible v3.2.1’s tagged track function pass a full URL?",
-    "text": "The tested automatic-URL branch passed the entire synthetic location.href to an in-memory request mock, including a fictional token; no shipped request or CE record was observed."
+    "question": "Did the Postiz v2.0.27 handler keep image alt text aligned?",
+    "text": "One aligned alt reached the mocked API object; a missing earlier position shifted a later description to the wrong image. No released CLI, HTTP or final-post result was observed."
   },
   "summary": [
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
@@ -50,7 +50,8 @@
     "The 31 October Plausible CE handoff check found a comparison destination from the announcement, a CE repository route and a separately labelled Cloud trial route in saved crawler links. A controlled saved-link mutation failed the local assertion; no normal browser, redirect or conversion outcome was observed.",
     "The 2 November Thelia source check separates core MailingExport from the Twig direct newsletter download. Four static assertions passed and two guard-removal mutations failed as intended; installed packages, CSV bytes and spreadsheet interpretation remain unverified.",
     "The 7 November Postiz CLI 2.0.27 tagged-source check traced --alt through content-index mapping to image[].alt and the API client JSON POST method. A narrow assertion passed and detected a deliberate property-name mutation. npm lists 2.0.27, but package bytes, request, app and Instagram display were not verified.",
-    "The 8 November Plausible v3.2.1 exact-function test captured whole synthetic location.href in payload.u for generic UTM and fictional-token cases. A transform-null control made zero mock calls. Existing analytics/manual route first; this was not a built tracker, HTTP, CE ingestion or dashboard test."
+    "The 8 November Plausible v3.2.1 exact-function test captured whole synthetic location.href in payload.u for generic UTM and fictional-token cases. A transform-null control made zero mock calls. Existing analytics/manual route first; this was not a built tracker, HTTP, CE ingestion or dashboard test.",
+    "The 9 November Postiz 2.0.27 tagged-handler test captured five fictional draft objects at a mocked API method. One aligned alt and a comma-bearing JSON alt survived; an omitted earlier position shifted a later description, while missing/empty alt omitted the property. An in-memory alt-field mutation failed the assertion. No released CLI, HTTP, provider, final post or screen-reader result."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -96,9 +97,10 @@
     "The Plausible CE handoff used selective crawler-rendered extracts and transcribed clicked destinations, not raw HTML or a normal logged-out browser. Direct HTTP retrieval failed at DNS. No live DOM, redirect/UTM behavior, variant, accessibility, account, installation or downstream outcome was verified; the mutation affected only saved fixture data.",
     "Thelia core 3.2.0/3.2.1 and Twig template 1.2.1/1.2.2 tagged-source checks do not verify the installed pair, active route, custom forks, CSV bytes, opt-out row selection, upstream tests or spreadsheet open/save/reopen behavior. The 3.1/1.1 version matrix is advisory-only here.",
     "Postiz CLI 2.0.27 package tarball, registry integrity, built binary, local CLI parsing, request bytes, deployed app version and Instagram acceptance/display were not verified. Release alt_text scope for image/carousel is a claim; video/story and other channels are not established.",
-    "The Plausible v3.2.1 test executed a tagged track function with mocked imports only. Built variants, browser conditions, actual network request, installed CE configuration, logs, ingestion, dashboard, consent handling and compliance outcome were not observed."
+    "The Plausible v3.2.1 test executed a tagged track function with mocked imports only. Built variants, browser conditions, actual network request, installed CE configuration, logs, ingestion, dashboard, consent handling and compliance outcome were not observed.",
+    "The Postiz handler test used Node type stripping and checked module-syntax removal, then executed the tagged handler with a mocked PostizAPI method. It did not exercise Commander parsing, the released npm tarball or built binary, actual HTTP serialization, Postiz server validation, any channel/provider, final image description, assistive technology or reader reach. The simple branch comma-split case was not executed."
   ],
-  "checked_at": "2026-11-08T10:10:15Z",
-  "meaningfully_updated_at": "2026-11-08T10:10:15Z",
-  "freshness_note": "The v3.2.1 tagged track function and its synthetic mocked-call results were checked on 8 November 2026. No shipped or deployed tracker path was observed."
+  "checked_at": "2026-11-09T10:50:00Z",
+  "meaningfully_updated_at": "2026-11-09T10:50:00Z",
+  "freshness_note": "The exact v2.0.27 tagged Postiz handler was executed against a mock on 9 November 2026. Shipped and downstream behavior remain unobserved."
 }

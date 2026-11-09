@@ -3126,6 +3126,26 @@
       "accessed_at": "2026-11-08T10:10:15Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-v2027-handler-test-20261109",
+      "source_type": "first-party tagged source and controlled local handler test",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/commands/posts.ts",
+      "title": "Postiz CLI v2.0.27 tagged post builder",
+      "claim": "The exact tagged createPost handler, executed with a mocked API method, attached an aligned nonempty alt, shifted an unaligned later alt to the first image, preserved a comma-bearing JSON alt, and omitted missing or empty alt properties in five draft cases. No downstream method implementation was run.",
+      "accessed_at": "2026-11-09T10:50:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-v2027-release-alt-limit-20261109",
+      "source_type": "first-party release note",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/releases/tag/v2.0.27",
+      "title": "Postiz Agent v2.0.27 release note",
+      "claim": "The release note claims Instagram alt_text for image posts and carousels. The mocked-handler test did not verify released package bytes, app/provider behavior, video, stories or final display.",
+      "accessed_at": "2026-11-09T10:50:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
