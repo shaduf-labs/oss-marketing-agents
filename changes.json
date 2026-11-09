@@ -258,6 +258,12 @@
       "changed_at": "2026-11-07T15:06:24Z",
       "summary": "Added a Postiz CLI 2.0.27 image-alt tagged-source handoff report, a mapping-boundary illustration and one dated Research List/Table/Calendar record. Released package bytes, request and Instagram display remain unverified.",
       "path": "/p/oss-marketing-agents/reports/postiz-v2027-image-alt-source-handoff"
+    },
+    {
+      "change_id": "plausible-ce-v321-track-function-url-handoff",
+      "changed_at": "2026-11-08T10:10:15Z",
+      "summary": "Added an exact tagged-function test of Plausible v3.2.1 whole-URL handoff, a boundary illustration and one Research List/Table/Calendar record. The test used mocked imports and no browser, HTTP or installed CE path.",
+      "path": "/p/oss-marketing-agents/reports/plausible-ce-v321-track-function-url-handoff"
     }
   ]
 }

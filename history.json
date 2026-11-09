@@ -462,6 +462,17 @@
       "summary": "Tagged source maps aligned nonempty --alt to image[].alt and a JSON POST method. Missing or misaligned entries can omit or shift descriptions; package bytes, request and Instagram display unverified.",
       "report_path": "/p/oss-marketing-agents/reports/postiz-v2027-image-alt-source-handoff",
       "entrypoint": "reports/postiz-v2027-image-alt-source-handoff/index.html"
+    },
+    {
+      "run_id": "report-7f7b207c1d7f512f26514d2b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-08T10:00:00Z",
+      "completed_at": "2026-11-08T10:10:15Z",
+      "title": "Plausible v3.2.1 tagged track function URL handoff",
+      "summary": "Exact tagged function with mocked imports passed whole synthetic URL, including fictional token, to in-memory sendRequest. Transform-null made zero calls. No built tracker, browser, HTTP, CE ingestion or dashboard test.",
+      "report_path": "/p/oss-marketing-agents/reports/plausible-ce-v321-track-function-url-handoff",
+      "entrypoint": "reports/plausible-ce-v321-track-function-url-handoff/index.html"
     }
   ]
 }

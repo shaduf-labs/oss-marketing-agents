@@ -3096,6 +3096,36 @@
       "accessed_at": "2026-11-07T15:06:24Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-v321-track-function-20261108",
+      "source_type": "first-party tagged source and executed local function test",
+      "source_url": "https://github.com/plausible/analytics/blob/v3.2.1/tracker/src/track.js",
+      "title": "Plausible Analytics v3.2.1 tracker track function",
+      "claim": "Exact tagged function, run with mocked imports, passed the whole synthetic location.href in payload.u to an in-memory sendRequest mock in two positive cases. A transformRequest returning null made zero mock calls.",
+      "accessed_at": "2026-11-08T10:10:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-v321-track-config-20261108",
+      "source_type": "first-party tagged source",
+      "source_url": "https://github.com/plausible/analytics/blob/v3.2.1/tracker/src/config.js",
+      "title": "Plausible Analytics v3.2.1 tracker configuration",
+      "claim": "Configuration branches affect URL handling; the executed mock selected an automatic-URL web path, not every built-variant path.",
+      "accessed_at": "2026-11-08T10:10:15Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "plausible-v321-networking-20261108",
+      "source_type": "first-party tagged source",
+      "source_url": "https://github.com/plausible/analytics/blob/v3.2.1/tracker/src/networking.js",
+      "title": "Plausible Analytics v3.2.1 networking module",
+      "claim": "Networking code identifies the transport boundary, but this module was not executed in the function test; no actual HTTP bytes were observed.",
+      "accessed_at": "2026-11-08T10:10:15Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
