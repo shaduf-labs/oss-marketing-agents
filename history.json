@@ -484,6 +484,17 @@
       "summary": "Five fictional draft cases at a mocked API method: one aligned alt, one positional shift, comma-bearing JSON alt, and absent properties for missing/empty input. No released binary or downstream post result.",
       "report_path": "/p/oss-marketing-agents/reports/postiz-v2027-tagged-handler-image-alt-test",
       "entrypoint": "reports/postiz-v2027-tagged-handler-image-alt-test/index.html"
+    },
+    {
+      "run_id": "report-6470d44d5831d2cade2be219",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-10T10:00:00Z",
+      "completed_at": "2026-11-10T10:10:00Z",
+      "title": "Postiz v2.0.27 API-class image-alt fetch boundary",
+      "summary": "Five fictional saved handler objects became matching JSON bodies at a mocked fetch. Wrong-image and absent alt passed; no released package, real HTTP, server, provider or final post.",
+      "report_path": "/p/oss-marketing-agents/reports/postiz-v2027-tagged-api-fetch-boundary",
+      "entrypoint": "reports/postiz-v2027-tagged-api-fetch-boundary/index.html"
     }
   ]
 }

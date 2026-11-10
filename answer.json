@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "In the Postiz v2.0.27 tagged createPost handler, an aligned nonempty image description reached image[].alt in the object passed to a mocked API method. Omitting an earlier alt position in a two-image case silently attached the later description to the first image and left the second without alt; missing and empty values also omitted the property. A JSON-file description containing a comma stayed intact. Check content/media/alt alignment and inspect the final post separately. This was not a released CLI, HTTP, server, provider, screen-reader or reach test.",
+  "current_answer": "At the Postiz v2.0.27 tagged API-class boundary, JSON.stringify passed all five saved fictional draft objects unchanged to a mocked fetch. The wrong-image alt from the earlier handler test stayed on the first image, and missing/empty alt stayed absent; the class did not reject either before fetch. Keep the approved native composer and manually inspect the final post first. This was source-level VM execution, not a released package, real HTTP request, server validation, provider response or final image description.",
   "catalogue_card": {
-    "question": "Did the Postiz v2.0.27 handler keep image alt text aligned?",
-    "text": "One aligned alt reached the mocked API object; a missing earlier position shifted a later description to the wrong image. No released CLI, HTTP or final-post result was observed."
+    "question": "Did the Postiz v2.0.27 API class repair image-alt errors before fetch?",
+    "text": "No. Five saved draft objects reached mocked fetch as matching JSON bodies, including a wrong-image description and absent alt. No released package, real HTTP, server or final post was tested."
   },
   "summary": [
     "Mautic and Activepieces CE are conditional choices for teams able to operate their platform or workflow layer.",
@@ -51,7 +51,8 @@
     "The 2 November Thelia source check separates core MailingExport from the Twig direct newsletter download. Four static assertions passed and two guard-removal mutations failed as intended; installed packages, CSV bytes and spreadsheet interpretation remain unverified.",
     "The 7 November Postiz CLI 2.0.27 tagged-source check traced --alt through content-index mapping to image[].alt and the API client JSON POST method. A narrow assertion passed and detected a deliberate property-name mutation. npm lists 2.0.27, but package bytes, request, app and Instagram display were not verified.",
     "The 8 November Plausible v3.2.1 exact-function test captured whole synthetic location.href in payload.u for generic UTM and fictional-token cases. A transform-null control made zero mock calls. Existing analytics/manual route first; this was not a built tracker, HTTP, CE ingestion or dashboard test.",
-    "The 9 November Postiz 2.0.27 tagged-handler test captured five fictional draft objects at a mocked API method. One aligned alt and a comma-bearing JSON alt survived; an omitted earlier position shifted a later description, while missing/empty alt omitted the property. An in-memory alt-field mutation failed the assertion. No released CLI, HTTP, provider, final post or screen-reader result."
+    "The 9 November Postiz 2.0.27 tagged-handler test captured five fictional draft objects at a mocked API method. One aligned alt and a comma-bearing JSON alt survived; an omitted earlier position shifted a later description, while missing/empty alt omitted the property. An in-memory alt-field mutation failed the assertion. No released CLI, HTTP, provider, final post or screen-reader result.",
+    "The 10 November Postiz v2.0.27 tagged API-class test passed five saved fictional handler objects to a mocked fetch. Each JSON body matched its object; wrong-image alt and omitted alt properties passed without local rejection. An undefined-property serializer probe, raw-body mutation and fake-422 wrapper check bounded the result. No released package, real HTTP, server, provider or final post was tested."
   ],
   "uncertainty": [
     "No Mautic or Activepieces CE hands-on installation, configuration, form submission, delivery, flow run, integration, or security test occurred; the controlled pilots are draft plans.",
@@ -98,9 +99,10 @@
     "Thelia core 3.2.0/3.2.1 and Twig template 1.2.1/1.2.2 tagged-source checks do not verify the installed pair, active route, custom forks, CSV bytes, opt-out row selection, upstream tests or spreadsheet open/save/reopen behavior. The 3.1/1.1 version matrix is advisory-only here.",
     "Postiz CLI 2.0.27 package tarball, registry integrity, built binary, local CLI parsing, request bytes, deployed app version and Instagram acceptance/display were not verified. Release alt_text scope for image/carousel is a claim; video/story and other channels are not established.",
     "The Plausible v3.2.1 test executed a tagged track function with mocked imports only. Built variants, browser conditions, actual network request, installed CE configuration, logs, ingestion, dashboard, consent handling and compliance outcome were not observed.",
-    "The Postiz handler test used Node type stripping and checked module-syntax removal, then executed the tagged handler with a mocked PostizAPI method. It did not exercise Commander parsing, the released npm tarball or built binary, actual HTTP serialization, Postiz server validation, any channel/provider, final image description, assistive technology or reader reach. The simple branch comma-split case was not executed."
+    "The Postiz handler test used Node type stripping and checked module-syntax removal, then executed the tagged handler with a mocked PostizAPI method. It did not exercise Commander parsing, the released npm tarball or built binary, actual HTTP serialization, Postiz server validation, any channel/provider, final image description, assistive technology or reader reach. The simple branch comma-split case was not executed.",
+    "The Postiz API-class test used Node type stripping, a checked module-syntax transform and an isolated VM fetch mock. It did not acquire the released tarball or binary, make actual HTTP requests, run a Postiz server or provider, or inspect final image descriptions or accessibility usefulness. The fake 201/422 responses do not establish real server acceptance or validation."
   ],
-  "checked_at": "2026-11-09T10:50:00Z",
-  "meaningfully_updated_at": "2026-11-09T10:50:00Z",
-  "freshness_note": "The exact v2.0.27 tagged Postiz handler was executed against a mock on 9 November 2026. Shipped and downstream behavior remain unobserved."
+  "checked_at": "2026-11-10T10:10:00Z",
+  "meaningfully_updated_at": "2026-11-10T10:10:00Z",
+  "freshness_note": "The v2.0.27 tagged API class was executed with a mocked fetch on 10 November 2026. Shipped, network and final-post behavior remain unobserved."
 }

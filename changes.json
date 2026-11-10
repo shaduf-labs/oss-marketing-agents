@@ -270,6 +270,12 @@
       "changed_at": "2026-11-09T10:50:00Z",
       "summary": "Added a Postiz v2.0.27 tagged-handler test showing one aligned image alt and one silent positional shift at a mocked API method, plus a receipt ladder and one dated Research List/Table/Calendar entry. Shipped and downstream behavior remain unverified.",
       "path": "/p/oss-marketing-agents/reports/postiz-v2027-tagged-handler-image-alt-test"
+    },
+    {
+      "change_id": "postiz-v2027-tagged-api-fetch-boundary",
+      "changed_at": "2026-11-10T10:10:00Z",
+      "summary": "Added a Postiz v2.0.27 tagged API-class test showing five saved fictional drafts preserved at a mocked fetch boundary, including wrong-image and absent alt; added one dated Research List/Table/Calendar record. Released and downstream behavior remains unverified.",
+      "path": "/p/oss-marketing-agents/reports/postiz-v2027-tagged-api-fetch-boundary"
     }
   ]
 }

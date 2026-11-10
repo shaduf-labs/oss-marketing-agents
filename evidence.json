@@ -3146,6 +3146,16 @@
       "accessed_at": "2026-11-09T10:50:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "postiz-v2027-api-fetch-20261110",
+      "source_type": "first-party tagged source and controlled local API-class test",
+      "source_url": "https://github.com/gitroomhq/postiz-agent/blob/425474eec62faec6bb50d3d0d97d8b04683b4d21/src/api.ts#L8-L47",
+      "title": "Postiz CLI v2.0.27 tagged API class",
+      "claim": "The tagged API class serialized five saved fictional handler objects into matching JSON bodies passed to a mocked fetch. It did not repair a wrong-image alt or reject absent alt before fetch. No actual HTTP or server response was tested.",
+      "accessed_at": "2026-11-10T10:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
